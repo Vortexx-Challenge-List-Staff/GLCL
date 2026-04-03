@@ -6,5 +6,12 @@
     "verifier": "LaserStr",
     "verification": "https://youtu.be/0y_UgrHUBMk",
     "percentToQualify": "50",
-    "records": []
+    "records": [
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/F5-IxTqm3wI",
+            "percent": 100,
+            "hz": "144"
+        }
+    ]
 }
