@@ -1,0 +1,29 @@
+{
+    "id": 129000809,
+    "name": "Thing",
+    "author": "LaserStr",
+    "creators": [],
+    "verifier": "LaserStr",
+    "verification": "https://youtu.be/MypaR4oMkbw",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "MadBoy",
+            "link": "https://www.youtube.com/watch?v=6gUcgZY4wa8",
+            "percent": 100,
+            "hz": "480"
+        },
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/3svtLFcpkLw",
+            "percent": 100,
+            "hz": "144"
+        },
+        {
+            "user": "VortexxGMD",
+            "link": "https://www.youtube.com/watch?v=EfH2kfQ1ZXw",
+            "percent": 100,
+            "hz": "480"
+        }
+    ]
+}
