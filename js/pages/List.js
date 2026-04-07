@@ -116,7 +116,9 @@ export default {
                         The recording must also show the player hit the endwall, or the completion will be invalidated.
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        Do not use secret routes or bug routes.
+                    <p>
+                        Any verifications of levels that dont have the legacy setting "fix gravity bug" off, will not be placed on the list. The reason for this rule is because most GD players are used to the 2.1 ship physics which were changed in 2.2 where RobTop "fixed a gravity bug".
                     </p>
                 </div>
             </div>

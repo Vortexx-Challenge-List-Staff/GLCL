@@ -10,6 +10,11 @@
         "link": "https://www.youtube.com/@SzaszaGD"
     },
     {
+        "role": "helper",
+        "name": "Shialaxy",
+        "link": "https://www.youtube.com/@Shialaxv"
+    },
+    {
         "role": "admin",
         "name": "LaserStr",
         "link": "https://www.youtube.com/@LaserStr"
@@ -18,5 +23,10 @@
         "role": "dev",
         "name": "VortexxGMD",
         "link": "https://www.youtube.com/@VortexxGMD"
+    },
+    {
+        "role": "dev",
+        "name": "LaserStr",
+        "link": "https://www.youtube.com/@LaserStr"
     }
 ]
