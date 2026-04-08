@@ -6,5 +6,18 @@
     "verifier": "Shialaxy",
     "verification": "https://youtu.be/tcBZk8HGKIM",
     "percentToQualify": "100",
-    "records": []
+    "records": [
+        {
+            "user": "szasza",
+            "link": "https://youtu.be/gSLSsHHyDZk?si=nP5385IznU_IzUax",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "PottomanGG",
+            "link": "https://youtu.be/_4mFr_Hhoh0?si=KuGFR3pQVTC76gSn",
+            "percent": 100,
+            "hz": "Mobile 60"
+        }
+    ]
 }
