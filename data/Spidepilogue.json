@@ -6,5 +6,12 @@
     "verifier": "SZASZA333",
     "verification": "https://youtu.be/WWQ7-SQzREo?is=-RfxrBIBa1LjVXv0",
     "percentToQualify": "100",
-    "records": []
+    "records": [
+        {
+            "user": "Zodiac",
+            "link": "https://drive.google.com/file/d/1yK9E1aoNYFyDsxxd52VJVzETUUE01TzP/view?usp=sharing",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
 }
