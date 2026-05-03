@@ -6,5 +6,12 @@
     "verifier": "Shialaxy",
     "verification": "https://youtu.be/YnmNmLjyo2w",
     "percentToQualify": "100",
-    "records": []
+    "records": [
+        {
+            "user": "SZASZA333",
+            "link": "https://youtu.be/3_l1Iuqe5LQ?is=XqM8a5Y1WUVjXxof",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
 }
