@@ -7,6 +7,11 @@
     "verification": "https://youtu.be/j5Wi4WB6jyw",
     "percentToQualify": "100",
     "records": [
-
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/X7Ga9hzbmkg",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
