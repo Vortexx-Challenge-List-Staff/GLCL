@@ -7,6 +7,11 @@
     "verification": "https://medal.tv/games/geometry-dash/clips/mDDIX6C868B4SMTMa?invite=cr-MSxndDIsNDg2MTYyMTI3",
     "percentToQualify": "100",
     "records": [
-
+        {
+            "user": "Zodiac",
+            "link": "https://www.youtube.com/watch?v=48Cy5NAPrk0",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
