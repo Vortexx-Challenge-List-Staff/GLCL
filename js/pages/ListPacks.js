@@ -20,18 +20,18 @@ export default {
             </div>
 
             <div class="level-details-right">
-                <h1>bottom 1</h1>
-                <p><strong>CREATOR:</strong> DD</p>
-                <div class="video-window">
-                </div>
-            </div>
+    <h1 style="font-size: 3rem; font-weight: 800; margin: 0;">bottom 1</h1>
+    <p style="font-weight: bold; margin-bottom: 20px;">CREATOR: DD</p>
+
+    <div style="width: 100%; max-width: 800px; display: block;">
+        <div style="position: relative; padding-top: 56.25%; background: black; border-radius: 15px; overflow: hidden;">
+            <iframe 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+                allowfullscreen>
+            </iframe>
         </div>
-    <div class="video-window" style="width: 100%; aspect-ratio: 16/9; background: black; border-radius: 15px; overflow: hidden; display: block;">
-    <iframe 
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-        style="top: 0; left: 0; width: 100%; height: 100%; border: none;"
-        allowfullscreen>
-    </iframe>
+    </div>
 </div>
         `,
 };
