@@ -23,7 +23,6 @@ export default {
                 <h1>bottom 1</h1>
                 <p><strong>CREATOR:</strong> DD</p>
                 <div class="video-window">
-                    <div style="padding: 20px; color: white;">Video Placeholder</div>
                 </div>
             </div>
         </div>
