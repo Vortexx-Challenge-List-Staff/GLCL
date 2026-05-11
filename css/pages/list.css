@@ -188,3 +188,11 @@
     background-color: #2980b9;
     transform: translateY(-2px);
 }
+.level-details-right h1 {
+    margin-bottom: 20px; /* Adds space below the big title */
+    line-height: 1.2;     /* Ensures letters don't touch */
+}
+
+.level-details-right p {
+    margin-bottom: 30px; /* Adds space below the creator text */
+}
