@@ -158,8 +158,8 @@
 }
 
 .level-row.active {
-    background: #3498db; / The blue highlight color from image 2 */
-    color: white;
+    background: #3498db;
+    color: white
 }
 
 .video-window {
