@@ -162,13 +162,6 @@
     color: white
 }
 
-.video-window {
-    width: 100%;
-    aspect-ratio: 16/9;
-    background: black;
-    border-radius: 10px;
-    overflow: hidden;
-}
 /* This turns that blue strip into a nice button */
 .pack-card {
     padding: 15px 20px;
