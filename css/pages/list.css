@@ -199,3 +199,16 @@
     width: 100% !important;
     height: 100% !important;
 }
+/* Space out the Right Column elements */
+.level-details-right h1 {
+    font-size: 3.5rem !important; /* Makes it big and bold */
+    line-height: 1.1 !important;  /* Prevents letters from touching vertically */
+    margin-bottom: 10px !important; /* Space between Title and Creator */
+    display: block;
+}
+
+.level-details-right p {
+    font-size: 1.2rem !important;
+    margin-bottom: 30px !important; /* Space between Creator and Video */
+    display: block;
+}
