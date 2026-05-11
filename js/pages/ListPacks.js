@@ -4,34 +4,50 @@ import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
 
 export default {
+    data() {
+        return {
+            selectedLevel: 0, // Starts at the first level (#1)
+            levels: [
+                {
+                    name: "bottom 1",
+                    creator: "DD",
+                    ytId: "dQw4w9WgXcQ" // Rick Astley
+                },
+                {
+                    name: "ez wave lvl",
+                    creator: "SomeoneElse",
+                    ytId: "9S_YVz44S_Q" // Example ID
+                }
+            ]
+        }
+    },
     template: `
         <div class="packs-container">
             <div class="list-sidebar">
-                <div class="pack-card" style="background: #3498db;">Beginner Pack</div>
+                <div class="pack-card">Beginner Pack</div>
             </div>
 
             <div class="level-list-middle">
-                <div class="level-row active">
-                    <span class="rank">#1</span> bottom 1
-                </div>
-                <div class="level-row">
-                    <span class="rank">#2</span> ez wave lvl
+                <div v-for="(level, index) in levels" 
+                     class="level-row" 
+                     :class="{ active: selectedLevel === index }"
+                     @click="selectedLevel = index">
+                    <span class="rank">#{{ index + 1 }}</span> {{ level.name }}
                 </div>
             </div>
 
             <div class="level-details-right">
-    <h1 style="font-size: 3rem; font-weight: 800; margin: 0;">bottom 1</h1>
-    <p style="font-weight: bold; margin-bottom: 20px;">CREATOR: DD</p>
+                <h1>{{ levels[selectedLevel].name }}</h1>
+                <p><strong>CREATOR:</strong> {{ levels[selectedLevel].creator }}</p>
 
-    <div style="width: 100%; max-width: 800px; display: block;">
-        <div style="position: relative; padding-top: 56.25%; background: black; border-radius: 15px; overflow: hidden;">
-            <iframe 
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
-                allowfullscreen>
-            </iframe>
+                <div class="video-window" style="position: relative; padding-top: 56.25%; background: black; border-radius: 15px; overflow: hidden;">
+                    <iframe 
+                        :src="'https://www.youtube.com/embed/' + levels[selectedLevel].ytId" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-        `,
+    `,
 };
