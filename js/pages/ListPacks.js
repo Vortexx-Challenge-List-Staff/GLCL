@@ -17,6 +17,11 @@ export default {
                     name: "ez wave lvl",
                     creator: "SomeoneElse",
                     ytId: "9S_YVz44S_Q" // Example ID
+                },
+                {
+                    name: "My New Level",
+                    creator: "Vortexx",
+                    ytId: "VideoCodeHere"
                 }
             ]
         }
