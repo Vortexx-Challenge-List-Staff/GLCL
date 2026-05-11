@@ -11,17 +11,17 @@ export default {
                 {
                     name: "bottom 1",
                     creator: "DD",
-                    ytId: "dQw4w9WgXcQ" // Rick Astley
+                    ytId: "L3s2h_Le09w" 
                 },
                 {
                     name: "ez wave lvl",
                     creator: "SomeoneElse",
-                    ytId: "9S_YVz44S_Q" // Example ID
+                    ytId: "bmeW5hvQ2OA" 
                 },
                 {
-                    name: "My New Level",
-                    creator: "Vortexx",
-                    ytId: "VideoCodeHere"
+                    name: "2 2 wave challenge",
+                    creator: "Shialaxy",
+                    ytId: "8Uckfbht1GQ"
                 }
             ]
         }
