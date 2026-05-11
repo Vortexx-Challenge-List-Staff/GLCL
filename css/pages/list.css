@@ -212,3 +212,25 @@
     margin-bottom: 30px !important; /* Space between Creator and Video */
     display: block;
 }
+.level-row {
+    /* This changes the font */
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif !important;
+    
+    /* This makes the text look cleaner */
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    
+    /* Spacing fixes */
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* This targets just the #1, #2 numbers to make them bolder */
+.level-row .rank {
+    font-weight: 800;
+    opacity: 0.8;
+}
