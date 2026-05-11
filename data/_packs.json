@@ -6,13 +6,13 @@
       139423742,
       126493328
     ]
-  },
-  {
-    "name": "SZASZA333",
-    "creator": "",
-    "ytId": "",
-    "packs": [
-        { "name": "Beginner Pack", "color": "#3db6e2" }
-    ]
   }
 ]  
+{
+    "name": "SZASZA333",
+    "creator": "",
+    "ytId": "...",
+    "packs": [
+        { "name": "Beginner Pack", "color": "#3db6e2" },
+    ]
+}
