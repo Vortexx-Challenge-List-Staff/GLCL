@@ -126,3 +126,46 @@
 .page-list .meta .editors li a:hover {
     text-decoration: underline;
 }
+.packs-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.list-sidebar {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.level-list-middle {
+    width: 300px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+.level-details-right {
+    flex-grow: 1;
+    max-width: 800px;
+}
+.level-row {
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.level-row.active {
+    background: #3498db; / The blue highlight color from image 2 */
+    color: white;
+}
+
+.video-window {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
