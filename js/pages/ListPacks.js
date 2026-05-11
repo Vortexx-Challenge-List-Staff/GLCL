@@ -42,75 +42,35 @@ export default {
     embed,
   },
   template: `
-    <main v-if="loading">
-      <Spinner></Spinner>
-    </main>
-    <main v-else class="page-list-packs">
-      <!-- Pack selector -->
-      <div class="pack-selector">
-        <button
-          v-for="(pack, index) in packs"
-          :key="pack.id"
-          :class="{ active: index === selectedPackIndex }"
-          @click="selectedPackIndex = index; selectedLevelIndex = 0"
-          :style="{ '--color-background': pack.color }"
-        >
-          {{ pack.name }}
-        </button>
-      </div>
-
-      <div class="list-container">
-        <!-- Level list in the selected pack -->
-        <table class="list" v-if="selectedPack">
-          <tr
-            v-for="(levelId, i) in selectedPack.levels"
-            :key="levelId"
-          >
-            <td class="rank">
-              <p class="type-label-lg">
-                #{{ i + 1 }}
-              </p>
-            </td>
-            <td
-              class="level"
-              :class="{ active: selectedLevelIndex === i }"
-            >
-              <button @click="selectedLevelIndex = i">
-                <span class="type-label-lg">
-                  {{
-                    list.find(([lvl]) => lvl?.id === levelId)?.[0]?.name ||
-                    'Error'
-                  }}
-                </span>
-              </button>
-            </td>
-          </tr>
-        </table>
-      </div>
-
-      <!-- Level detail -->
-      <div class="level-container" v-if="selectedLevel">
-        <div class="level">
-          <h1>{{ selectedLevel.name }}</h1>
-          <LevelAuthors
-            :author="selectedLevel.author"
-            :creators="selectedLevel.creators"
-            :verifier="selectedLevel.verifier"
-          ></LevelAuthors>
-          <iframe
-            class="video"
-            id="videoframe"
-            :src="embed(selectedLevel.showcase || selectedLevel.verification)"
-            frameborder="0"
-          ></iframe>
-          <ul class="stats">
-            <li>
-              <div class="type-title-sm">ID</div>
-              <p>{{ selectedLevel.id }}</p>
-            </li>
-          </ul>
+    <main v-if="packs">
+    <div class="packs-container">
+        <div class="list-sidebar">
+            <div v-for="(pack, index) in packs" 
+                 class="pack-card" 
+                 @click="selected = index"
+                 :class="{ 'active': selected === index }">
+                {{ pack.name }}
+            </div>
         </div>
-      </div>
-    </main>
+
+        <div class="level-list-middle">
+            <div v-for="(level, i) in packs[selected].levels" 
+                 class="level-row"
+                 @click="selectedLevel = i"
+                 :class="{ 'active': selectedLevel === i }">
+                <span class="rank">#{{ i + 1 }}</span> {{ level.name }}
+            </div>
+        </div>
+
+        <div class="level-details-right">
+            <h1>{{ packs[selected].levels[selectedLevel].name }}</h1>
+            <p><strong>CREATOR:</strong> {{ packs[selected].levels[selectedLevel].creator }}</p>
+
+            <div class="video-window">
+                <iframe :src="'https://www.youtube.com/embed/' + packs[selected].levels[selectedLevel].ytId" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</main>
   `,
 };
