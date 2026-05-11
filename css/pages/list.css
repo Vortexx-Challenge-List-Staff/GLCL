@@ -169,3 +169,22 @@
     border-radius: 10px;
     overflow: hidden;
 }
+/* This turns that blue strip into a nice button */
+.pack-card {
+    padding: 15px 20px;
+    background-color: #3498db; 
+    color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* This makes the button react when you hover over it */
+.pack-card:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
