@@ -6,5 +6,13 @@
       139423742,
       126493328
     ]
+  },
+  {
+    "name": "ez wave lvl",
+    "creator": "SZASZA333",
+    "ytId": "...",
+    "packs": [
+        { "name": "Beginner Pack", "color": "#3db6e2" }
+    ]
   }
 ]  
