@@ -189,6 +189,7 @@
     overflow: hidden !important;
     position: relative !important; /* This is the most important line */
     display: block !important;
+    border: 10px solid red !important;
 }
 
 .video-window iframe {
