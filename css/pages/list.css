@@ -181,17 +181,17 @@
     background-color: #2980b9;
     transform: translateY(-2px);
 }
+/* The box (This is working because of the red border) */
 .video-window {
     width: 100% !important;
     aspect-ratio: 16 / 9 !important;
     background: black !important;
     border-radius: 15px !important;
     overflow: hidden !important;
-    position: relative !important; /* This is the most important line */
-    display: block !important;
-    border: 10px solid red !important;
+    position: relative !important; /* CRITICAL: This must be here */
 }
 
+/* The video player (This is what pulls it up) */
 .video-window iframe {
     position: absolute !important;
     top: 0 !important;
@@ -199,4 +199,5 @@
     width: 100% !important;
     height: 100% !important;
     border: none !important;
+    z-index: 1; /* This forces it to the front */
 }
