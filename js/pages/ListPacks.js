@@ -26,10 +26,10 @@ export default {
                 </div>
             </div>
         </div>
-    <div class="video-window" style="position: relative; width: 100%; aspect-ratio: 16/9; background: black; border-radius: 15px; overflow: hidden; display: block;">
+    <div class="video-window" style="width: 100%; aspect-ratio: 16/9; background: black; border-radius: 15px; overflow: hidden; display: block;">
     <iframe 
         src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+        style="top: 0; left: 0; width: 100%; height: 100%; border: none;"
         allowfullscreen>
     </iframe>
 </div>
