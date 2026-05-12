@@ -24,6 +24,23 @@ export default {
                     ytId: "8Uckfbht1GQ"
                 }
             ]
+            [
+                {
+                    name: "Ship Challenge V",
+                    creator: "VortexxGMD",
+                    ytId: "LBp8Drpm0YI" 
+                },
+                {
+                    name: "Ship Challenge I",
+                    creator: "VortexxGMD",
+                    ytId: "WRBSvDhPNv4" 
+                },
+                {
+                    name: "Ship Challenge II",
+                    creator: "VortexxGMD",
+                    ytId: "PVJKtslNEdg"
+                }
+            ]
         }
     },
     template: `
