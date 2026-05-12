@@ -36,6 +36,12 @@
             "link": "https://www.youtube.com/watch?v=HMCqrWoqzIU",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "AirmaskM",
+            "link": "https://youtu.be/UCX_8zz6hcQ?si=8SklTdr0_Icxry2V",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
     ]
 }
