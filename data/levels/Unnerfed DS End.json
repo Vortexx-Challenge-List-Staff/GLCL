@@ -30,6 +30,12 @@
             "link": "https://youtube.com/shorts/fDihaGjrnAs?si=4BC0nOgGLwoJFONr",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "DD",
+            "link": "https://youtu.be/FKYmAvuFZ98",
+            "percent": 74,
+            "hz": 240
         }
     ]
 }
