@@ -7,6 +7,11 @@
     "verification": "https://youtu.be/lFe3XMB-Rdo",
     "percentToQualify": "60",
     "records": [
-
+        {
+            "user": "Helios-YT-1",
+            "link": "https://youtube.com/shorts/Oy1khnrk8Ko?si=XHVolO7r671ns2wB",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
