@@ -81,9 +81,10 @@ export async function fetchLeaderboard() {
                 (u) => u.toLowerCase() === record.user.toLowerCase(),
             ) || record.user;
             scoreMap[user] ??= {
+                progressed: [],
                 verified: [],
                 completed: [],
-                progressed: [],
+                
             };
             const { completed, progressed } = scoreMap[user];
             if (record.percent === 100) {
