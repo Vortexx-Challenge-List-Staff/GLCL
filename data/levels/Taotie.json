@@ -7,6 +7,11 @@
     "verification": "https://youtu.be/A6tTw0uJY1Y?si=T46MI9gX8dlsSqB6",
     "percentToQualify": "100",
     "records": [
-
+        {
+            "user": "MadBoy",
+            "link": "https://youtu.be/fwqHJKdEC3A?si=_7g0ETR-dyGob-s5",
+            "percent": 100,
+            "hz": "Mobile 60"
+        }
     ]
 }
