@@ -8,6 +8,11 @@
     "percentToQualify": "62",
     "description": "Sequel to the level Taotie.",
     "records": [
-
+        {
+            "user": "MadBoy",
+            "link": "https://youtu.be/vDgVi7nLqYc?si=QX0hheKiuQfau7MZ",
+            "percent": 100,
+            "hz": "Mobile 60"
+        }
     ]
 }
