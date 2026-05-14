@@ -8,6 +8,11 @@
     "percentToQualify": "100",
     "description": "(No description provided for this challenge yet)",
     "records": [
-
+        {
+            "user": "MadBoy",
+            "link": "https://youtu.be/-wR2JgXejbo?si=w2rrE199GsGybmGh",
+            "percent": 100,
+            "hz": "Mobile 60"
+        }
     ]
 }
