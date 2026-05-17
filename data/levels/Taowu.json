@@ -8,6 +8,11 @@
     "percentToQualify": "70",
     "description": "(No description provided yet)",
     "records": [
-
+        {
+            "user": "DD",
+            "link": "https://youtu.be/OVTRdtNECQA",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
