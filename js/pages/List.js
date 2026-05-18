@@ -22,8 +22,16 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+                <div class="filter-container" style="margin-bottom: 15px; display: flex; gap: 15px; padding: 5px 10px;">
+                    <button @click="sortBy = 'rank'; selected = 0" :style="{ color: sortBy === 'rank' ? '#fff' : '#aaa', fontWeight: sortBy === 'rank' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
+                        AREDL Rank
+                    </button>
+                    <button @click="sortBy = 'enjoyment'; selected = 0" :style="{ color: sortBy === 'enjoyment' ? '#fff' : '#aaa', fontWeight: sortBy === 'enjoyment' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
+                        EDEL Enjoyment
+                    </button>
+                </div>
+                <table class="list" v-if="sortedList">
+                    <tr v-for="([level, err], i) in sortedList">
                         <td class="rank">
                             <p v-if="i + 1 <= 100" class="type-label-lg">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
@@ -137,15 +145,16 @@ export default {
         selected: 0,
         errors: [],
         roleIconMap,
-        store
+        store,
+        sortBy: 'rank'
     }),
     computed: {
         level() {
-            return this.list[this.selected][0];
+            return this.sortedList[this.selected]?.[0];
         },
         video() {
-            if (!this.level.showcase) {
-                return embed(this.level.verification);
+            if (!this.level || !this.level.showcase) {
+                return embed(this.level?.verification);
             }
 
             return embed(
@@ -154,13 +163,33 @@ export default {
                     : this.level.verification
             );
         },
+        sortedList() {
+            if (!this.list) return [];
+            
+            let listCopy = [...this.list];
+            
+            if (this.sortBy === 'enjoyment') {
+                return listCopy.sort((a, b) => {
+                    const levelA = a[0];
+                    const levelB = b[0];
+                    
+                    const enjoyA = this.getAverageEnjoyment(levelA?.enjoyment);
+                    const enjoyB = this.getAverageEnjoyment(levelB?.enjoyment);
+                    
+                    const scoreA = enjoyA === 'N/A' ? -1 : enjoyA;
+                    const scoreB = enjoyB === 'N/A' ? -1 : enjoyB;
+                    
+                    return scoreB - scoreA;
+                });
+            }
+            
+            return listCopy;
+        }
     },
     async mounted() {
-        // Hide loading spinner
         this.list = await fetchList();
         this.editors = await fetchEditors();
 
-        // Error handling
         if (!this.list) {
             this.errors = [
                 "Failed to load list. Retry in a few minutes or notify list staff.",
