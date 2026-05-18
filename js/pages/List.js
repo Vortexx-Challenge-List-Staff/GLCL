@@ -39,9 +39,9 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
-<p v-if="level.description" style="margin-bottom: 15px;">{{ level.description }}</p>
-<LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-<iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <p v-if="level.description" style="margin-bottom: 15px;">{{ level.description }}</p>
+                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
@@ -52,9 +52,9 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-        <div class="type-title-sm">Enjoyment</div>
-        <p>{{ level.enjoyment || 'N/A' }}</p>
-    </li>
+                            <div class="type-title-sm">Enjoyment</div>
+                            <p>{{ getAverageEnjoyment(level.enjoyment) }}</p>
+                        </li>
                         <li>
                             <div class="type-title-sm">Handcam</div>
                             <p>{{ level.handcam || 'Not Required' }}</p>
@@ -183,5 +183,13 @@ export default {
     methods: {
         embed,
         score,
-    },
+        getAverageEnjoyment(ratings) {
+            if (!ratings || !Array.isArray(ratings) || ratings.length === 0) {
+                return 'N/A';
+            }
+            const sum = ratings.reduce((total, current) => total + current, 0);
+            const average = sum / ratings.length;
+            return Math.round(average * 100) / 100;
+        }
+    }
 };
