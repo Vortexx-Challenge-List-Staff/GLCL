@@ -75,6 +75,7 @@ export default {
                     'short': 'Challenges that are short in length (10-29 seconds).',
                     'medium': 'Challenges that are medium in length (30-59 seconds).',
                     'overall': 'Challenges with a balanced mix of all gameplay types.',
+                    'learny': 'Challenges that take longer than usual to memorize.',
                 }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'
             }}
         </span>
