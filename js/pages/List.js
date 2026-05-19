@@ -51,21 +51,26 @@ export default {
                     <h1>{{ level.name }}</h1>
                     <p v-if="level.description" style="margin-bottom: 15px;">{{ level.description }}</p>
                     <div v-if="level.tags && level.tags.length" class="level-tags-container">
-    <span 
+    <div 
         v-for="tag in level.tags" 
         :key="tag" 
-        :class="['level-tag', tag.toLowerCase()]"
-        :title="{
-            '2.2': 'Levels featuring mechanics, triggers, or physics native to the 2.2 update.',
-            'ship': 'Levels that rely heavily on tight ship control and flying physics.',
-            'wave': 'Levels featuring intense wave segments requiring precise clicking spacing.',
-            'timings': 'Extreme demons that focus heavily on precise timings (cube, ball, UFO, robot, spider).',
-            'chokepoints': 'Levels containing highly specific difficulty spikes near the end.',
-            'long': 'Levels with an extended duration requiring high consistency over time.'
-        }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'"
+        :class="['tag-wrapper', tag.toLowerCase()]"
     >
-        {{ tag }}
-    </span>
+        <span class="level-tag">{{ tag }}</span>
+        
+        <span class="tag-tooltip">
+            {{
+                {
+                    '2.2': 'Levels featuring mechanics, triggers, or physics native to the 2.2 update.',
+                    'ship': 'Levels that rely heavily on tight ship control and flying physics.',
+                    'wave': 'Levels featuring intense wave segments requiring precise clicking spacing.',
+                    'timings': 'Extreme demons that focus heavily on precise timings (cube, ball, UFO, robot, spider).',
+                    'chokepoints': 'Levels containing highly specific difficulty spikes near the end.',
+                    'long': 'Levels with an extended duration requiring high consistency over time.'
+                }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'
+            }}
+        </span>
+    </div>
 </div>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>

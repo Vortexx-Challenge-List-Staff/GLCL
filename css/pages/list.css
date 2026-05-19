@@ -234,34 +234,81 @@
     font-weight: 800;
     opacity: 0.8;
 }
-/* Container to align the tags horizontally */
+/* Container alignment */
 .level-tags-container {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Wrapper to hold the tag and its absolute tooltip */
+.tag-wrapper {
+    position: relative;
+    display: inline-block;
 }
 
 /* Base style for every tag */
 .level-tag {
-    /* Inherit the font from the parent layout or explicitly use your site's stack */
     font-family: "Inter", "Segoe UI", Arial, sans-serif !important;
-    
-    background-color: #222; 
-    color: #ccc;
-    padding: 5px 10px;
-    border-radius: 6px;
-    font-size: 0.8rem; /* Matches the smaller subtext scale on your page */
+    background-color: #1e1e1e; 
+    color: #b0b0b0;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 0.85rem;
     font-weight: 500;
     text-transform: capitalize;
-    border: 1px solid #333;
-    cursor: help; /* Changes cursor to a question mark on hover to indicate info */
+    border: 1px solid #2d2d2d;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
 }
 
-/* Specific styling for the active/highlighted tag (e.g., Timings) */
-/* You can target specific tags by their name if your JSON matches */
-.level-tag.timings {
-    background-color: #ff6f00; /* Vibrant orange color from screenshot 1 */
-    color: #fff;
+/* Colors for specific highlighted active tag state (e.g., Timings) */
+.tag-wrapper.timings .level-tag {
+    background-color: #ff6f00;
+    color: #ffffff;
     border-color: #ff8f00;
+}
+
+/* --- THE VIDEO HOVER TOOLTIP --- */
+
+/* Tooltip hidden by default */
+.tag-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    
+    /* Position directly below the tag badge */
+    top: calc(100% + 6px);
+    left: 0;
+    z-index: 100;
+    
+    /* Layout and Sizing */
+    width: max-content;
+    max-width: 450px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    
+    /* Colors matching the video clip exactly */
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #333333;
+    
+    /* Typography matching the site */
+    font-family: "Inter", "Segoe UI", Arial, sans-serif !important;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-align: left;
+    white-space: normal;
+    
+    /* Smooth transition fade in */
+    transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
+    pointer-events: none; /* Prevents text from blocking cursor interactions */
+}
+
+/* Show the tooltip when hovering over the wrapper */
+.tag-wrapper:hover .tag-tooltip {
+    visibility: visible;
+    opacity: 1;
 }
