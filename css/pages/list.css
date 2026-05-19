@@ -244,14 +244,18 @@
 
 /* Base style for every tag */
 .level-tag {
-    background-color: #222; /* Dark background matching the theme */
+    /* Inherit the font from the parent layout or explicitly use your site's stack */
+    font-family: "Inter", "Segoe UI", Arial, sans-serif !important;
+    
+    background-color: #222; 
     color: #ccc;
     padding: 5px 10px;
     border-radius: 6px;
-    font-size: 0.85rem;
+    font-size: 0.8rem; /* Matches the smaller subtext scale on your page */
     font-weight: 500;
     text-transform: capitalize;
     border: 1px solid #333;
+    cursor: help; /* Changes cursor to a question mark on hover to indicate info */
 }
 
 /* Specific styling for the active/highlighted tag (e.g., Timings) */

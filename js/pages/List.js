@@ -55,6 +55,14 @@ export default {
         v-for="tag in level.tags" 
         :key="tag" 
         :class="['level-tag', tag.toLowerCase()]"
+        :title="{
+            '2.2': 'Levels featuring mechanics, triggers, or physics native to the 2.2 update.',
+            'ship': 'Levels that rely heavily on tight ship control and flying physics.',
+            'wave': 'Levels featuring intense wave segments requiring precise clicking spacing.',
+            'timings': 'Extreme demons that focus heavily on precise timings (cube, ball, UFO, robot, spider).',
+            'chokepoints': 'Levels containing highly specific difficulty spikes near the end.',
+            'long': 'Levels with an extended duration requiring high consistency over time.'
+        }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'"
     >
         {{ tag }}
     </span>
