@@ -82,7 +82,7 @@ export default {
                     'gimmicky': 'Challenges with unconventional or unique gameplay mechanics.',
                     'flow': 'Challenges where the gameplay flows well with the music.',
                     'slow-paced': 'Challenges with slower-paced gameplay.',
-                    'nerve control': 'Challenges that challenge a player's ability to stay calm near the end.',
+                    'nerve control': 'Challenges that challenge a player's ability to stay calm near the end.'
                 }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'
             }}
         </span>
