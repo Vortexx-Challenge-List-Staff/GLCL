@@ -234,3 +234,28 @@
     font-weight: 800;
     opacity: 0.8;
 }
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.tag-item {
+    background-color: #2b2b2b; /* Dark background for ordinary tags */
+    color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* Example: Target specific tags for distinct highlight colors */
+.tag-item.timings {
+    background-color: #ff6b00; /* Orange highlight for timings */
+}
+
+.tag-item.chokepoints {
+    background-color: #4a4a4a;
+}
