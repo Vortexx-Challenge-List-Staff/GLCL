@@ -253,7 +253,7 @@
 .level-tag {
     font-family: "Inter", "Segoe UI", Arial, sans-serif !important;
     background-color: #1e1e1e; 
-    color: #b0b0b0;          /* Subdued grey text when idle */
+    color: #ebe3e3;          /* Subdued grey text when idle */
     padding: 6px 12px;
     border-radius: 5px;
     font-size: 0.85rem;
