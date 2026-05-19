@@ -78,7 +78,7 @@ export default {
                     'overall': 'Challenges with a balanced mix of all gameplay types.',
                     'timings': 'Challenges that focus heavily on precise timings (cube, ball, UFO, robot, spider).',
                     'chokepoints': 'Challenges containing highly specific difficulty spikes.',
-                    'nerve control': 'Challenges that challenge a player's ability to stay calm near the end.',
+                    'nerve control': 'Challenges that challenge a players ability to stay calm near the end.',
                     'fast-paced': 'Challenges with fast-paced gameplay.',
                 }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'
             }}
