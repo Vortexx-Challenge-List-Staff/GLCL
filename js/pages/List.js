@@ -47,30 +47,12 @@ export default {
                 </table>
             </div>
             <div class="level-container">
-    <div v-if="level">
-        <h1>{{ level.name }}</h1>
-        
-        <p class="level-description">{{ level.description }}</p>
-        
-        <p class="level-authors">Creator & Verifier: {{ level.creator }}</p>
-        <p class="level-authors">Publisher: {{ level.publisher }}</p>
-        
-        <iframe class="video" id="videoframe" :src="'https://www.youtube.com/embed/' + level.video" frameborder="0"></iframe>
-        
-        <div class="tag-container" v-if="level.tags && level.tags.length">
-            <span 
-                v-for="tag in level.tags" 
-                :key="tag" 
-                :class="['tag-item', tag.toLowerCase()]"
-            >
-                {{ tag }}
-            </span>
-        </div>
-        
-        <ul class="stats">
-            </ul>
-    </div>
-</div>
+                <div class="level" v-if="level">
+                    <h1>{{ level.name }}</h1>
+                    <p v-if="level.description" style="margin-bottom: 15px;">{{ level.description }}</p>
+                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
