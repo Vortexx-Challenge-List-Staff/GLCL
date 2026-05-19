@@ -234,3 +234,30 @@
     font-weight: 800;
     opacity: 0.8;
 }
+/* Container to align the tags horizontally */
+.level-tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+/* Base style for every tag */
+.level-tag {
+    background-color: #222; /* Dark background matching the theme */
+    color: #ccc;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 1px solid #333;
+}
+
+/* Specific styling for the active/highlighted tag (e.g., Timings) */
+/* You can target specific tags by their name if your JSON matches */
+.level-tag.timings {
+    background-color: #ff6f00; /* Vibrant orange color from screenshot 1 */
+    color: #fff;
+    border-color: #ff8f00;
+}
