@@ -249,66 +249,41 @@
     display: inline-block;
 }
 
-/* Base style for every tag */
+/* Base style for every tag (Idle State) */
 .level-tag {
     font-family: "Inter", "Segoe UI", Arial, sans-serif !important;
     background-color: #1e1e1e; 
-    color: #b0b0b0;
+    color: #b0b0b0;          /* Subdued grey text when idle */
     padding: 6px 12px;
     border-radius: 5px;
     font-size: 0.85rem;
     font-weight: 500;
     text-transform: capitalize;
-    border: 1px solid #2d2d2d;
+    border: 1px solid #2d2d2d; /* Dark, subtle border when idle */
     cursor: pointer;
-    transition: background-color 0.2s, color 0.2s;
+    
+    /* Smoothly animates the colors when entering/leaving hover state */
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
-/* Colors for specific highlighted active tag state (e.g., Timings) */
+/* --- THE HOVER STATES --- */
+
+/* 1. Dynamic Hover State for ALL tags */
+.tag-wrapper:hover .level-tag {
+    background-color: #ff6f00; /* Vibrant orange background on hover */
+    border-color: #ff8f00;     /* Brighter orange border */
+    color: #ffffff;            /* Pure white text for maximum contrast */
+}
+
+/* 2. Permanent Active State (Keep 'Timings' orange even when not hovered) */
 .tag-wrapper.timings .level-tag {
     background-color: #ff6f00;
-    color: #ffffff;
     border-color: #ff8f00;
-}
-
-/* --- THE VIDEO HOVER TOOLTIP --- */
-
-/* Tooltip hidden by default */
-.tag-tooltip {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    
-    /* Position directly below the tag badge */
-    top: calc(100% + 6px);
-    left: 0;
-    z-index: 100;
-    
-    /* Layout and Sizing */
-    width: max-content;
-    max-width: 450px;
-    padding: 8px 12px;
-    border-radius: 4px;
-    
-    /* Colors matching the video clip exactly */
-    background-color: #000000;
     color: #ffffff;
-    border: 1px solid #333333;
-    
-    /* Typography matching the site */
-    font-family: "Inter", "Segoe UI", Arial, sans-serif !important;
-    font-size: 0.8rem;
-    line-height: 1.4;
-    text-align: left;
-    white-space: normal;
-    
-    /* Smooth transition fade in */
-    transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
-    pointer-events: none; /* Prevents text from blocking cursor interactions */
 }
 
-/* Show the tooltip when hovering over the wrapper */
-.tag-wrapper:hover .tag-tooltip {
-    visibility: visible;
-    opacity: 1;
+/* 3. Optional: Make the active tag look even brighter when directly hovered */
+.tag-wrapper.timings:hover .level-tag {
+    background-color: #ff8000; /* Slightly brighter orange highlight */
+    border-color: #ffa600;     /* Extra bright border glow */
 }
