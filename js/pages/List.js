@@ -67,7 +67,7 @@ export default {
                     'timings': 'Extreme demons that focus heavily on precise timings (cube, ball, UFO, robot, spider).',
                     'chokepoints': 'Levels containing highly specific difficulty spikes near the end.',
                     'long': 'Levels with an extended duration requiring high consistency over time.'
-                }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'
+                }[tag.toLowerCase()] || 
             }}
         </span>
     </div>
