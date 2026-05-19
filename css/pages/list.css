@@ -287,3 +287,43 @@
     background-color: #ff8000; /* Slightly brighter orange highlight */
     border-color: #ffa600;     /* Extra bright border glow */
 }
+
+/* --- TOOLTIP POSITIONING AND LAYOUT FIX --- */
+.tag-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute; /* Pulls the box completely out of the regular text flow */
+    
+    /* Locks the popup box precisely underneath the tag badge */
+    top: calc(100% + 6px);
+    left: 0;
+    z-index: 100;
+    
+    /* Size limits so text wraps beautifully inside a small box */
+    width: max-content;
+    max-width: 300px; 
+    padding: 8px 12px;
+    border-radius: 4px;
+    
+    /* Box Cosmetics */
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #333333;
+    
+    /* Typography matching the site */
+    font-family: "Inter", "Segoe UI", Arial, sans-serif !important;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-align: left;
+    white-space: normal; /* Force text wrapping */
+    
+    /* Clean fade transitions */
+    transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
+    pointer-events: none;
+}
+
+/* Instructs the specific tooltip box to instantly fade in when its wrapper is hovered */
+.tag-wrapper:hover .tag-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
