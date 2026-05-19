@@ -79,6 +79,11 @@ export default {
                     'timings': 'Challenges that focus heavily on precise timings (cube, ball, UFO, robot, spider).',
                     'chokepoints': 'Challenges containing highly specific difficulty spikes.',
                     'nerve control': 'Challenges that challenge a players ability to stay calm near the end.',
+                    'memory': 'Challenges with gameplay that cannot be easily read visually.',
+                    'gimmicky': 'Challenges with unconventional or unique gameplay mechanics.',
+                    'learny': 'Challenges that take longer than usual to memorize.',
+                    'high cps': 'Challenges requiring a high number of clicks per second.',
+                    'slow-paced': 'Challenges with slower-paced gameplay.',
                     'fast-paced': 'Challenges with fast-paced gameplay.',
                 }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'
             }}
