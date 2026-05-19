@@ -259,7 +259,7 @@
     font-size: 0.85rem;
     font-weight: 500;
     text-transform: capitalize;
-    border: 1px solid #2d2d2d; /* Dark, subtle border when idle */
+    border: 1px solid #666464; /* Dark, subtle border when idle */
     cursor: pointer;
     
     /* Smoothly animates the colors when entering/leaving hover state */
