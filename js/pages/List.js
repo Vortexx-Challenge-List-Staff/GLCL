@@ -77,7 +77,8 @@ export default {
                     'short': 'Challenges that are short in length (10-29 seconds).',
                     'overall': 'Challenges with a balanced mix of all gameplay types.',
                     'timings': 'Challenges that focus heavily on precise timings (cube, ball, UFO, robot, spider).',
-                    'chokepoints': 'Challenges containing highly specific difficulty spikes.'
+                    'chokepoints': 'Challenges containing highly specific difficulty spikes.',
+                    'fast-paced': 'Challenges with fast-paced gameplay.'
                 }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'
             }}
         </span>
