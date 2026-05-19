@@ -61,27 +61,12 @@ export default {
         <span class="tag-tooltip">
             {{
                 {
-                    '2.2': 'Challenges that are either released in update 2.2 or have mechanics and triggers in the 2.2 update.',
-                    'ship': 'Challenges that mainly contain ship gameplay.',
-                    'ball': 'Challenges that mainly contain ball gameplay.',
-                    'ufo': 'Challenges that mainly contain UFO gameplay.',
-                    'cube': 'Challenges that mainly contain cube gameplay.',
-                    'robot': 'Challenges that mainly contain robot gameplay.',
-                    'spider': 'Challenges that mainly contain spider gameplay.',
-                    'wave': 'Challenges that mainly contain wave gameplay.',
-                    'timings': 'Challenges that focus heavily on precise timings (cube, ball, UFO, robot, spider).',
-                    'chokepoints': 'Challenges containing difficulty spikes near the end.',
-                    'tiny': 'Challenges that are tiny in length (1-10 seconds).',
-                    'short': 'Challenges that are short in length (10-29 seconds).',
-                    'overall': 'Challenges with a balanced mix of all gameplay types.',
-                    'learny': 'Challenges that take longer than usual to memorize.',
-                    'fast-paced': 'Challenges with fast-paced gameplay.',
-                    'high cps': 'Challenges requiring a high number of clicks per second.',
-                    'memory': 'Challenges with gameplay that can't be easily read visually.',
-                    'gimmicky': 'Challenges with unconventional or unique gameplay mechanics.',
-                    'flow': 'Challenges where the gameplay flows well with the music.',
-                    'slow-paced': 'Challenges with slower-paced gameplay.',
-                    'nerve control': 'Challenges that challenge a player's ability to stay calm near the end.'
+                    '2.2': 'Levels featuring mechanics, triggers, or physics native to the 2.2 update.',
+                    'ship': 'Levels that rely heavily on tight ship control and flying physics.',
+                    'wave': 'Levels featuring intense wave segments requiring precise clicking spacing.',
+                    'timings': 'Extreme demons that focus heavily on precise timings (cube, ball, UFO, robot, spider).',
+                    'chokepoints': 'Levels containing highly specific difficulty spikes near the end.',
+                    'long': 'Levels with an extended duration requiring high consistency over time.'
                 }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'
             }}
         </span>
