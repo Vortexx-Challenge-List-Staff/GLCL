@@ -75,14 +75,6 @@ export default {
                     'short': 'Challenges that are short in length (10-29 seconds).',
                     'medium': 'Challenges that are medium in length (30-59 seconds).',
                     'overall': 'Challenges with a balanced mix of all gameplay types.',
-                    'learny': 'Challenges that take longer than usual to memorize.',
-                    'fast paced': 'Challenges with fast-paced gameplay.',
-                    'high cps': 'Challenges requiring a high number of clicks per second.',
-                    'memory': 'Challenges with gameplay that can't be easily read visually.',
-                    'gimmicky': 'Challenges with unconventional or unique gameplay mechanics.',
-                    'flow': 'Challenges where the gameplay flows well with the music.',
-                    'slow paced': 'Challenges with slower-paced gameplay.',
-                    'nerve control': 'Challenges that challenge a player's ability to stay calm near the end.'
                 }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'
             }}
         </span>
