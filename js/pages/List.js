@@ -61,12 +61,23 @@ export default {
         <span class="tag-tooltip">
             {{
                 {
-                    '2.2': 'Levels featuring mechanics, triggers, or physics native to the 2.2 update.',
-                    'ship': 'Levels that rely heavily on tight ship control and flying physics.',
-                    'wave': 'Levels featuring intense wave segments requiring precise clicking spacing.',
+                    '2.2': 'Challenges that were released in update 2.2.',
+                    '2.1': 'Challenges that were released in update 2.1.',
+                    'cube': 'Challenges that mainly focus on cube gameplay.',
+                    'ship': 'Challenges that mainly focus on ship gameplay.',
+                    'ball': 'Challenges that mainly focus on ball gameplay.',
+                    'ufo': 'Challenges that mainly focus on UFO gameplay.',
+                    'wave': 'Challenges that mainly focus on wave gameplay.',
+                    'robot': 'Challenges that mainly focus on robot gameplay.',
+                    'spider': 'Challenges that mainly focus on spider gameplay.',
+                    'duals': 'Challenges that mainly focus on dual gameplay.',
+                    '2.2 swing': 'Challenges that mainly focus on 2.2 swing gameplay.',
+                    '2.1 swing': 'Challenges that mainly focus on 2.1 swing gameplay.',
+                    'tiny': 'Challenges that are tiny in length (1-10 seconds).',
+                    'short': 'Challenges that are short in length (10-29 seconds).',
+                    'overall': 'Challenges with a balanced mix of all gameplay types.',
                     'timings': 'Extreme demons that focus heavily on precise timings (cube, ball, UFO, robot, spider).',
                     'chokepoints': 'Levels containing highly specific difficulty spikes near the end.',
-                    'long': 'Levels with an extended duration requiring high consistency over time.'
                 }[tag.toLowerCase()] || 'Geometry Dash level characteristic.'
             }}
         </span>
