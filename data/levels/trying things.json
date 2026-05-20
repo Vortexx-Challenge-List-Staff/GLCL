@@ -9,6 +9,11 @@
     "enjoyment": [42],
     "description": "(No description provided yet)",
     "records": [
-
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/yeKMBhzS3ro",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
