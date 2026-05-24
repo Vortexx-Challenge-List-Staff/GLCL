@@ -20,7 +20,13 @@
             "user": "MadBoy",
             "link": "https://youtu.be/vDgVi7nLqYc?si=QX0hheKiuQfau7MZ",
             "percent": 100,
-            "hz": "Mobile 60"
+            "hz": "Mobile 120"
+        },
+        {
+            "user": "DD",
+            "link": "https://youtu.be/O1tArdIQa_c",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
