@@ -7,9 +7,14 @@
     "description": "(No description provided yet)",
     "verification": "https://youtu.be/4gbHzyvURPA",
     "percentToQualify": "66",
-    "enjoyment": [97],
+    "enjoyment": [97, 60],
     "tags": ["2.2", "Overall"],
     "records": [
-
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/80j7sXkx3ns",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
