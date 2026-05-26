@@ -7,9 +7,14 @@
     "description": "",
     "verification": "https://youtu.be/KlZeG0BJG_M",
     "percentToQualify": "62",
-    "enjoyment": [65],
+    "enjoyment": [65, 43],
     "tags": ["2.2", "Memory", "Learny", "Chokepoints", "Overall"],
     "records": [
-
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/RhDwCb4u1eo",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
