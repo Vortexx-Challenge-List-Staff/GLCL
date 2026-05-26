@@ -44,6 +44,12 @@
             "link": "https://www.youtube.com/watch?v=T0UYRLWjmnQ",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "MadBoy",
+            "link": "https://www.youtube.com/watch?v=IvrDxBQ3rA8",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
