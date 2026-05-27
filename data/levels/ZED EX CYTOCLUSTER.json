@@ -10,6 +10,11 @@
     "enjoyment": [58],
     "tags": ["2.2", "Timings", "Overall"],
     "records": [
-
+        {
+            "user": "MadBoy",
+            "link": "https://www.youtube.com/watch?v=7neNg9l6-do",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
