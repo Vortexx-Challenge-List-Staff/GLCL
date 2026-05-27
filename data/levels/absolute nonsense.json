@@ -10,6 +10,11 @@
     "enjoyment": [50],
     "tags": ["2.2", "Overall", "Cube", "Wave"],
     "records": [
-
+        {
+            "user": "MadBoy",
+            "link": "https://www.youtube.com/watch?v=y0qxrDjXrhw",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
