@@ -21,6 +21,16 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
+        <div class="page-list">
+  <div style="margin-bottom: 15px;">
+    <input 
+      type="text" 
+      v-model="searchQuery" 
+      placeholder="Search by level name..." 
+      style="width: 100%; padding: 10px 15px; border-radius: 8px; border: 1px solid #ccc; background-color: white; color: black; box-sizing: border-box; font-size: 14px;"
+    >
+  </div>
+  <div class="filter-container" style="...">
             <div class="list-container">
                 <div class="filter-container" style="margin-bottom: 15px; display: flex; gap: 15px; padding: 5px 10px;">
                     <button @click="sortBy = 'rank'; selected = 0" :style="{ color: sortBy === 'rank' ? '#fff' : '#aaa', fontWeight: sortBy === 'rank' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
@@ -173,6 +183,7 @@ export default {
         </main>
     `,
     data: () => ({
+        searchQuery: '',
         list: [],
         editors: [],
         loading: true,
@@ -183,43 +194,39 @@ export default {
         sortBy: 'rank'
     }),
     computed: {
-        level() {
-            return this.sortedList[this.selected]?.[0];
-        },
-        video() {
-            if (!this.level || !this.level.showcase) {
-                return embed(this.level?.verification);
-            }
+  // ... existing video() computed property ...
 
-            return embed(
-                this.toggledShowcase
-                    ? this.level.showcase
-                    : this.level.verification
-            );
-        },
-        sortedList() {
-            if (!this.list) return [];
-            
-            let listCopy = [...this.list];
-            
-            if (this.sortBy === 'enjoyment') {
-                return listCopy.sort((a, b) => {
-                    const levelA = a[0];
-                    const levelB = b[0];
-                    
-                    const enjoyA = this.getAverageEnjoyment(levelA?.enjoyment);
-                    const enjoyB = this.getAverageEnjoyment(levelB?.enjoyment);
-                    
-                    const scoreA = enjoyA === 'N/A' ? -1 : enjoyA;
-                    const scoreB = enjoyB === 'N/A' ? -1 : enjoyB;
-                    
-                    return scoreB - scoreA;
-                });
-            }
-            
-            return listCopy;
-        }
-    },
+  sortedList() {
+    if (!this.list) return [];
+
+    let listCopy = [...this.list];
+
+    // 1. ADD FILTERING LOGIC HERE
+    if (this.searchQuery) {
+      const query = this.searchQuery.toLowerCase();
+      listCopy = listCopy.filter(item => {
+        // item[0] is the actual level data based on your v-for loop
+        const levelName = item[0]?.name || ''; 
+        return levelName.toLowerCase().includes(query);
+      });
+    }
+
+    // 2. KEEP YOUR EXISTING SORTING LOGIC
+    if (this.sortBy === 'enjoyment') {
+      return listCopy.sort((a, b) => {
+        const enjoyA = this.getAverageEnjoyment(a[0].enjoyment);
+        const enjoyB = this.getAverageEnjoyment(b[0].enjoyment);
+        
+        const scoreA = enjoyA === 'N/A' ? -1 : enjoyA;
+        const scoreB = enjoyB === 'N/A' ? -1 : enjoyB;
+
+        return scoreB - scoreA;
+      });
+    }
+
+    return listCopy;
+  }
+},
     async mounted() {
         this.list = await fetchList();
         this.editors = await fetchEditors();
