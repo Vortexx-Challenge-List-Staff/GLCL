@@ -6,7 +6,7 @@
     "verifier": "Shialaxy",
     "verification": "https://youtu.be/V5zVSgFnr2E",
     "percentToQualify": "49",
-    "enjoyment": [5, 38],
+    "enjoyment": [5, 38, 0],
     "tags": ["2.2", "Chokepoints", "Timings"],
     "description": "A robbed Top 1 challenge, due to being underestimated in difficulty. This challenge is heavily inspired by the current Top ~30 Deimos (Hybrid) on the Demonlist.",
     "records": [
@@ -15,6 +15,12 @@
             "link": "https://youtube.com/shorts/bLwNBE8SwpA?si=mbhC8l-1FaXuBnZO",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "MadBoy",
+            "link": "https://youtu.be/sPWFQ1INPbk",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
