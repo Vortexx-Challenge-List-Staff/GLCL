@@ -7,7 +7,7 @@
     "description": "A wave-only challenge. Due to bugged percentages in the level, note that to get the list requirement percentage, you need to have the mod Percentage Toggle installed on Geode and then click on 2.1 in the bottom left.",
     "verification": "https://youtu.be/DPVvFgUlGMQ",
     "percentToQualify": "56",
-    "enjoyment": [90],
+    "enjoyment": [90, 42],
     "tags": ["2.2", "Wave", "Timings"],
     "records": [
 
