@@ -6,12 +6,18 @@
     "verifier": "facjul",
     "verification": "https://youtu.be/EF7X5LmZZ0I",
     "percentToQualify": "100",
-    "enjoyment": [42],
+    "enjoyment": [42, 0],
     "description": "(No description provided yet)",
     "records": [
         {
             "user": "Shialaxy",
             "link": "https://youtu.be/yeKMBhzS3ro",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Zodiac",
+            "link": "https://www.youtube.com/watch?v=2_Nu1-DLqu4",
             "percent": 100,
             "hz": 240
         }
