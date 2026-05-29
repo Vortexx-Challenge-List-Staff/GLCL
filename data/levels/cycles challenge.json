@@ -6,7 +6,7 @@
     "verifier": "DD",
     "verification": "https://youtu.be/j5Wi4WB6jyw",
     "percentToQualify": "100",
-    "enjoyment": [50, 52, 47, 50],
+    "enjoyment": [50, 52, 47, 50, 65],
     "description": "A challenge that contains the Cycles first coin route at almost every click, aka the Impossible Timing (what Doggie considers it apparently).",
     "records": [
         {
@@ -38,6 +38,12 @@
             "link": "https://www.youtube.com/watch?v=8VYd111lzMM",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "LaserStr",
+            "link": "https://youtu.be/9RDxBnGZNRM?si=G4bxid0x6_uXXHuI",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
     ]
 }
