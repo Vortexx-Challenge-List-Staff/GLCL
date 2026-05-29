@@ -7,7 +7,7 @@
     "description": "A challenge that is just has overall gameplay. i don't know what to put as description 💀",
     "verification": "https://youtu.be/md2_h1VscS8",
     "percentToQualify": "100",
-    "enjoyment": [50, 100, 50],
+    "enjoyment": [50, 100, 50, 35],
     "tags": ["2.2", "Overall", "Cube", "Wave"],
     "records": [
         {
@@ -21,6 +21,12 @@
             "link": "https://www.youtube.com/watch?v=zVC63rOp9FA",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "LaserStr",
+            "link": "https://youtu.be/wKMSYvmjPGw?si=dES36ic06c4pB50m",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
     ]
 }
