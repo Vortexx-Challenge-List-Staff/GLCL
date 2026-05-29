@@ -10,6 +10,11 @@
     "enjoyment": [50],
     "tags": ["2.2", "Memory", "Chokepoints", "Cube", "Ship", "Ball"],
     "records": [
-
+        {
+            "user": "MadBoy",
+            "link": "https://www.youtube.com/watch?v=27twuaRHDF4",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
