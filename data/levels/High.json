@@ -10,6 +10,11 @@
     "enjoyment": [90, 42],
     "tags": ["2.2", "Wave", "Timings"],
     "records": [
-
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/_mbIGHc-HYU",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
