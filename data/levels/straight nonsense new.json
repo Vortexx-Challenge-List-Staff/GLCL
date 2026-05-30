@@ -10,6 +10,11 @@
     "enjoyment": [63],
     "tags": ["2.2", "Chokepoints", "Overall"],
     "records": [
-
+        {
+            "user": "DD",
+            "link": "https://youtu.be/mFJIgAnhmXU",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
