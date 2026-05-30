@@ -33,7 +33,7 @@ export default {
                 <table class="list" v-if="sortedList">
                     <tr v-for="([level, err], i) in sortedList">
                         <td class="rank">
-                            <p v-if="list.findIndex(item => item[0]?.id === level?.id) + 1 <= 49" class="type-label-lg">
+                            <p v-if="list.findIndex(item => item[0]?.id === level?.id) + 1 <= 100" class="type-label-lg">
                                 #{{ list.findIndex(item => item[0]?.id === level?.id) + 1 }}
                             </p>
                             <p v-else class="type-label-lg">Legacy</p>
