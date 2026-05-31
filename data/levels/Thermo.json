@@ -10,6 +10,11 @@
     "enjoyment": [],
     "tags": ["2.2", "Cube"],
     "records": [
-
+        {
+            "user": "DD",
+            "link": "https://youtu.be/WaYPQUNYDHs",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
