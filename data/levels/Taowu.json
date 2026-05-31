@@ -28,5 +28,35 @@
             "percent": 100,
             "hz": "Mobile 120"
         }
-    ]
+    ],
+    "positionHistory": [
+    {
+      "position": 5,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #5",
+      "date": "2026-05-16"
+    },
+    {
+      "position": 6,
+      "change": -1,
+      "causeName": "straightest fly",
+      "causeAction": "was moved above",
+      "date": "2026-05-23"
+    },
+    {
+      "position": 7,
+      "change": -1,
+      "causeName": "ZED EX CYTOCLUSTER",
+      "causeAction": "was placed above",
+      "date": "2026-05-27"
+    },
+    {
+      "position": 8,
+      "change": -1,
+      "causeName": "Solar Blocks",
+      "causeAction": "was placed above",
+      "date": "2026-05-27"
+    }
+  ]
 }
