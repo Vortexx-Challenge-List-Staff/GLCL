@@ -61,46 +61,11 @@
     ],
     "positionHistory": [
     {
-      "position": 6,
-      "change": 0,
-      "causeName": "??",
-      "causeAction": "placed at #6",
-      "date": "2026-04-08"
-    },
-    {
-      "position": 8,
-      "change": -2,
-      "causeName": "VSShialaxy",
-      "causeAction": "was moved above",
-      "date": "2026-04-08"
-    },
-    {
-      "position": 11,
-      "change": -1,
-      "causeName": "dual frenzy",
-      "causeAction": "was moved above",
-      "date": "2026-04-20"
-    },
-    {
       "position": 21,
-      "change": -10,
+      "change": -4,
       "causeName": "",
       "causeAction": "moved down to #21",
-      "date": "2026-04-20"
-    },
-    {
-      "position": 17,
-      "change": 15,
-      "causeName": "",
-      "causeAction": "moved up to #17",
-      "date": "2026-05-04"
-    },
-    {
-      "position": 18,
-      "change": -1,
-      "causeName": "dual is best gm",
-      "causeAction": "was moved above",
-      "date": "2026-05-08"
+      "date": "2026-05-17"
     },
     {
       "position": 15,
@@ -110,11 +75,47 @@
       "date": "2026-05-14"
     },
     {
+      "position": 18,
+      "change": -1,
+      "causeName": "dual is best gm",
+      "causeAction": "was moved above",
+      "date": "2026-05-08"
+    },
+    {
+      "position": 17,
+      "change": 15,
+      "causeName": "",
+      "causeAction": "moved up to #17",
+      "date": "2026-05-04"
+    },
+    {
       "position": 21,
-      "change": -4,
+      "change": -10,
       "causeName": "",
       "causeAction": "moved down to #21",
-      "date": "2026-05-17"
+      "date": "2026-04-20"
+    },
+    {
+      "position": 11,
+      "change": -1,
+      "causeName": "dual frenzy",
+      "causeAction": "was moved above",
+      "date": "2026-04-20"
+    },
+    {
+      "position": 8,
+      "change": -2,
+      "causeName": "VSShialaxy",
+      "causeAction": "was moved above",
+      "date": "2026-04-08"
+    },
+    {
+      "position": 6,
+      "change": 0,
+      "causeName": "??",
+      "causeAction": "placed at #6",
+      "date": "2026-04-08"
     }
+
   ]
 }
