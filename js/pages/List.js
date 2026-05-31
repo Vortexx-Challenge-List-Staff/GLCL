@@ -107,33 +107,47 @@ export default {
                         </li>
                     </ul>
                     <template v-if="level.positionHistory && level.positionHistory.length > 0">
-    <div style="display: flex; align-items: center; gap: 10px; margin-top: 20px;">
-        <h3>Position History</h3>
+    <div style="font-family: 'Inter', 'Segoe UI', Arial, sans-serif; margin-top: 20px;">
+        
+        <div 
+            @click="showPositionHistory = !showPositionHistory" 
+            style="display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; margin-bottom: 10px;"
+        >
+            <h3 style="margin: 0; font-size: 1.2rem;">Position History</h3>
+            <span :style="{ 
+                transform: showPositionHistory ? 'rotate(180deg)' : 'rotate(0deg)', 
+                transition: 'transform 0.2s ease',
+                fontSize: '0.8rem',
+                color: '#aaa'
+            }">▼</span>
+        </div>
+
+        <table v-if="showPositionHistory" class="records" style="margin-bottom: 20px; width: 100%;">
+            <thead>
+                <tr>
+                    <th style="text-align: left; padding: 8px 5px; border-bottom: 1px solid #333;">Position</th>
+                    <th style="text-align: center; padding: 8px 5px; border-bottom: 1px solid #333;">Change</th>
+                    <th style="text-align: left; padding: 8px 5px; border-bottom: 1px solid #333;">Cause</th>
+                    <th style="text-align: right; padding: 8px 5px; border-bottom: 1px solid #333;">Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="history in level.positionHistory" class="record" style="border-bottom: 1px solid #222;">
+                    <td style="padding: 10px 5px;">#{{ history.position }}</td>
+                    <td style="text-align: center; padding: 10px 5px;">
+                        <span v-if="history.change > 0" style="color: #4CAF50;">↑ {{ history.change }}</span>
+                        <span v-else-if="history.change < 0" style="color: #F44336;">↓ {{ Math.abs(history.change) }}</span>
+                        <span v-else style="color: #888;">-</span>
+                    </td>
+                    <td style="padding: 10px 5px;">
+                        <strong>{{ history.causeName }}</strong> <span style="color: #aaa;">{{ history.causeAction }}</span>
+                    </td>
+                    <td style="text-align: right; padding: 10px 5px; color: #aaa;">{{ history.date }}</td>
+                </tr>
+            </tbody>
+        </table>
+        
     </div>
-    <table class="records" style="margin-bottom: 20px;">
-        <thead>
-            <tr>
-                <th style="text-align: left; padding: 5px;">Position</th>
-                <th style="text-align: center; padding: 5px;">Change</th>
-                <th style="text-align: left; padding: 5px;">Cause</th>
-                <th style="text-align: right; padding: 5px;">Date</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr v-for="history in level.positionHistory" class="record" style="border-bottom: 1px solid #333;">
-                <td style="padding: 10px 5px;">#{{ history.position }}</td>
-                <td style="text-align: center; padding: 10px 5px;">
-                    <span v-if="history.change > 0" style="color: #4CAF50;">↑ {{ history.change }}</span>
-                    <span v-else-if="history.change < 0" style="color: #F44336;">↓ {{ Math.abs(history.change) }}</span>
-                    <span v-else style="color: #888;">-</span>
-                </td>
-                <td style="padding: 10px 5px;">
-                    <strong>{{ history.causeName }}</strong> <span style="color: #aaa;">{{ history.causeAction }}</span>
-                </td>
-                <td style="text-align: right; padding: 10px 5px; color: #aaa;">{{ history.date }}</td>
-            </tr>
-        </tbody>
-    </table>
 </template>
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
@@ -209,7 +223,8 @@ export default {
         errors: [],
         roleIconMap,
         store,
-        sortBy: 'rank'
+        sortBy: 'rank',
+        showPositionHistory: false
     }),
     computed: {
         level() {
