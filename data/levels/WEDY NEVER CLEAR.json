@@ -6,7 +6,7 @@
     "verifier": "Shialaxy",
     "verification": "https://youtu.be/DYoDQA3HQAk",
     "percentToQualify": "45",
-    "enjoyment": [75, 55],
+    "enjoyment": [75, 55, 30],
     "tags": ["2.2", "Wave", "High CPS", "Chokepoints", "Fast-Paced"],
     "description": "Former Top 1 challenge back when it was placed in the GLCL's early stages, dethroning the now removed challenge KiuiIsLate Superbuffed. Consists of tight wave gaps and spam sections.",
     "records": [
@@ -15,6 +15,12 @@
             "link": "https://youtube.com/shorts/Fr-OTxneeIk?si=1jbQpvEWDasEEUaf",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Madboy",
+            "link": "https://www.youtube.com/watch?v=biKvVduFFDo",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
