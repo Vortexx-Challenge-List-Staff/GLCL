@@ -9,6 +9,15 @@
     "percentToQualify": "60",
     "enjoyment": [],
     "tags": [],
+    "positionHistory": [
+    {
+      "position": 1,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #1",
+      "date": "2026-05-08"
+    }
+  ],
     "records": [
         {
             "user": "Helios-YT-1",
