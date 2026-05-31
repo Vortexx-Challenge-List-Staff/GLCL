@@ -9,6 +9,22 @@
     "percentToQualify": "47",
     "enjoyment": [60, 63],
     "tags": ["2.2","Ship", "Wave", "Timings", "Overall", "Fast-Paced"],
+    "positionHistory": [
+    {
+      "position": 1,
+      "change": 1,
+      "causeName": "WEDY NEVER CLEAR",
+      "causeAction": "was placed below",
+      "date": "31-5-2026"
+    },
+    {
+      "position": 2,
+      "change": -1,
+      "causeName": "Plunged Moon",
+      "causeAction": "was placed above",
+      "date": "20-5-2026"
+    }
+  ],
     "records": [
         {
             "user": "Helios-YT-1",
