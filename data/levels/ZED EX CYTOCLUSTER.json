@@ -19,18 +19,19 @@
     ],
     "positionHistory": [
     {
-      "position": 5,
-      "change": 0,
-      "causeName": "",
-      "causeAction": "placed at #5",
-      "date": "2026-05-27"
-    },
-    {
       "position": 6,
       "change": -1,
       "causeName": "High",
       "causeAction": "was placed above",
       "date": "2026-05-29"
+    },
+    {
+      "position": 5,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #5",
+      "date": "2026-05-27"
     }
+    
   ]
 }
