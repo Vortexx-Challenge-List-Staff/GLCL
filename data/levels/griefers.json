@@ -10,6 +10,11 @@
     "tags": ["2.2", "Ship", "Wave", "High CPS", "Fast-Paced"],
     "description": "A challenge inspired by greafer's part in the upcoming Top 1 GRIEF. Consists mainly of wave and ship.",
     "records": [
-
+        {
+            "user": "DD",
+            "link": "https://youtu.be/lrrx1gKj_Z4",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
