@@ -43,6 +43,13 @@
     ],
     "positionHistory": [
     {
+      "position": 2,
+      "change": 1,
+      "causeName": "",
+      "causeAction": "moved up to #2",
+      "date": "2026-05-17"
+    },
+    {
       "position": 4,
       "change": 1,
       "causeName": "CONCENTRATION",
