@@ -16,5 +16,14 @@
             "percent": 100,
             "hz": 240
         }
-    ]
+    ],
+    "positionHistory": [
+    {
+      "position": 5,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #5",
+      "date": "2026-05-29"
+    }
+  ]
 }
