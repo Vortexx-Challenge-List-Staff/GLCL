@@ -27,14 +27,14 @@
       "position": 4,
       "change": 1,
       "causeName": "",
-      "causeAction": "was moved up",
+      "causeAction": "moved up to #4",
       "date": "2026-05-01"
     },
     {
       "position": 2,
       "change": 2,
       "causeName": "",
-      "causeAction": "was moved up",
+      "causeAction": "moved up to #2",
       "date": "2026-05-02"
     },
     {
@@ -48,7 +48,7 @@
       "position": 2,
       "change": 1,
       "causeName": "",
-      "causeAction": "was moved up",
+      "causeAction": "moved up to #2",
       "date": "2026-05-08"
     },
     {
@@ -69,7 +69,7 @@
       "position": 3,
       "change": -1,
       "causeName": "",
-      "causeAction": "was moved down",
+      "causeAction": "moved down to #3",
       "date": "2026-05-17"
     }
   ],
