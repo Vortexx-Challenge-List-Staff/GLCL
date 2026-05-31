@@ -12,10 +12,10 @@
     "positionHistory": [
     {
       "position": 1,
-      "change": 0,
-      "causeName": "",
-      "causeAction": "placed at #1",
-      "date": "2026-05-08"
+      "change": 1,
+      "causeName": "funny",
+      "causeAction": "was moved down",
+      "date": "2026-05-10"
     },
     {
       "position": 2,
@@ -26,11 +26,12 @@
     },
     {
       "position": 1,
-      "change": 1,
-      "causeName": "funny",
-      "causeAction": "was moved down",
-      "date": "2026-05-10"
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #1",
+      "date": "2026-05-08"
     }
+    
   ],
     "records": [
         {
