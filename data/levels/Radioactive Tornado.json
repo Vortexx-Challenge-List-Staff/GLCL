@@ -12,17 +12,24 @@
     "positionHistory": [
     {
       "position": 1,
-      "change": 1,
-      "causeName": "WEDY NEVER CLEAR",
-      "causeAction": "was placed below",
-      "date": "31-5-2026"
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #1",
+      "date": "2026-05-08"
     },
     {
       "position": 2,
       "change": -1,
-      "causeName": "Plunged Moon",
+      "causeName": "funny",
       "causeAction": "was placed above",
-      "date": "20-5-2026"
+      "date": "2026-05-10"
+    },
+    {
+      "position": 1,
+      "change": 1,
+      "causeName": "funny",
+      "causeAction": "was moved down",
+      "date": "2026-05-10"
     }
   ],
     "records": [
