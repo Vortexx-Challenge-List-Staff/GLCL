@@ -8,6 +8,71 @@
     "percentToQualify": "49",
     "enjoyment": [5, 38, 0, 30],
     "tags": ["2.2", "Chokepoints", "Timings"],
+    "positionHistory": [
+    {
+      "position": 4,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #4",
+      "date": "2026-04-22"
+    },
+    {
+      "position": 5,
+      "change": -1,
+      "causeName": "SYC WAVE SUPERBUFFED",
+      "causeAction": "was placed above",
+      "date": "2026-04-23"
+    },
+    {
+      "position": 4,
+      "change": 1,
+      "causeName": "",
+      "causeAction": "was moved up",
+      "date": "2026-05-01"
+    },
+    {
+      "position": 2,
+      "change": 2,
+      "causeName": "",
+      "causeAction": "was moved up",
+      "date": "2026-05-02"
+    },
+    {
+      "position": 3,
+      "change": -1,
+      "causeName": "Radioactive Tornado",
+      "causeAction": "was placed above",
+      "date": "2026-05-08"
+    },
+    {
+      "position": 2,
+      "change": 1,
+      "causeName": "",
+      "causeAction": "was moved up",
+      "date": "2026-05-08"
+    },
+    {
+      "position": 3,
+      "change": -1,
+      "causeName": "funny",
+      "causeAction": "was moved above",
+      "date": "2026-05-08"
+    },
+    {
+      "position": 2,
+      "change": 1,
+      "causeName": "funny",
+      "causeAction": "was removed",
+      "date": "2026-05-13"
+    },
+    {
+      "position": 3,
+      "change": -1,
+      "causeName": "",
+      "causeAction": "was moved down",
+      "date": "2026-05-17"
+    }
+  ],
     "description": "A robbed Top 1 challenge, due to being underestimated in difficulty. This challenge is heavily inspired by the current Top ~30 Deimos (Hybrid) on the Demonlist.",
     "records": [
         {
