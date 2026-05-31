@@ -9,6 +9,29 @@
     "percentToQualify": "73",
     "enjoyment": [68],
     "tags": ["2.2", "Wave", "Fast-Paced", "Overall"],
+    "positionHistory": [
+    {
+      "position": 12,
+      "change": -1,
+      "causeName": "Plasmatic Haze",
+      "causeAction": "was moved above",
+      "date": "2026-05-30"
+    },
+    {
+      "position": 11,
+      "change": -1,
+      "causeName": "High",
+      "causeAction": "was placed above",
+      "date": "2026-05-29"
+    },
+    {
+      "position": 10,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #10",
+      "date": "2026-05-28"
+    }
+  ],
     "records": [
 
     ]
