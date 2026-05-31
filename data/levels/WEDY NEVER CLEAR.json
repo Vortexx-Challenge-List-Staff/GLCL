@@ -8,6 +8,15 @@
     "percentToQualify": "45",
     "enjoyment": [75, 55, 30],
     "tags": ["2.2", "Wave", "High CPS", "Chokepoints", "Fast-Paced"],
+    "positionHistory": [
+    {
+      "position": 1,
+      "change": 0,
+      "causeName": "WEDY NEVER CLEAR",
+      "causeAction": "was placed below",
+      "date": "31-5-2026"
+    }
+  ],
     "description": "Former Top 1 challenge back when it was placed in the GLCL's early stages, dethroning the now removed challenge KiuiIsLate Superbuffed. Consists of tight wave gaps and spam sections.",
     "records": [
         {
