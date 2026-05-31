@@ -16,5 +16,42 @@
             "percent": 100,
             "hz": 240
         }
-    ]
+    ],
+    "positionHistory": [
+    {
+      "position": 8,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #8",
+      "date": "2026-05-04"
+    },
+    {
+      "position": 6,
+      "change": "?",
+      "causeName": "",
+      "causeAction": "moved up to #6",
+      "date": "2026-05-13"
+    },
+    {
+      "position": 7,
+      "change": "-1",
+      "causeName": "Taowu",
+      "causeAction": "was placed above",
+      "date": "2026-05-16"
+    },
+    {
+      "position": 5,
+      "change": "2",
+      "causeName": "",
+      "causeAction": "moved up to #5",
+      "date": "2026-05-23"
+    },
+    {
+      "position": 6,
+      "change": "-1",
+      "causeName": "ZED EX CYTOCLUSTER",
+      "causeAction": "was placed above",
+      "date": "2026-05-27"
+    }
+  ]
 }
