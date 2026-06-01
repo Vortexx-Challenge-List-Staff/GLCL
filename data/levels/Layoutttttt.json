@@ -56,6 +56,12 @@
             "link": "https://www.youtube.com/watch?v=Dr0fFoDobRU",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "fq12a",
+            "link": "https://youtu.be/4TyMebwp7k8?si=ND2lQuBhzNn29bui",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
     ]
 }
