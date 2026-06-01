@@ -46,5 +46,14 @@
             "percent": 100,
             "hz": "Mobile 60"
         }
-    ]
+    ],
+    "positionHistory": [
+    {
+      "position": 16,
+      "change": 0,
+      "causeName": "Postion History function",
+      "causeAction": "was added",
+      "date": "2026-05-31"
+    }
+  ]
 }
