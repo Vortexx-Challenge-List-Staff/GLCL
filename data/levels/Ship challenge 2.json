@@ -63,5 +63,14 @@
             "percent": 100,
             "hz": 480
         }
-    ]
+    ],
+    "positionHistory": [
+    {
+      "position": 45,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "Position History added for this level",
+      "date": "2026-06-02"
+    }
+  ]
 }
