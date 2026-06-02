@@ -27,5 +27,77 @@
             "percent": 100,
             "hz": 240
         }
-    ]
+    ],
+    "positionHistory": [
+    {
+      "position": 32,
+      "change": -1,
+      "causeName": "High",
+      "causeAction": "was placed above",
+      "date": "2026-05-29"
+    },
+    {
+      "position": 31,
+      "change": -1,
+      "causeName": "Plasmatic Haze",
+      "causeAction": "was placed above",
+      "date": "2026-05-28"
+    },
+    {
+      "position": 30,
+      "change": -1,
+      "causeName": "KINGSLAYERS DEMISE",
+      "causeAction": "was placed above",
+      "date": "2026-05-28"
+    },
+    {
+      "position": 29,
+      "change": -1,
+      "causeName": "ZED EX CYTOCLUSTER",
+      "causeAction": "was placed above",
+      "date": "2026-05-27"
+    },
+    {
+      "position": 28,
+      "change": -1,
+      "causeName": "Solar Blocks",
+      "causeAction": "was placed above",
+      "date": "2026-05-27"
+    },
+    {
+      "position": 27,
+      "change": -1,
+      "causeName": "Isolated Knights",
+      "causeAction": "was placed above",
+      "date": "2026-05-26"
+    },
+    {
+      "position": 26,
+      "change": -1,
+      "causeName": "Dark Phobias",
+      "causeAction": "was placed above",
+      "date": "2026-05-23"
+    },
+    {
+      "position": 25,
+      "change": 1,
+      "causeName": "Hundun",
+      "causeAction": "was moved below",
+      "date": "2026-05-18"
+    },
+    {
+      "position": 26,
+      "change": -1,
+      "causeName": "Taowu",
+      "causeAction": "was placed above",
+      "date": "2026-05-16"
+    },
+    {
+      "position": 25,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #25",
+      "date": "2026-05-16"
+    }
+  ]
 }
