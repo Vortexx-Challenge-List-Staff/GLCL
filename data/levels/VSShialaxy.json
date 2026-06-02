@@ -51,8 +51,8 @@
     {
       "position": 16,
       "change": 0,
-      "causeName": "Postion History function",
-      "causeAction": "was added",
+      "causeName": "",
+      "causeAction": "Position History added for this level",
       "date": "2026-05-31"
     }
   ]
