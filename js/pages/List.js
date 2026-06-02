@@ -101,6 +101,10 @@ export default {
     <div class="type-title-sm">ID</div>
     <p>{{ level.id }}</p>
   </li>
+  <li>
+    <div class="type-title-sm">Enjoyment</div>
+    <p>{{ getAverageEnjoyment(level.enjoyment) }}</p>
+  </li>
 </ul>
                     <template v-if="level.positionHistory && level.positionHistory.length > 0">
     <div style="font-family: 'Inter', 'Segoe UI', Arial, sans-serif; margin-top: 20px;">
