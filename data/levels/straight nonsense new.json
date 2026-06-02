@@ -22,12 +22,12 @@
       "position": "34",
       "change": 0,
       "causeName": "Readded",
-      "causeAction": "readded at #34",
+      "causeAction": "at #34",
       "date": "2026-05-30"
     },
     {
-      "position": "-",
-      "change": -0,
+      "position": "N/A",
+      "change": 0,
       "causeName": "Removed",
       "causeAction": "for being too short",
       "date": "2026-05-13"
