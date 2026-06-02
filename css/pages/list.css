@@ -314,3 +314,38 @@
     visibility: visible;
     opacity: 1;
 }
+
+/* --- POSITION HISTORY TABLE STYLES --- */
+
+/* Green Row (Moved Up) */
+tr.history-up {
+    background-color: #e0f8e0 !important; /* Light pastel green */
+    color: #005a00 !important; /* Dark green text */
+}
+
+/* Red Row (Moved Down) */
+tr.history-down {
+    background-color: #fce4e4 !important; /* Light pastel red */
+    color: #7a0000 !important; /* Dark red text */
+}
+
+/* Yellow/Neutral Row (Added to list / No change) */
+tr.history-neutral {
+    background-color: #fdf5d3 !important; /* Light pastel yellow */
+    color: #4a4011 !important; /* Dark olive/brown text */
+}
+
+/* Ensure all table cells inside these rows inherit the dark text color. 
+   Without this, your default white text will be invisible on the light backgrounds! */
+tr.history-up td, 
+tr.history-down td, 
+tr.history-neutral td {
+    color: inherit !important;
+}
+
+/* Remove the individual text coloring from your current up/down arrows 
+   so they match the row's dark text color instead of being bright neon */
+tr.history-up td .up-arrow-class, 
+tr.history-down td .down-arrow-class {
+    color: inherit !important; 
+}
