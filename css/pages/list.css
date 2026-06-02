@@ -319,19 +319,19 @@
 
 /* Green Row (Moved Up) */
 tr.history-up {
-    background-color: #e0f8e0 !important; /* Light pastel green */
+    background-color: #b9eeb9 !important; /* Light pastel green */
     color: #005a00 !important; /* Dark green text */
 }
 
 /* Red Row (Moved Down) */
 tr.history-down {
-    background-color: #fce4e4 !important; /* Light pastel red */
+    background-color: #edb1b1 !important; /* Light pastel red */
     color: #7a0000 !important; /* Dark red text */
 }
 
 /* Yellow/Neutral Row (Added to list / No change) */
 tr.history-neutral {
-    background-color: #fdf5d3 !important; /* Light pastel yellow */
+    background-color: #f1e3a7 !important; /* Light pastel yellow */
     color: #4a4011 !important; /* Dark olive/brown text */
 }
 
