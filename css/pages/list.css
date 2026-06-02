@@ -320,13 +320,13 @@
 /* Green Row (Moved Up) */
 tr.history-up {
     background-color: #b9eeb9 !important; /* Light pastel green */
-    color: #005a00 !important; /* Dark green text */
+    color: #003a00 !important; /* Dark green text */
 }
 
 /* Red Row (Moved Down) */
 tr.history-down {
     background-color: #edb1b1 !important; /* Light pastel red */
-    color: #7a0000 !important; /* Dark red text */
+    color: #530202 !important; /* Dark red text */
 }
 
 /* Yellow/Neutral Row (Added to list / No change) */
