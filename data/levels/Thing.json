@@ -46,5 +46,266 @@
             "percent": 100,
             "hz": 240
         }
-    ]
+    ],
+    "positionHistory": [
+    {
+      "position": 26,
+      "change": -1,
+      "causeName": "High",
+      "causeAction": "was placed above",
+      "date": "2026-05-29"
+    },
+    {
+      "position": 25,
+      "change": -1,
+      "causeName": "Plasmatic Haze",
+      "causeAction": "was placed above",
+      "date": "2026-05-28"
+    },
+    {
+      "position": 24,
+      "change": -1,
+      "causeName": "KINGSLAYERS DEMISE",
+      "causeAction": "was placed above",
+      "date": "2026-05-28"
+    },
+    {
+      "position": 23,
+      "change": -1,
+      "causeName": "ZED EX CYTOCLUSTER",
+      "causeAction": "was placed above",
+      "date": "2026-05-27"
+    },
+    {
+      "position": 22,
+      "change": -1,
+      "causeName": "Solar Blocks",
+      "causeAction": "was placed above",
+      "date": "2026-05-27"
+    },
+    {
+      "position": 21,
+      "change": -1,
+      "causeName": "Isolated Knights",
+      "causeAction": "was placed above",
+      "date": "2026-05-26"
+    },
+    {
+      "position": 20,
+      "change": -1,
+      "causeName": "Dark Phobias",
+      "causeAction": "was placed above",
+      "date": "2026-05-23"
+    },
+    {
+      "position": 19,
+      "change": 1,
+      "causeName": "Hundun",
+      "causeAction": "was moved below",
+      "date": "2026-05-18"
+    },
+    {
+      "position": 20,
+      "change": 1,
+      "causeName": "18 Seconds Of Hell",
+      "causeAction": "was moved below",
+      "date": "2026-05-17"
+    },
+    {
+      "position": 21,
+      "change": -1,
+      "causeName": "Taowu",
+      "causeAction": "was placed above",
+      "date": "2026-05-16"
+    },
+    {
+      "position": 20,
+      "change": -1,
+      "causeName": "Maomaolei",
+      "causeAction": "was placed above",
+      "date": "2026-05-16"
+    },
+    {
+      "position": 19,
+      "change": -1,
+      "causeName": "Hundun",
+      "causeAction": "was placed above",
+      "date": "2026-05-14"
+    },
+    {
+      "position": 18,
+      "change": -1,
+      "causeName": "Qiongqi",
+      "causeAction": "was placed above",
+      "date": "2026-05-14"
+    },
+    {
+      "position": 17,
+      "change": -1,
+      "causeName": "Taotie",
+      "causeAction": "was placed above",
+      "date": "2026-05-14"
+    },
+    {
+      "position": 16,
+      "change": 8,
+      "causeName": "",
+      "causeAction": "moved up to #16",
+      "date": "2026-05-13"
+    },
+    {
+      "position": 24,
+      "change": -1,
+      "causeName": "astral GLCL Challeng",
+      "causeAction": "was placed above",
+      "date": "2026-05-13"
+    },
+    {
+      "position": 23,
+      "change": -1,
+      "causeName": "funny",
+      "causeAction": "was placed above",
+      "date": "2026-05-10"
+    },
+    {
+      "position": 22,
+      "change": -1,
+      "causeName": "dual is best gm",
+      "causeAction": "was moved above",
+      "date": "2026-05-08"
+    },
+    {
+      "position": 21,
+      "change": -1,
+      "causeName": "Radioactive Tornado",
+      "causeAction": "was placed above",
+      "date": "2026-05-08"
+    },
+    {
+      "position": 20,
+      "change": -1,
+      "causeName": "18 Seconds Of Hell",
+      "causeAction": "was moved above",
+      "date": "2026-05-04"
+    },
+    {
+      "position": 19,
+      "change": -1,
+      "causeName": "straightest fly",
+      "causeAction": "was placed above",
+      "date": "2026-05-04"
+    },
+    {
+      "position": 19,
+      "change": -1,
+      "causeName": "straightest fly",
+      "causeAction": "was placed above",
+      "date": "2026-05-04"
+    },
+    {
+      "position": 18,
+      "change": -1,
+      "causeName": "griefers",
+      "causeAction": "was placed above",
+      "date": "2026-05-01"
+    },
+    {
+      "position": 17,
+      "change": -1,
+      "causeName": "firework challenge",
+      "causeAction": "was placed above",
+      "date": "2026-04-29"
+    },
+    {
+      "position": 16,
+      "change": -1,
+      "causeName": "FOCUSed",
+      "causeAction": "was placed above",
+      "date": "2026-04-26"
+    },
+    {
+      "position": 15,
+      "change": -1,
+      "causeName": "SYC WAVE SUPERBUFFED",
+      "causeAction": "was placed above",
+      "date": "2026-04-23"
+    },
+    {
+      "position": 14,
+      "change": -1,
+      "causeName": "challenge",
+      "causeAction": "was moved above",
+      "date": "2026-04-22"
+    },
+    {
+      "position": 13,
+      "change": -1,
+      "causeName": "Plunged Moon",
+      "causeAction": "was placed above",
+      "date": "2026-04-22"
+    },
+    {
+      "position": 12,
+      "change": 1,
+      "causeName": "dual frenzy",
+      "causeAction": "was moved below",
+      "date": "2026-04-21"
+    },
+    {
+      "position": 13,
+      "change": -1,
+      "causeName": "Glass Blood",
+      "causeAction": "was placed above",
+      "date": "2026-04-21"
+    },
+    {
+      "position": 12,
+      "change": 1,
+      "causeName": "18 Seconds Of Hell",
+      "causeAction": "was moved below",
+      "date": "2026-04-20"
+    },
+    {
+      "position": 13,
+      "change": 1,
+      "causeName": "Shialaxy Challenge",
+      "causeAction": "was moved below",
+      "date": "2026-04-20"
+    },
+    {
+      "position": 14,
+      "change": -1,
+      "causeName": "dual frenzy",
+      "causeAction": "was moved above",
+      "date": "2026-04-20"
+    },
+    {
+      "position": 13,
+      "change": -1,
+      "causeName": "Gug",
+      "causeAction": "was placed above",
+      "date": "2026-04-19"
+    },
+    {
+      "position": 12,
+      "change": -1,
+      "causeName": "Spidepilogue",
+      "causeAction": "was placed above",
+      "date": "2026-04-19"
+    },
+    {
+      "position": 11,
+      "change": 3,
+      "causeName": "",
+      "causeAction": "moved up to #11",
+      "date": "2026-04-09"
+    },
+    {
+      "position": 14,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #14",
+      "date": "2026-04-??"
+    }
+  ]
 }
