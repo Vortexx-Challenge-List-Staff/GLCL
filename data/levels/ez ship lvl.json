@@ -32,6 +32,12 @@
             "link": "https://www.youtube.com/watch?v=CPHIN6ovXEY",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "LaserStr",
+            "link": "https://youtu.be/bQej1gWfMdc?si=UmQWzCd0Gt0uisI4",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
     ],
     "positionHistory": [
