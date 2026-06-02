@@ -34,5 +34,49 @@
             "percent": 100,
             "hz": 240
         }
-    ]
+    ],
+    "positionHistory": [
+    {
+      "position": 40,
+      "change": -1,
+      "causeName": "straight nonsense",
+      "causeAction": "was placed above",
+      "date": "2026-05-30"
+    },
+    {
+      "position": 39,
+      "change": -1,
+      "causeName": "High",
+      "causeAction": "was placed above",
+      "date": "2026-05-29"
+    },
+    {
+      "position": 38,
+      "change": -1,
+      "causeName": "Plasmatic Haze",
+      "causeAction": "was placed above",
+      "date": "2026-05-28"
+    },
+    {
+      "position": 37,
+      "change": -1,
+      "causeName": "KINGSLAYERS DEMISE",
+      "causeAction": "was placed above",
+      "date": "2026-05-28"
+    },
+    {
+      "position": 36,
+      "change": -1,
+      "causeName": "ZED EX CYTOCLUSTER",
+      "causeAction": "was placed above",
+      "date": "2026-05-27"
+    },
+    {
+      "position": 35,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #35",
+      "date": "2026-05-27"
+    }
+  ]
 }
