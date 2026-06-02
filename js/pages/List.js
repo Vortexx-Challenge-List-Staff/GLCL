@@ -147,7 +147,7 @@ export default {
 <td style="padding: 10px 5px;">
     <strong>{{ history.causeName }}&nbsp;{{ history.causeAction }}</strong>
 </td>
-    <td style="text-align: right; padding: 10px 5px; color: #aaa;">{{ history.date }}</td>
+    <td style="text-align: right; padding: 10px 5px; color: #aaa;"><strong>{{ history.date }}</strong></td>
 </tr>
                 </tr>
             </tbody>
