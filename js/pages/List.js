@@ -145,7 +145,7 @@ export default {
         </strong>
     </td>
 <td style="padding: 10px 5px;">
-    <strong>{{ history.causeName }}</strong><strong> {{ history.causeAction }}</strong>
+    <strong>{{ history.causeName }}&nbsp;{{ history.causeAction }}</strong>
 </td>
     <td style="text-align: right; padding: 10px 5px; color: #aaa;">{{ history.date }}</td>
 </tr>
