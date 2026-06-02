@@ -133,16 +133,22 @@ export default {
             </thead>
             <tbody>
                 <tr v-for="history in level.positionHistory" :class="['record', history.change > 0 ? 'history-up' : history.change < 0 ? 'history-down' : 'history-neutral']">
-    <td style="padding: 10px 5px;">#{{ history.position }}</td>
-    <td style="text-align: center; padding: 10px 5px;">
-        <span v-if="history.change > 0">↑ {{ history.change }}</span>
-        <span v-else-if="history.change < 0">↓ {{ Math.abs(history.change) }}</span>
-        <span v-else>-</span>
-    </td>
     <td style="padding: 10px 5px;">
-    <strong>{{ history.causeName }}</strong>{{ ' ' }}
-    <span>{{ history.causeAction }}</span>
-</td>
+        <strong>#{{ history.position }}</strong>
+    </td>
+    
+    <td style="text-align: center; padding: 10px 5px;">
+        <strong>
+            <span v-if="history.change > 0">↑ {{ history.change }}</span>
+            <span v-else-if="history.change < 0">↓ {{ Math.abs(history.change) }}</span>
+            <span v-else>-</span>
+        </strong>
+    </td>
+    
+    <td style="padding: 10px 5px;">
+        <strong>{{ history.causeName }}</strong>{{ ' ' }}
+        <span>{{ history.causeAction }}</span>
+    </td>
     <td style="text-align: right; padding: 10px 5px; color: #aaa;">{{ history.date }}</td>
 </tr>
                 </tr>
