@@ -16,5 +16,77 @@
             "percent": 100,
             "hz": 240
         }
-    ]
+    ],
+    "positionHistory": [
+    {
+      "position": "34",
+      "change": 0,
+      "causeName": "Readded",
+      "causeAction": "readded at #34",
+      "date": "2026-05-30"
+    },
+    {
+      "position": "-",
+      "change": -0,
+      "causeName": "Removed",
+      "causeAction": "for being too short",
+      "date": "2026-05-13"
+    },
+    {
+      "position": 28,
+      "change": -1,
+      "causeName": "astral GLCL Challeng",
+      "causeAction": "was placed above",
+      "date": "2026-05-13"
+    },
+    {
+      "position": 27,
+      "change": -1,
+      "causeName": "funny",
+      "causeAction": "was placed above",
+      "date": "2026-05-10"
+    },
+    {
+      "position": 26,
+      "change": -1,
+      "causeName": "Radioactive Tornado",
+      "causeAction": "was placed above",
+      "date": "2026-05-08"
+    },
+    {
+      "position": 25,
+      "change": -1,
+      "causeName": "18 Seconds Of Hell",
+      "causeAction": "was moved above",
+      "date": "2026-05-04"
+    },
+    {
+      "position": 24,
+      "change": -1,
+      "causeName": "straightest fly",
+      "causeAction": "was placed above",
+      "date": "2026-05-04"
+    },
+    {
+      "position": 23,
+      "change": 1,
+      "causeName": "Layoutttttt",
+      "causeAction": "was moved below",
+      "date": "2026-05-03"
+    },
+    {
+      "position": 24,
+      "change": -1,
+      "causeName": "dual is best gm",
+      "causeAction": "was placed above",
+      "date": "2026-05-03"
+    },
+    {
+      "position": 23,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #23",
+      "date": "2026-05-03"
+    }
+  ]
 }
