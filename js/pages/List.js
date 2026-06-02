@@ -140,9 +140,9 @@ export default {
         <span v-else>-</span>
     </td>
     <td style="padding: 10px 5px;">
-        <strong>{{ history.causeName }}</strong> 
-        <span>{{ history.causeAction }}</span>
-    </td>
+    <strong>{{ history.causeName }}</strong>{{ ' ' }}
+    <span>{{ history.causeAction }}</span>
+</td>
     <td style="text-align: right; padding: 10px 5px; color: #aaa;">{{ history.date }}</td>
 </tr>
                 </tr>
