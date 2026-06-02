@@ -19,6 +19,13 @@
     ],
     "positionHistory": [
     {
+      "position": 5,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was moved below",
+      "date": "2026-06-02"
+    },
+    {
       "position": 6,
       "change": -1,
       "causeName": "High",
