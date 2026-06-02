@@ -349,3 +349,18 @@ tr.history-up td .up-arrow-class,
 tr.history-down td .down-arrow-class {
     color: inherit !important; 
 }
+
+/* Remove all internal borders from the position history table cells */
+tr.history-up td, 
+tr.history-down td, 
+tr.history-neutral td {
+    border: none !important;
+}
+
+/* Ensure the sub-text span inside the cause column keeps a readable dark shade */
+tr.history-up td span,
+tr.history-down td span,
+tr.history-neutral td span {
+    color: inherit !important;
+    opacity: 0.8; /* Keeps it slightly distinct from the bold text, but perfectly readable */
+}

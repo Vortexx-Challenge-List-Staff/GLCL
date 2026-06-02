@@ -132,17 +132,19 @@ export default {
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="history in level.positionHistory" :class="['record', history.change > 0 ? 'history-up' : history.change < 0 ? 'history-down' : 'history-neutral']" style="border-bottom: 1px solid #222;">
-                    <td style="padding: 10px 5px;">#{{ history.position }}</td>
-                    <td style="text-align: center; padding: 10px 5px;">
-                        <span v-if="history.change > 0">↑ {{ history.change }}</span>
-<span v-else-if="history.change < 0">↓ {{ Math.abs(history.change) }}</span>
-<span v-else>-</span>
-                    </td>
-                    <td style="padding: 10px 5px;">
-                        <strong>{{ history.causeName }}</strong> <span style="color: #aaa;">{{ history.causeAction }}</span>
-                    </td>
-                    <td style="text-align: right; padding: 10px 5px; color: #aaa;">{{ history.date }}</td>
+                <tr v-for="history in level.positionHistory" :class="['record', history.change > 0 ? 'history-up' : history.change < 0 ? 'history-down' : 'history-neutral']">
+    <td style="padding: 10px 5px;">#{{ history.position }}</td>
+    <td style="text-align: center; padding: 10px 5px;">
+        <span v-if="history.change > 0">↑ {{ history.change }}</span>
+        <span v-else-if="history.change < 0">↓ {{ Math.abs(history.change) }}</span>
+        <span v-else>-</span>
+    </td>
+    <td style="padding: 10px 5px;">
+        <strong>{{ history.causeName }}</strong> 
+        <span>{{ history.causeAction }}</span>
+    </td>
+    <td style="text-align: right; padding: 10px 5px; color: #aaa;">{{ history.date }}</td>
+</tr>
                 </tr>
             </tbody>
         </table>
