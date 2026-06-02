@@ -125,9 +125,9 @@ export default {
         <table v-if="showPositionHistory" class="records" style="margin-bottom: 20px; width: 100%;">
             <thead>
                 <tr>
-                    <th style="text-align: left; padding: 8px 5px; border-bottom: 1px solid #333;">Position</th>
+                    <th style="text-align: left; padding: 8px 5px; border-bottom: 1px solid #333;">New Position</th>
                     <th style="text-align: center; padding: 8px 5px; border-bottom: 1px solid #333;">Change</th>
-                    <th style="text-align: left; padding: 8px 5px; border-bottom: 1px solid #333;">Cause</th>
+                    <th style="text-align: left; padding: 8px 5px; border-bottom: 1px solid #333;">Reason</th>
                     <th style="text-align: right; padding: 8px 5px; border-bottom: 1px solid #333;">Date</th>
                 </tr>
             </thead>
