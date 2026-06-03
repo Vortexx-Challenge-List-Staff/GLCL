@@ -61,6 +61,13 @@
     ],
     "positionHistory": [
     {
+      "position": 28,
+      "change": -1,
+      "causeName": "50hz Hell",
+      "causeAction": "was placed above",
+      "date": "2026-06-03"
+    },
+    {
       "position": 21,
       "change": -4,
       "causeName": "",

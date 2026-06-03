@@ -11,6 +11,13 @@
     "tags": ["2.2", "Memory", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 32,
+      "change": -1,
+      "causeName": "50hz Hell",
+      "causeAction": "was placed above",
+      "date": "2026-06-03"
+    },
+    {
       "position": 31,
       "change": 0,
       "causeName": "",
