@@ -54,7 +54,14 @@
     ],
     "positionHistory": [
     {
-      "position": 31,
+      "position": 40,
+      "change": -1,
+      "causeName": "memory demons",
+      "causeAction": "was placed above",
+      "date": "2026-06-03"
+    },
+    {
+      "position": 39,
       "change": 0,
       "causeName": "",
       "causeAction": "Position History added for this level",

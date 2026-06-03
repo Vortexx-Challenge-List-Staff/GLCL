@@ -25,6 +25,13 @@
     ],
     "positionHistory": [
     {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "memory demons",
+      "causeAction": "was placed above",
+      "date": "2026-06-03"
+    },
+    {
       "position": 50,
       "change": 0,
       "causeName": "",
