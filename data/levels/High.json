@@ -19,6 +19,20 @@
     ],
     "positionHistory": [
     {
+      "position": 11,
+      "change": -3,
+      "causeName": "",
+      "causeAction": "moved down to #11",
+      "date": "2026-06-04"
+    },
+    {
+      "position": 8,
+      "change": -1,
+      "causeName": "KINGSLAYERS DEMISE",
+      "causeAction": "was moved above",
+      "date": "2026-06-04"
+    },
+    {
       "position": 7,
       "change": -2,
       "causeName": "",
