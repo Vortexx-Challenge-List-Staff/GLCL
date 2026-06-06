@@ -19,6 +19,18 @@
     }
   ],
     "records": [
+        {
+            "user": "dai1228",
+            "link": "https://youtu.be/xa4Bll_po50",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "madboy2106",
+            "link": "https://youtu.be/Mg_p7B4_ETg",
+            "percent": 100,
+            "hz": 240
+        }
         
     ]
 }
