@@ -11,7 +11,12 @@
     
     "description": "A challenge that is most likely inspired by the extreme demon Astral Divinity. Consists of tight ship gaps and a spammy wave section in the middle of the level.",
     "records": [
-
+          {
+            "user": "dai1228",
+            "link": "https://youtu.be/B-Citd5k0qU",
+            "percent": 95,
+            "hz": 120
+        }
     ],
     "positionHistory": [
     {
