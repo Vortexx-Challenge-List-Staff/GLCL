@@ -10,6 +10,13 @@
     "tags": ["2.2", "Chokepoints", "Timings"],
     "positionHistory": [
     {
+      "position": 4,
+      "change": -1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was placed above",
+      "date": "2026-06-07"
+    },
+    {
       "position": 3,
       "change": -1,
       "causeName": "",

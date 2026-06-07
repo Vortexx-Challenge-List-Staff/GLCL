@@ -11,6 +11,13 @@
     "tags": ["2.2", "Memory", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 33,
+      "change": -1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was placed above",
+      "date": "2026-06-07"
+    },
+    {
       "position": 32,
       "change": -1,
       "causeName": "50hz Hell",

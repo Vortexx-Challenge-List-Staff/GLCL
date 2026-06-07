@@ -6,10 +6,17 @@
     "verifier": "DD",
     "description": "(No description is provided yet)",
     "verification": "https://youtu.be/6ab_8tfYFyM",
-    "percentToQualify": "75",
+    "percentToQualify": "100",
     "enjoyment": [76, 75, 100],
     "tags": ["2.2", "Overall"],
     "positionHistory": [
+    {
+      "position": 26,
+      "change": -1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was placed above",
+      "date": "2026-06-07"
+    },
     {
       "position": 25,
       "change": 0,
