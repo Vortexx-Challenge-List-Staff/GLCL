@@ -22,14 +22,21 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <div class="filter-container" style="margin-bottom: 15px; display: flex; gap: 15px; padding: 5px 10px;">
-                    <button @click="sortBy = 'rank'; selected = 0" :style="{ color: sortBy === 'rank' ? '#fff' : '#aaa', fontWeight: sortBy === 'rank' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
-                        GLCL Rank
-                    </button>
-                    <button @click="sortBy = 'enjoyment'; selected = 0" :style="{ color: sortBy === 'enjoyment' ? '#fff' : '#aaa', fontWeight: sortBy === 'enjoyment' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
-                        GLCL Enjoyment
-                    </button>
-                </div>
+                <div class="filter-container" style="margin-bottom: 15px; display: flex; gap: 15px; padding: 5px 10px; align-items: center;">
+  <button @click="sortBy = 'rank'; selected = 0" :style="{ color: sortBy === 'rank' ? '#fff' : '#aaa', fontWeight: sortBy === 'rank' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
+    GLCL Rank
+  </button>
+  <button @click="sortBy = 'enjoyment'; selected = 0" :style="{ color: sortBy === 'enjoyment' ? '#fff' : '#aaa', fontWeight: sortBy === 'enjoyment' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
+    GLCL Enjoyment
+  </button>
+  
+  <input 
+    type="text" 
+    v-model="search" 
+    placeholder="Search levels..." 
+    class="list-search-input"
+  />
+</div>
                 <table class="list" v-if="sortedList">
                     <tr v-for="([level, err], i) in sortedList">
                         <td class="rank">
@@ -222,16 +229,17 @@ export default {
         </main>
     `,
     data: () => ({
-        list: [],
-        editors: [],
-        loading: true,
-        selected: 0,
-        errors: [],
-        roleIconMap,
-        store,
-        sortBy: 'rank',
-        showPositionHistory: false
-    }),
+  list: [],
+  editors: [],
+  loading: true,
+  selected: 0,
+  errors: [],
+  roleIconMap,
+  store,
+  sortBy: 'rank',
+  showPositionHistory: false,
+  search: '', // <--- Add this line to track the input value
+}),
     computed: {
         level() {
             return this.sortedList[this.selected]?.[0];
@@ -248,28 +256,42 @@ export default {
             );
         },
         sortedList() {
-            if (!this.list) return [];
-            
-            let listCopy = [...this.list];
-            
-            if (this.sortBy === 'enjoyment') {
-                return listCopy.sort((a, b) => {
-                    const levelA = a[0];
-                    const levelB = b[0];
-                    
-                    const enjoyA = this.getAverageEnjoyment(levelA?.enjoyment);
-                    const enjoyB = this.getAverageEnjoyment(levelB?.enjoyment);
-                    
-                    const scoreA = enjoyA === 'N/A' ? -1 : enjoyA;
-                    const scoreB = enjoyB === 'N/A' ? -1 : enjoyB;
-                    
-                    return scoreB - scoreA;
-                });
-            }
-            
-            return listCopy;
-        }
+  if (!this.list) return [];
+  let listCopy = [...this.list];
+
+  // Filter levels dynamically based on the search input string
+  if (this.search.trim() !== '') {
+    const query = this.search.toLowerCase();
+    listCopy = listCopy.filter(([level]) => {
+      return level && level.name && level.name.toLowerCase().includes(query);
+    });
+  }
+
+  // Handle the existing sorting mechanics safely afterwards
+  if (this.sortBy === 'enjoyment') {
+    return listCopy.sort((a, b) => {
+      const levelA = a[0];
+      const levelB = b[0];
+
+      const enjoyA = this.getAverageEnjoyment(levelA?.enjoyment);
+      const enjoyB = this.getAverageEnjoyment(levelB?.enjoyment);
+
+      const scoreA = enjoyA === 'N/A' ? -1 : enjoyA;
+      const scoreB = enjoyB === 'N/A' ? -1 : enjoyB;
+
+      return scoreB - scoreA;
+    });
+  }
+
+  return listCopy;
+}
     },
+    watch: {
+  // Automatically runs whenever the 'search' string changes
+  search() {
+    this.selected = 0; 
+  }
+},
     async mounted() {
         this.list = await fetchList();
         this.editors = await fetchEditors();
