@@ -25,6 +25,13 @@
     ],
     "positionHistory": [
     {
+      "position": 14,
+      "change": -1,
+      "causeName": "astral GLCL Challeng",
+      "causeAction": "was moved above",
+      "date": "2026-06-08"
+    },
+    {
       "position": 13,
       "change": -1,
       "causeName": "Left You So Defeated",
