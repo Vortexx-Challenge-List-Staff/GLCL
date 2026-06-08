@@ -364,23 +364,30 @@ tr.history-neutral td span {
     color: inherit !important;
     opacity: 0.8; /* Keeps it slightly distinct from the bold text, but perfectly readable */
 }
-/* Search Input Styling */
-.page-list .list-container .filter-container .list-search-input {
-  background-color: #18181c; /* Clean dark accent matching your panels */
-  border: 1px solid #333;
-  color: #fff;
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-family: inherit;
-  font-size: 0.9rem;
-  outline: none;
-  margin-left: auto; /* Pushes the input seamlessly over to the right side */
-  width: 180px;
-  transition: border-color 0.2s ease, width 0.2s ease;
+/* Container to give the search bar breathing room */
+.page-list .list-container .search-wrapper {
+  padding: 5px 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-/* Focused active feedback mimicking the blue highlights */
-.page-list .list-container .filter-container .list-search-input:focus {
-  border-color: #0070f3; 
-  width: 230px; /* Slight aesthetic expansion effect when typing */
+/* Full-width search input matching the site font */
+.page-list .list-container .list-search-input {
+  background-color: #18181c;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-family: Inter, "Segoe UI", Arial, sans-serif; /* Matches your site font precisely */
+  font-size: 0.95rem;
+  outline: none;
+  width: 100%; 
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Bright blue focus highlight ring matching the Shitty List aesthetic */
+.page-list .list-container .list-search-input:focus {
+  border-color: #0070f3;
+  box-shadow: 0 0 0 3px rgba(0, 112, 243, 0.25);
 }
