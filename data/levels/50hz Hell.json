@@ -7,7 +7,7 @@
     "description": "(No description is provided yet)",
     "verification": "https://youtu.be/6ab_8tfYFyM",
     "percentToQualify": "100",
-    "enjoyment": [76, 75, 100, 72],
+    "enjoyment": [76, 75, 100, 72, 79],
     "tags": ["2.2", "Overall"],
     "positionHistory": [
     {
@@ -44,6 +44,12 @@
             "link": "https://youtu.be/Mg_p7B4_ETg",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "LaserStr",
+            "link": "https://youtu.be/pJQVByQskYA?si=xCRTEEpalMqgDBfV",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
         
     ]
