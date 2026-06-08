@@ -66,6 +66,13 @@
     ],
     "positionHistory": [
     {
+      "position": 35,
+      "change": 1,
+      "causeName": "50Hz Hell",
+      "causeAction": "was moved below",
+      "date": "2026-06-08"
+    },
+    {
       "position": 36,
       "change": -1,
       "causeName": "Left You So Defeated",

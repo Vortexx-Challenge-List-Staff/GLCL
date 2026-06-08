@@ -11,6 +11,13 @@
     "tags": ["2.2", "Overall"],
     "positionHistory": [
     {
+      "position": 43,
+      "change": -17,
+      "causeName": "",
+      "causeAction": "moved down to #43",
+      "date": "2026-06-08"
+    },
+    {
       "position": 26,
       "change": -1,
       "causeName": "Left You So Defeated",
