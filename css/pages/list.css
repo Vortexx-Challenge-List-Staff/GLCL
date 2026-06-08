@@ -10,12 +10,18 @@
     padding-right: 2rem;
 }
 
+/* 1. Make sure the table always spans the full sidebar width */
 .page-list .list {
-    table-layout: auto;
+  table-layout: auto;
+  width: 100%; 
 }
+
+/* 2. Lock the rank column so it stops shifting when filtered */
 .page-list .list .rank {
-    text-align: end;
-    padding-right: 1rem;
+  text-align: end;
+  padding-right: 1rem;
+  width: 55px;       /* <-- Add this */
+  min-width: 55px;   /* <-- Add this to enforce it */
 }
 .page-list .list .level {
     width: 100%;
