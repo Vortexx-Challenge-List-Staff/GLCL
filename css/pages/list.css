@@ -395,5 +395,5 @@ tr.history-neutral td span {
 /* Bright blue focus highlight ring matching the Shitty List aesthetic */
 .page-list .list-container .list-search-input:focus {
   border-color: #9a00f3;
-  box-shadow: 0 0 0 3px rgba(0, 112, 243, 0.25);
+  box-shadow: 0 0 0 3px rgba(174, 0, 243, 0.25);
 }
