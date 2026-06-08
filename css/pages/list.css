@@ -10,23 +10,26 @@
     padding-right: 2rem;
 }
 
-/* 1. Tell the browser to use rigid, predictable column widths */
+/* 1. Ensure the table is set to a fixed layout spanning full width */
 .page-list .list {
-  table-layout: fixed; /* <-- Change from auto to fixed */
+  table-layout: fixed;
   width: 100%;
 }
 
-/* 2. Lock the rank column size completely */
+/* 2. Hard-lock the rank column so it can NEVER grow or shrink */
 .page-list .list .rank {
   text-align: end;
   padding-right: 1rem;
-  width: 60px;         /* <-- Fixed size for the rank numbers */
+  
+  width: 75px;       /* Sets the base width */
+  min-width: 75px;   /* Prevents it from shrinking on short names */
+  max-width: 75px;   /* Prevents it from expanding on 3-digit numbers */
   box-sizing: border-box;
 }
 
-/* 3. Force the level name column to claim all remaining space */
+/* 3. Let the level column neatly claim everything else */
 .page-list .list .level {
-  width: calc(100% - 60px); 
+  width: calc(100% - 75px);
 }
 .page-list .list .level button {
     background-color: var(--color-background);
