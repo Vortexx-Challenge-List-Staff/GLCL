@@ -32,12 +32,12 @@ export default {
   </div>
 
   <div class="filter-container" style="margin-bottom: 15px; display: flex; gap: 15px; padding: 5px 10px; align-items: center;">
-    <button @click="sortBy = 'rank'; selected = 0" :style="{ color: sortBy === 'rank' ? '#fff' : '#aaa', fontWeight: sortBy === 'rank' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
-      GLCL Rank
-    </button>
-    <button @click="sortBy = 'enjoyment'; selected = 0" :style="{ color: sortBy === 'enjoyment' ? '#fff' : '#aaa', fontWeight: sortBy === 'enjoyment' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
-      GLCL Enjoyment
-    </button>
+    <button @click="sortBy = 'rank'" :style="{ color: sortBy === 'rank' ? 'var(--color-primary)' : 'var(--color-text)' }">
+  GLCL Rank
+</button>
+<button @click="sortBy = 'enjoyment'" :style="{ color: sortBy === 'enjoyment' ? 'var(--color-primary)' : 'var(--color-text)' }">
+  GLCL Enjoyment
+</button>
   </div>
                 <table class="list" v-if="sortedList">
                     <tr v-for="([level, err], i) in sortedList">
