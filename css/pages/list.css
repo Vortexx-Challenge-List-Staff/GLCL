@@ -10,21 +10,23 @@
     padding-right: 2rem;
 }
 
-/* 1. Make sure the table always spans the full sidebar width */
+/* 1. Tell the browser to use rigid, predictable column widths */
 .page-list .list {
-  table-layout: auto;
-  width: 100%; 
+  table-layout: fixed; /* <-- Change from auto to fixed */
+  width: 100%;
 }
 
-/* 2. Lock the rank column so it stops shifting when filtered */
+/* 2. Lock the rank column size completely */
 .page-list .list .rank {
   text-align: end;
   padding-right: 1rem;
-  width: 55px;       /* <-- Add this */
-  min-width: 55px;   /* <-- Add this to enforce it */
+  width: 60px;         /* <-- Fixed size for the rank numbers */
+  box-sizing: border-box;
 }
+
+/* 3. Force the level name column to claim all remaining space */
 .page-list .list .level {
-    width: 100%;
+  width: calc(100% - 60px); 
 }
 .page-list .list .level button {
     background-color: var(--color-background);
