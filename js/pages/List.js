@@ -22,21 +22,23 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <div class="filter-container" style="margin-bottom: 15px; display: flex; gap: 15px; padding: 5px 10px; align-items: center;">
-  <button @click="sortBy = 'rank'; selected = 0" :style="{ color: sortBy === 'rank' ? '#fff' : '#aaa', fontWeight: sortBy === 'rank' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
-    GLCL Rank
-  </button>
-  <button @click="sortBy = 'enjoyment'; selected = 0" :style="{ color: sortBy === 'enjoyment' ? '#fff' : '#aaa', fontWeight: sortBy === 'enjoyment' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
-    GLCL Enjoyment
-  </button>
-  
-  <input 
-    type="text" 
-    v-model="search" 
-    placeholder="Search levels..." 
-    class="list-search-input"
-  />
-</div>
+  <div class="search-wrapper">
+    <input 
+      type="text" 
+      v-model="search" 
+      placeholder="Search levels..." 
+      class="list-search-input"
+    />
+  </div>
+
+  <div class="filter-container" style="margin-bottom: 15px; display: flex; gap: 15px; padding: 5px 10px; align-items: center;">
+    <button @click="sortBy = 'rank'; selected = 0" :style="{ color: sortBy === 'rank' ? '#fff' : '#aaa', fontWeight: sortBy === 'rank' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
+      GLCL Rank
+    </button>
+    <button @click="sortBy = 'enjoyment'; selected = 0" :style="{ color: sortBy === 'enjoyment' ? '#fff' : '#aaa', fontWeight: sortBy === 'enjoyment' ? 'bold' : 'normal', background: 'none', border: 'none', cursor: 'pointer' }">
+      GLCL Enjoyment
+    </button>
+  </div>
                 <table class="list" v-if="sortedList">
                     <tr v-for="([level, err], i) in sortedList">
                         <td class="rank">
