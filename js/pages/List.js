@@ -102,19 +102,20 @@ export default {
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
-  <li>
-    <div class="type-title-sm">Points when completed</div>
-    <p>{{ score(list.findIndex(item => item[0]?.id === level?.id) + 1, 100, level.percentToQualify) }}</p>
-  </li>
-  <li>
-    <div class="type-title-sm">ID</div>
-    <p>{{ level.id }}</p>
-  </li>
-  <li>
-    <div class="type-title-sm">Enjoyment</div>
-    <p>{{ getAverageEnjoyment(level.enjoyment) }}</p>
-  </li>
+    <li>
+        <div class="type-title-sm">ID</div>
+        <p>{{ level.id }}</p>
+    </li>
+    <li>
+        <div class="type-title-sm">Enjoyment</div>
+        <p>{{ getAverageEnjoyment(level.enjoyment) }}</p>
+    </li>
 </ul>
+
+<div style="text-align: center; margin-top: 20px;">
+    <div class="type-title-sm">Points when completed</div>
+    <p>{{ score(list.findIndex(item => item[0].id === level.id) + 1, 100, level.percentToQualify) }}</p>
+</div>
                     <template v-if="level.positionHistory && level.positionHistory.length > 0">
     <div style="font-family: 'Inter', 'Segoe UI', Arial, sans-serif; margin-top: 20px;">
         
