@@ -122,7 +122,7 @@ export default {
             @click="showPositionHistory = !showPositionHistory" 
             style="display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; margin-bottom: 10px;"
         >
-            <h3 style="margin: 0; font-size: 1.2rem;">Position History</h3>
+            <h3 style="margin: 0; font-size: 1.2rem;">Position History e</h3>
             <span :style="{ 
                 transform: showPositionHistory ? 'rotate(180deg)' : 'rotate(0deg)', 
                 transition: 'transform 0.2s ease',
