@@ -113,13 +113,13 @@ export default {
             </li>
         </ul>
 
-        <ul class="stats" style="margin-top: 15px;">
+        <ul class="stats" v-if="list.findIndex(item => item[0].id === level.id) + 1 <= 25" style="margin-top: 15px;">
             <li>
-                <div class="type-title-sm">GLCL Score</div>
+                <div class="type-title-sm">Points when completed</div>
                 <p>{{ Number(score(list.findIndex(item => item[0].id === level.id) + 1, 100, level.percentToQualify)).toFixed(2) }}</p>
             </li>
             <li>
-                <div class="type-title-sm">GLCL Score ({{ level.percentToQualify }}%)</div>
+                <div class="type-title-sm">Points when qualified ({{ level.percentToQualify }}%)</div>
                 <p>{{ (Number(score(list.findIndex(item => item[0].id === level.id) + 1, 100, level.percentToQualify)) / 2).toFixed(2) }}</p>
             </li>
         </ul>
