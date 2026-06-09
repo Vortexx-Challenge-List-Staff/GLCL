@@ -19,6 +19,13 @@
     ],
     "positionHistory": [
     {
+      "position": 8,
+      "change": 5,
+      "causeName": "",
+      "causeAction": "moved up to #8",
+      "date": "2026-06-09"
+    },
+    {
       "position": 13,
       "change": -1,
       "causeName": "astral GLCL Challeng",
