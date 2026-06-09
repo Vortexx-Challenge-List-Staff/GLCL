@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Fast-Paced", "Overall"],
     "positionHistory": [
     {
+      "position": 8,
+      "change": -1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was replaced above",
+      "date": "2026-06-09"
+    },
+    {
       "position": 7,
       "change": -1,
       "causeName": "Left You So Defeated",

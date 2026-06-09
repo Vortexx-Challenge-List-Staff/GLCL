@@ -11,6 +11,13 @@
     "tags": ["2.2", "Overall"],
     "positionHistory": [
     {
+      "position": 45,
+      "change": -1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was replaced above",
+      "date": "2026-06-09"
+    },
+    {
       "position": 44,
       "change": -1,
       "causeName": "AVM 1",

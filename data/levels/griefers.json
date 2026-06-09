@@ -5,7 +5,7 @@
     "creators": [],
     "verifier": "Shialaxy",
     "verification": "https://youtu.be/8l99uSW6DPM",
-    "percentToQualify": "68",
+    "percentToQualify": "100",
     "enjoyment": [57, 34],
     "tags": ["2.2", "Ship", "Wave", "High CPS", "Fast-Paced"],
     "description": "A challenge inspired by greafer's part in the upcoming Top 1 GRIEF. Consists mainly of wave and ship.",
@@ -18,6 +18,13 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 26,
+      "change": -1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was replaced above",
+      "date": "2026-06-09"
+    },
     {
       "position": 25,
       "change": -1,

@@ -25,6 +25,13 @@
     ],
     "positionHistory": [
     {
+      "position": 21,
+      "change": -1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was replaced above",
+      "date": "2026-06-09"
+    },
+    {
       "position": 20,
       "change": -1,
       "causeName": "Left You So Defeated",

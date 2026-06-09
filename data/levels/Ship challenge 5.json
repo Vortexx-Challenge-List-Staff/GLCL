@@ -60,6 +60,13 @@
     ],
     "positionHistory": [
     {
+      "position": 47,
+      "change": -1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was replaced above",
+      "date": "2026-06-09"
+    },
+    {
       "position": 46,
       "change": -1,
       "causeName": "AVM 1",

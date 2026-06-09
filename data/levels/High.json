@@ -19,6 +19,13 @@
     ],
     "positionHistory": [
     {
+      "position": 9,
+      "change": -1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was replaced above",
+      "date": "2026-06-09"
+    },
+    {
       "position": 8,
       "change": 5,
       "causeName": "",

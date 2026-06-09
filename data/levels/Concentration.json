@@ -19,5 +19,21 @@
             "percent": 100,
             "hz": 240
         }
-    ]
+    ],
+    "positionHistory": [
+    {
+      "position": "6",
+      "change": 0,
+      "causeName": "",
+      "causeAction": "replaced at #6",
+      "date": "2026-06-09"
+    },
+    {
+      "position": "-",
+      "change": 0,
+      "causeName": "Removed",
+      "causeAction": "from the list",
+      "date": "2026-05-13"
+    }
+  ]
 }

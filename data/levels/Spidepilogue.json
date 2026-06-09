@@ -49,6 +49,13 @@
     ],
     "positionHistory": [
     {
+      "position": 27,
+      "change": -1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was replaced above",
+      "date": "2026-06-09"
+    },
+    {
       "position": 26,
       "change": 1,
       "causeName": "50Hz Hell",
