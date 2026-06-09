@@ -30,11 +30,14 @@
 .page-list-packs {
   display: grid;
   grid-template-columns: 2fr 2fr 8fr;
+  grid-template-rows: auto 1fr;
   column-gap: 2rem;
+  width: 100%;
   /* max-width: 80rem; */
   margin: 0 auto;
   height: 100%;
   padding-block: 2rem;
+  box-sizing: border-box;
 }
 
 .page-list-packs>div {
