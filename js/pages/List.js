@@ -122,7 +122,8 @@ export default {
                 <p>{{ score(list.findIndex(item => item[0].id === level.id) + 1, level.percentToQualify, level.percentToQualify) }}</p>
             </li>
         </ul>
-    </div> <template v-if="level.positionHistory && level.positionHistory.length > 0">
+
+        <template v-if="level.positionHistory && level.positionHistory.length > 0">
     <div style="font-family: 'Inter', 'Segoe UI', Arial, sans-serif; margin-top: 20px;">
         
         <div 
