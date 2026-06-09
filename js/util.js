@@ -9,8 +9,11 @@ export function embed(video) {
     return `https://www.youtube.com/embed/${getYoutubeIdFromUrl(video)}`;
 }
 
-export function localize(num) {
-    return num.toLocaleString(undefined, { minimumFractionDigits: 3 });
+export function localize(number) {
+    return Number(number).toLocaleString('en-US', {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+    });
 }
 
 export function getThumbnailFromId(id) {
