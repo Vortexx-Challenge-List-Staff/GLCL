@@ -26,6 +26,13 @@
     ],
     "positionHistory": [
     {
+      "position": 15,
+      "change": 1,
+      "causeName": "Plasmatic Haze",
+      "causeAction": "was moved below",
+      "date": "2026-06-09"
+    },
+    {
       "position": 16,
       "change": -1,
       "causeName": "CONCENTRATION",
