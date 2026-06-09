@@ -7,7 +7,7 @@
     "description": "A memory challenge. Yeah.",
     "verification": "https://youtu.be/Cd6WWzWXI_A?is=NdS_9rQEllpdAK9y",
     "percentToQualify": "100",
-    "enjoyment": [80, 7],
+    "enjoyment": [80, 7, 68],
     "tags": ["2.2", "Memory", "Chokepoints"],
     "positionHistory": [
     {
@@ -57,6 +57,12 @@
         {
             "user": "DD",
             "link": "https://youtu.be/R2LkxXLRJ-4",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/fV_2Y4IXozU?is=OVWp_6IYFtAKqG58",
             "percent": 100,
             "hz": 240
         }

@@ -6,7 +6,7 @@
     "verifier": "Checkergal",
     "verification": "https://youtu.be/-D7bfT99ubQ?si=oE3ibaLMYI0T4Uim",
     "percentToQualify": "70",
-    "enjoyment": [83, 37, 0],
+    "enjoyment": [83, 37, 0, 20],
     "tags": ["2.2", "Ball", "2.1 Swing", "Timings"],
     "description": "Essentially a ball-only challenge that has difficult timings. Got advertised as a potential Top 1, but got instead placed at #5 due to it likely being overestimated in difficulty. ",
     "records": [
@@ -27,6 +27,12 @@
             "link": "https://youtu.be/03wfYwi14NQ?si=3fh7cQLeScJXGvwh",
             "percent": 100,
             "hz": "Mobile 120"
+        },
+        {
+            "user": "LaserStr",
+            "link": "https://youtu.be/Dy2z8K9rhhg?is=Oy28w1BEqpR97MHD",
+            "percent": 100,
+            "hz": 240
         }
     ],
     "positionHistory": [

@@ -6,7 +6,7 @@
     "verifier": "DD",
     "verification": "https://youtu.be/WmAU2HeQtNc",
     "percentToQualify": "57",
-    "enjoyment": [17, 24, 20],
+    "enjoyment": [17, 24, 20, 15],
     "tags": ["2.2", "Ship", "Cube", "Chokepoints"],
     "description": "A challenge (of course) inspired by the extreme demon Firework.",
     "records": [
@@ -21,6 +21,12 @@
             "link": "https://www.youtube.com/watch?v=UHFNLAJpGYk",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "LaserStr",
+            "link": "https://youtu.be/pSbA0n2ToiI?is=NuAHecRftcul8iwF",
+            "percent": 100,
+            "hz": 240
         }
     ],
     "positionHistory": [

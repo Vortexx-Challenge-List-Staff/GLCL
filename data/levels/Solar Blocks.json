@@ -7,7 +7,7 @@
     "description": "This level is the second level of the Memory Trilogy. It's heavily inspired by Boobawamba.",
     "verification": "https://youtu.be/QOtChI15Spk",
     "percentToQualify": "60",
-    "enjoyment": [50, 85],
+    "enjoyment": [50, 85, 0],
     "tags": ["2.2", "Memory", "Chokepoints", "Cube", "Ship", "Ball"],
     "records": [
         {
@@ -19,6 +19,12 @@
         {
             "user": "Shialaxy",
             "link": "https://youtu.be/eEhZ0E0RLGg",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "LaserStr",
+            "link": "https://youtu.be/uOHeB_ffJf8?is=Y8pZGq3PvBUdnPQR",
             "percent": 100,
             "hz": 240
         }

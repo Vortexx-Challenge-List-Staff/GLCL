@@ -7,7 +7,7 @@
     "description": "(No description is provided yet)",
     "verification": "https://youtu.be/Xp4B7DmIGQw",
     "percentToQualify": "100",
-    "enjoyment": [85],
+    "enjoyment": [85, 91, 90],
     "tags": ["2.2", "Cube", "Ball", "Ufo", "Ship", "Timings", "Overall"],
     "positionHistory": [
     {
@@ -26,6 +26,17 @@
     }
   ],
     "records": [
-        
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/qiy4x_Kx8D8",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Madboy",
+            "link": "https://youtu.be/kKZVCHRR-oc",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }

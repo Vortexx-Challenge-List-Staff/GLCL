@@ -7,7 +7,7 @@
     "description": "A Defeated Circles inspired challenge that was meant to be Top 5, but was made to be way harder than expected. The verifiers reaction is somewhat huge.",
     "verification": "https://youtu.be/plWscpwfl1g",
     "percentToQualify": "62",
-    "enjoyment": [10],
+    "enjoyment": [10, 26, 60],
     "tags": ["2.2", "Wave", "Cube"],
     "positionHistory": [
     {
@@ -24,6 +24,12 @@
             "link": "https://youtu.be/VLI3SYKQcbs",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Helios-YT-1",
+            "link": "https://youtube.com/shorts/esoaVBJkydI?si=bfXjTgu31lUkgfmz",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }

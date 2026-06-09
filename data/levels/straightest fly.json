@@ -6,7 +6,7 @@
     "verifier": "Zodiac",
     "verification": "https://www.youtube.com/watch?v=KelYxkn72Wo",
     "percentToQualify": "51",
-    "enjoyment": [20, 80, 90],
+    "enjoyment": [20, 80, 90, 40],
     "tags": ["2.2", "Ship"],
     "description": "This challenge features a brutal 8 second tight straightfly, with a small chokepointy cube part at the ending.",
     "records": [
@@ -21,6 +21,12 @@
             "link": "https://youtu.be/2tdrsjwRL9g",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "LaserStr",
+            "link": "https://youtu.be/3Mk4vtznKQs?is=F-tf4FOmgB4wJwnq",
+            "percent": 100,
+            "hz": 240
         }
     ],
     "positionHistory": [
