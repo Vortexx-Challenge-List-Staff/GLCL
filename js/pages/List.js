@@ -120,7 +120,7 @@ export default {
             </li>
             <li>
                 <div class="type-title-sm">Points when qualified ({{ level.percentToQualify }}%)</div>
-                <p>{{ score(list.findIndex(item => item[0].id === level.id) + 1, level.percentToQualify, level.percentToQualify) }}</p>
+                <p>{{ score(list.findIndex(item => item[0].id === level.id) + 1, 100, level.percentToQualify) / 2 }}</p>
             </li>
         </ul>
 
