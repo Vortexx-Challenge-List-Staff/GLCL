@@ -99,9 +99,10 @@ export default {
         </span>
     </div>
 </div>
-                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
-                    <ul class="stats">
+                    <levelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></levelAuthors>
+        <iframe class="video" :id="'video' + level.id" :src="video" frameborder="0"></iframe>
+
+        <ul class="stats">
             <li>
                 <div class="type-title-sm">ID</div>
                 <p>{{ level.id }}</p>
