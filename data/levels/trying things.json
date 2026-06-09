@@ -36,6 +36,13 @@
     ],
     "positionHistory": [
     {
+      "position": 35,
+      "change": -1,
+      "causeName": "AVM 1",
+      "causeAction": "was placed above",
+      "date": "2026-06-09"
+    },
+    {
       "position": 34,
       "change": 1,
       "causeName": "50Hz Hell",

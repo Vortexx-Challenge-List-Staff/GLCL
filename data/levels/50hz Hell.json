@@ -11,6 +11,13 @@
     "tags": ["2.2", "Overall"],
     "positionHistory": [
     {
+      "position": 44,
+      "change": -1,
+      "causeName": "AVM 1",
+      "causeAction": "was placed above",
+      "date": "2026-06-09"
+    },
+    {
       "position": 43,
       "change": -17,
       "causeName": "",

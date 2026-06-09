@@ -48,6 +48,13 @@
     ],
     "positionHistory": [
     {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "AVM 1",
+      "causeAction": "was placed above",
+      "date": "2026-06-09"
+    },
+    {
       "position": 50,
       "change": -1,
       "causeName": "Left You So Defeated",

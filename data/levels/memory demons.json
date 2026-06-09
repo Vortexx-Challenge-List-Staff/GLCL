@@ -11,6 +11,13 @@
     "tags": ["2.2", "Memory", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 33,
+      "change": -1,
+      "causeName": "AVM 1",
+      "causeAction": "was placed above",
+      "date": "2026-06-09"
+    },
+    {
       "position": 32,
       "change": 1,
       "causeName": "50Hz Hell",
