@@ -112,6 +112,17 @@ export default {
     </li>
 </ul>
 
+<ul class="stats" style="margin-top: 15px;">
+    <li>
+        <div class="type-title-sm">Points when completed</div>
+        <p>{{ score(list.findIndex(item => item[0].id === level.id) + 1, 100, level.percentToQualify) }}</p>
+    </li>
+    <li>
+        <div class="type-title-sm">Points when qualified ({{ level.percentToQualify }}%)</div>
+        <p>{{ score(list.findIndex(item => item[0].id === level.id) + 1, level.percentToQualify, level.percentToQualify) }}</p>
+    </li>
+</ul>
+
 <div style="text-align: center; margin-top: 20px;">
     <div class="type-title-sm">Points when completed</div>
     <p>{{ score(list.findIndex(item => item[0].id === level.id) + 1, 100, level.percentToQualify) }}</p>
