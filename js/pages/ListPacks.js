@@ -11,12 +11,12 @@ export default {
                 {
                     name: "bottom 1",
                     creator: "DD",
-                    ytId: "L3s2h_Le09w" 
+                    ytId: "L3s2h_Le09w"
                 },
                 {
                     name: "ez wave lvl",
                     creator: "SomeoneElse",
-                    ytId: "bmeW5hvQ2OA" 
+                    ytId: "bmeW5hvQ2OA"
                 },
                 {
                     name: "2 2 wave challenge",
@@ -24,36 +24,41 @@ export default {
                     ytId: "8Uckfbht1GQ"
                 }
             ]
-            
+
         }
     },
     template: `
-        <div class="packs-container">
-            <div class="list-sidebar">
-                <div class="pack-card">Beginner Pack</div>
+        <main class="page-list-packs">
+            <div class="pack-selector">
+                <button class="active">Beginner Pack</button>
             </div>
 
-            <div class="level-list-middle">
-                <div v-for="(level, index) in levels" 
-                     class="level-row" 
-                     :class="{ active: selectedLevel === index }"
-                     @click="selectedLevel = index">
-                    <span class="rank">#{{ index + 1 }}</span> {{ level.name }}
+            <div class="list-container">
+                <div class="list">
+                    <div v-for="(level, index) in levels" 
+                         class="level"
+                         :class="{ active: selectedLevel === index }"
+                         @click="selectedLevel = index">
+                        <button>
+                            <span class="type-label-lg">#{{ index + 1 }}</span> {{ level.name }}
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <div class="level-details-right">
-                <h1>{{ levels[selectedLevel].name }}</h1>
-                <p><strong>CREATOR:</strong> {{ levels[selectedLevel].creator }}</p>
+            <div class="level-container">
+                <div class="level">
+                    <h1>{{ levels[selectedLevel].name }}</h1>
+                    <p><strong>CREATOR:</strong> {{ levels[selectedLevel].creator }}</p>
 
-                <div class="video-window" style="position: relative; padding-top: 56.25%; background: black; border-radius: 15px; overflow: hidden;">
-                    <iframe 
-                        :src="'https://www.youtube.com/embed/' + levels[selectedLevel].ytId" 
-                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
-                        allowfullscreen>
-                    </iframe>
+                    <div class="video">
+                        <iframe 
+                            :src="'https://www.youtube.com/embed/' + levels[selectedLevel].ytId" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
     `,
 };

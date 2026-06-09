@@ -3,34 +3,40 @@
 .page-list .meta-container {
     padding-block: 2rem;
 }
+
 .page-list .list-container {
     padding-inline: 1rem;
 }
+
 .page-list .meta-container {
     padding-right: 2rem;
 }
 
 /* 1. Ensure the table is set to a fixed layout spanning full width */
 .page-list .list {
-  table-layout: fixed;
-  width: 100%;
+    table-layout: fixed;
+    width: 100%;
 }
 
 /* 2. Hard-lock the rank column so it can NEVER grow or shrink */
 .page-list .list .rank {
-  text-align: end;
-  padding-right: 1rem;
-  
-  width: 75px;       /* Sets the base width */
-  min-width: 75px;   /* Prevents it from shrinking on short names */
-  max-width: 75px;   /* Prevents it from expanding on 3-digit numbers */
-  box-sizing: border-box;
+    text-align: end;
+    padding-right: 1rem;
+
+    width: 75px;
+    /* Sets the base width */
+    min-width: 75px;
+    /* Prevents it from shrinking on short names */
+    max-width: 75px;
+    /* Prevents it from expanding on 3-digit numbers */
+    box-sizing: border-box;
 }
 
 /* 3. Let the level column neatly claim everything else */
 .page-list .list .level {
-  width: calc(100% - 75px);
+    width: calc(100% - 75px);
 }
+
 .page-list .list .level button {
     background-color: var(--color-background);
     color: var(--color-on-background);
@@ -42,19 +48,23 @@
     overflow-wrap: anywhere;
     cursor: pointer;
 }
+
 .page-list .list .level.error button {
     color: var(--color-error);
     cursor: not-allowed;
     text-decoration: line-through;
 }
+
 .page-list .list .level button:hover {
     background-color: var(--color-background-hover);
     color: var(--color-on-background-hover);
 }
+
 .page-list .list .level.active button {
     background-color: var(--color-primary);
     color: var(--color-on-primary);
 }
+
 .page-list .level-container .level {
     display: flex;
     flex-direction: column;
@@ -62,107 +72,142 @@
     padding-right: 2rem;
     max-width: 48rem;
 }
+
 .page-list .level-container .level .level-authors {
     display: grid;
     grid-template-columns: max-content 1fr;
     grid-auto-rows: max-content;
     gap: 1rem;
 }
+
 .page-list .level-container .level .video {
     aspect-ratio: 16/9;
 }
+
 .page-list .level-container .level .stats {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     gap: 2rem;
 }
+
 .page-list .level-container .level .stats li {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
+
 .page-list .level-container .level .records {
     table-layout: fixed;
 }
+
 .page-list .level-container .level .records tr td:not(:last-child) {
     padding-right: 1rem;
 }
+
 .page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .user,
 .page-list .level-container .level .records .hz {
     padding-block: 1rem;
 }
+
 .page-list .level-container .level .records .user {
     width: 100%;
 }
+
 .page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .hz {
     text-align: end;
 }
+
 .page-list .meta-container .og a:hover,
 .page-list .level-container .level .records a:hover {
     text-decoration: underline;
 }
+
 .page-list .meta {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
+
 .page-list .meta .errors {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
+
 .page-list .meta .errors .error {
     padding: 1rem;
     background-color: var(--color-error);
     color: var(--color-on-error);
     border-radius: 0.5rem;
 }
+
 .page-list .meta .editors {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
 }
+
 .page-list .meta .editors li {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
+
 .page-list .meta .editors li img {
     height: 1.25rem;
 }
+
 .page-list .meta .editors li a:hover {
     text-decoration: underline;
 }
-.packs-container {
+
+.packs-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+.packs-page .packs-container {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
+    width: min(1200px, 100%);
 }
+
 .list-sidebar {
     width: 250px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .level-list-middle {
     background: transparent !important;
-    border: none !important; /* This removes the outline if there is one */
+    border: none !important;
+    /* This removes the outline if there is one */
     width: 300px;
     padding: 10px;
 }
+
 .level-details-right {
     flex-grow: 1;
     max-width: 800px;
 }
+
 .level-row {
-    padding: 15px; /* Added more internal padding */
-    margin: 15px 0; /* Increased margin from 5px to 15px */
+    padding: 15px;
+    /* Added more internal padding */
+    margin: 15px 0;
+    /* Increased margin from 5px to 15px */
     border-radius: 8px;
     cursor: pointer;
     transition: 0.2s;
@@ -176,7 +221,7 @@
 /* This turns that blue strip into a nice button */
 .pack-card {
     padding: 15px 20px;
-    background-color: #3498db; 
+    background-color: #3498db;
     color: white;
     font-family: 'Segoe UI', Arial, sans-serif;
     font-weight: bold;
@@ -184,7 +229,7 @@
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s, background-color 0.2s;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* This makes the button react when you hover over it */
@@ -192,6 +237,7 @@
     background-color: #2980b9;
     transform: translateY(-2px);
 }
+
 /* The box (This is working because of the red border) */
 .video-window {
     position: relative !important;
@@ -210,28 +256,34 @@
     width: 100% !important;
     height: 100% !important;
 }
+
 /* Space out the Right Column elements */
 .level-details-right h1 {
-    font-size: 3.5rem !important; /* Makes it big and bold */
-    line-height: 1.1 !important;  /* Prevents letters from touching vertically */
-    margin-bottom: 10px !important; /* Space between Title and Creator */
+    font-size: 3.5rem !important;
+    /* Makes it big and bold */
+    line-height: 1.1 !important;
+    /* Prevents letters from touching vertically */
+    margin-bottom: 10px !important;
+    /* Space between Title and Creator */
     display: block;
 }
 
 .level-details-right p {
     font-size: 1.2rem !important;
-    margin-bottom: 30px !important; /* Space between Creator and Video */
+    margin-bottom: 30px !important;
+    /* Space between Creator and Video */
     display: block;
 }
+
 .level-row {
     /* This changes the font */
     font-family: 'Inter', 'Segoe UI', Arial, sans-serif !important;
-    
+
     /* This makes the text look cleaner */
     font-weight: 600;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
-    
+
     /* Spacing fixes */
     padding: 15px;
     margin: 10px 0;
@@ -245,6 +297,7 @@
     font-weight: 800;
     opacity: 0.8;
 }
+
 /* Container alignment */
 .level-tags-container {
     display: flex;
@@ -263,16 +316,18 @@
 /* Base style for every tag (Idle State) */
 .level-tag {
     font-family: "Inter", "Segoe UI", Arial, sans-serif !important;
-    background-color: #1e1e1e; 
-    color: #ffffff;          /* Subdued grey text when idle */
+    background-color: #1e1e1e;
+    color: #ffffff;
+    /* Subdued grey text when idle */
     padding: 6px 12px;
     border-radius: 5px;
     font-size: 0.85rem;
     font-weight: 500;
     text-transform: capitalize;
-    border: 1px solid #ffffff; /* Dark, subtle border when idle */
+    border: 1px solid #ffffff;
+    /* Dark, subtle border when idle */
     cursor: pointer;
-    
+
     /* Smoothly animates the colors when entering/leaving hover state */
     transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
@@ -281,40 +336,45 @@
 
 /* 1. Dynamic Hover State for ALL tags */
 .tag-wrapper:hover .level-tag {
-    background-color: #ff6f00; /* Vibrant orange background on hover */
-    border-color: #ff8f00;     /* Brighter orange border */
-    color: #ffffff;            /* Pure white text for maximum contrast */
+    background-color: #ff6f00;
+    /* Vibrant orange background on hover */
+    border-color: #ff8f00;
+    /* Brighter orange border */
+    color: #ffffff;
+    /* Pure white text for maximum contrast */
 }
 
 /* --- TOOLTIP POSITIONING AND LAYOUT FIX --- */
 .tag-tooltip {
     visibility: hidden;
     opacity: 0;
-    position: absolute; /* Pulls the box completely out of the regular text flow */
-    
+    position: absolute;
+    /* Pulls the box completely out of the regular text flow */
+
     /* Locks the popup box precisely underneath the tag badge */
     top: calc(100% + 6px);
     left: 0;
     z-index: 100;
-    
+
     /* Size limits so text wraps beautifully inside a small box */
     width: max-content;
-    max-width: 300px; 
+    max-width: 300px;
     padding: 8px 12px;
     border-radius: 4px;
-    
+
     /* Box Cosmetics */
     background-color: #000000;
     color: #ffffff;
     border: 1px solid #333333;
-    
+
     /* Typography matching the site */
     font-family: "Inter", "Segoe UI", Arial, sans-serif !important;
     font-size: 0.8rem;
     line-height: 1.4;
     text-align: left;
-    white-space: normal; /* Force text wrapping */
-    
+    white-space: normal;
+    /* Force text wrapping */
+
     /* Clean fade transitions */
     transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
     pointer-events: none;
@@ -330,40 +390,46 @@
 
 /* Green Row (Moved Up) */
 tr.history-up {
-    background-color: #ccffcc !important; /* Light pastel green */
-    color: #003a00 !important; /* Dark green text */
+    background-color: #ccffcc !important;
+    /* Light pastel green */
+    color: #003a00 !important;
+    /* Dark green text */
 }
 
 /* Red Row (Moved Down) */
 tr.history-down {
-    background-color: #ffd1d1 !important; /* Light pastel red */
-    color: #530202 !important; /* Dark red text */
+    background-color: #ffd1d1 !important;
+    /* Light pastel red */
+    color: #530202 !important;
+    /* Dark red text */
 }
 
 /* Yellow/Neutral Row (Added to list / No change) */
 tr.history-neutral {
-    background-color: #fff0ad !important; /* Light pastel yellow */
-    color: #4a4011 !important; /* Dark olive/brown text */
+    background-color: #fff0ad !important;
+    /* Light pastel yellow */
+    color: #4a4011 !important;
+    /* Dark olive/brown text */
 }
 
 /* Ensure all table cells inside these rows inherit the dark text color. 
    Without this, your default white text will be invisible on the light backgrounds! */
-tr.history-up td, 
-tr.history-down td, 
+tr.history-up td,
+tr.history-down td,
 tr.history-neutral td {
     color: inherit !important;
 }
 
 /* Remove the individual text coloring from your current up/down arrows 
    so they match the row's dark text color instead of being bright neon */
-tr.history-up td .up-arrow-class, 
+tr.history-up td .up-arrow-class,
 tr.history-down td .down-arrow-class {
-    color: inherit !important; 
+    color: inherit !important;
 }
 
 /* Remove all internal borders from the position history table cells */
-tr.history-up td, 
-tr.history-down td, 
+tr.history-up td,
+tr.history-down td,
 tr.history-neutral td {
     border: none !important;
 }
@@ -373,32 +439,35 @@ tr.history-up td span,
 tr.history-down td span,
 tr.history-neutral td span {
     color: inherit !important;
-    opacity: 0.8; /* Keeps it slightly distinct from the bold text, but perfectly readable */
+    opacity: 0.8;
+    /* Keeps it slightly distinct from the bold text, but perfectly readable */
 }
+
 /* Container to give the search bar breathing room */
 .page-list .list-container .search-wrapper {
-  padding: 5px 10px;
-  width: 100%;
-  box-sizing: border-box;
+    padding: 5px 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Full-width search input matching the site font */
 .page-list .list-container .list-search-input {
-  background-color: #18181c;
-  border: 1px solid #333;
-  color: #fff;
-  padding: 10px 14px;
-  border-radius: 8px;
-  font-family: Inter, "Segoe UI", Arial, sans-serif; /* Matches your site font precisely */
-  font-size: 0.95rem;
-  outline: none;
-  width: 100%; 
-  box-sizing: border-box;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: #18181c;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    /* Matches your site font precisely */
+    font-size: 0.95rem;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 /* Bright blue focus highlight ring matching the Shitty List aesthetic */
 .page-list .list-container .list-search-input:focus {
-  border-color: #9a00f3;
-  box-shadow: 0 0 0 3px rgba(174, 0, 243, 0.25);
+    border-color: #9a00f3;
+    box-shadow: 0 0 0 3px rgba(174, 0, 243, 0.25);
 }
