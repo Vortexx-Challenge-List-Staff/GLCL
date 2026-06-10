@@ -31,6 +31,13 @@
     ],
     "positionHistory": [
     {
+      "position": 19,
+      "change": -1,
+      "causeName": "AVM 1",
+      "causeAction": "was moved above",
+      "date": "2026-06-10"
+    },
+    {
       "position": 18,
       "change": -3,
       "causeName": "",

@@ -11,6 +11,13 @@
     "tags": ["2.2", "Cube", "Ball", "Ufo", "Ship", "Timings", "Overall"],
     "positionHistory": [
     {
+      "position": 17,
+      "change": 11,
+      "causeName": "",
+      "causeAction": "moved up to #17",
+      "date": "2026-06-10"
+    },
+    {
       "position": 28,
       "change": -1,
       "causeName": "CONCENTRATION",

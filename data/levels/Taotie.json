@@ -5,7 +5,7 @@
     "creators": [],
     "verifier": "Checkergal",
     "verification": "https://youtu.be/A6tTw0uJY1Y?si=T46MI9gX8dlsSqB6",
-    "percentToQualify": "73",
+    "percentToQualify": "100",
     "enjoyment": [60, 63],
     "tags":["2.2", "Cube", "Ship", "Ball", "Timings", "Overall"],
     "description": "First level of the Four Perils tetralogy. It's gameplay consists mostly of tight timings and multiple choke points.",
@@ -30,6 +30,13 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 26,
+      "change": -1,
+      "causeName": "AVM 1",
+      "causeAction": "was moved above",
+      "date": "2026-06-10"
+    },
     {
       "position": 25,
       "change": -1,
