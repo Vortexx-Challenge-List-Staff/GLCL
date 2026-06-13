@@ -31,6 +31,13 @@
     ],
     "positionHistory": [
     {
+      "position": 20,
+      "change": -1,
+      "causeName": "Rainbow Chall",
+      "causeAction": "was placed above",
+      "date": "2026-06-13"
+    },
+    {
       "position": 19,
       "change": -1,
       "causeName": "AVM 1",

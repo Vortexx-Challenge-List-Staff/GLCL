@@ -11,6 +11,13 @@
     "tags": ["2.2", "Cube", "Ball", "Ufo", "Ship", "Timings", "Overall"],
     "positionHistory": [
     {
+      "position": 18,
+      "change": -1,
+      "causeName": "Rainbow Chall",
+      "causeAction": "was placed above",
+      "date": "2026-06-13"
+    },
+    {
       "position": 17,
       "change": 11,
       "causeName": "",

@@ -11,6 +11,13 @@
     "tags": ["2.2", "Overall"],
     "positionHistory": [
     {
+      "position": 46,
+      "change": -1,
+      "causeName": "Rainbow Chall",
+      "causeAction": "was placed above",
+      "date": "2026-06-13"
+    },
+    {
       "position": 45,
       "change": -1,
       "causeName": "CONCENTRATION",

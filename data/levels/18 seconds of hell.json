@@ -67,6 +67,13 @@
     ],
     "positionHistory": [
     {
+      "position": 31,
+      "change": -1,
+      "causeName": "Rainbow Chall",
+      "causeAction": "was placed above",
+      "date": "2026-06-13"
+    },
+    {
       "position": 30,
       "change": -1,
       "causeName": "CONCENTRATION",
