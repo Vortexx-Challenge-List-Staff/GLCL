@@ -6,7 +6,7 @@
     "verifier": "DD",
     "verification": "https://youtu.be/qhaFr6gGFlc",
     "percentToQualify": "100",
-    "enjoyment": [82, 54, 80],
+    "enjoyment": [],
     "description": "It's just an easy ship challenge. That's it.",
     "records": [
         {
@@ -41,6 +41,13 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "KiuiIsLate Challenge",
+      "causeAction": "was placed above",
+      "date": "2026-06-15"
+    },
     {
       "position": 50,
       "change": -1,

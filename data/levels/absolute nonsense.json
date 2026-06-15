@@ -37,6 +37,13 @@
     ],
     "positionHistory": [
     {
+      "position": 46,
+      "change": -1,
+      "causeName": "KiuiIsLate Challenge",
+      "causeAction": "was placed above",
+      "date": "2026-06-15"
+    },
+    {
       "position": 45,
       "change": -1,
       "causeName": "Rainbow Chall",
