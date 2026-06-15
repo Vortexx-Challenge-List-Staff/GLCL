@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Fast-Paced", "Overall"],
     "positionHistory": [
     {
+      "position": 9,
+      "change": -1,
+      "causeName": "Zenith Of Despair",
+      "causeAction": "was placed above",
+      "date": "2026-06-15"
+    },
+    {
       "position": 8,
       "change": -1,
       "causeName": "CONCENTRATION",

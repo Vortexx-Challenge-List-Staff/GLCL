@@ -6,7 +6,7 @@
     "verifier": "VortexxGMD",
     "verification": "https://youtu.be/WRBSvDhPNv4",
     "percentToQualify": "100",
-    "enjoyment": [80, 40, 50, 55, 74, 80],
+    "enjoyment": [],
     "description": "The second easiest Ship Challenge of the three.",
     "records": [
         {
@@ -65,6 +65,13 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "Zenith Of Despair",
+      "causeAction": "was placed above",
+      "date": "2026-06-15"
+    },
     {
       "position": 50,
       "change": -1,

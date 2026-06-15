@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Wave"],
     "positionHistory": [
     {
+      "position": 17,
+      "change": -1,
+      "causeName": "Zenith Of Despair",
+      "causeAction": "was placed above",
+      "date": "2026-06-15"
+    },
+    {
       "position": 16,
       "change": 0,
       "causeName": "",

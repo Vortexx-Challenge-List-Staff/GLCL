@@ -49,6 +49,13 @@
     ],
     "positionHistory": [
     {
+      "position": 31,
+      "change": -1,
+      "causeName": "Zenith Of Despair",
+      "causeAction": "was placed above",
+      "date": "2026-06-15"
+    },
+    {
       "position": 30,
       "change": -1,
       "causeName": "Rainbow Chall",

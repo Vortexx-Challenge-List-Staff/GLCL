@@ -5,7 +5,7 @@
     "creators": [],
     "verifier": "Zodiac",
     "verification": "https://www.youtube.com/watch?v=CQeezCdF4mk",
-    "percentToQualify": "63",
+    "percentToQualify": "100",
     "enjoyment": [45, 62, 53, 85, 45],
     "tags": ["2.2", "Timings", "Overall"],
     "description": "One of the few challenges having actual decoration. Consists of tricky cube clicks at the beginning but overall gameplay throughout the level.",
@@ -36,6 +36,13 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 26,
+      "change": -1,
+      "causeName": "Zenith Of Despair",
+      "causeAction": "was placed above",
+      "date": "2026-06-15"
+    },
     {
       "position": 25,
       "change": -1,
