@@ -454,7 +454,7 @@ tr.history-neutral td span {
 .page-list .list-container .list-search-input {
     background-color: #18181c;
     border: 1px solid #333;
-    color: #fff;
+    color: var(--color-on-background);
     padding: 10px 14px;
     border-radius: 8px;
     font-family: Inter, "Segoe UI", Arial, sans-serif;
