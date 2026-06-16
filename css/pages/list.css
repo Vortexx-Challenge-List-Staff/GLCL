@@ -364,7 +364,7 @@
 
     /* Box Cosmetics */
     background-color: #000000;
-    color: #ffffff;
+    color: var(--color-on-background);
     border: 1px solid #333333;
 
     /* Typography matching the site */
