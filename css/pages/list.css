@@ -453,7 +453,7 @@ tr.history-neutral td span {
 /* Full-width search input matching the site font */
 .page-list .list-container .list-search-input {
     background-color: var(--color-background);
-    border: 1px solid #333;
+    border: 1px solid;
     color: var(--color-on-background);
     padding: 10px 14px;
     border-radius: 8px;
