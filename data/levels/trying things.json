@@ -37,6 +37,20 @@
     ],
     "positionHistory": [
     {
+      "position": 40,
+      "change": -1,
+      "causeName": "straight nonsense",
+      "causeAction": "was moved above",
+      "date": "2026-06-17"
+    },
+    {
+      "position": 39,
+      "change": -1,
+      "causeName": "Zenith Of Despair",
+      "causeAction": "was placed above",
+      "date": "2026-06-15"
+    },
+    {
       "position": 38,
       "change": -1,
       "causeName": "KiuiIsLate Challenge",

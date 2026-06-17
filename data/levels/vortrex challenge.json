@@ -55,6 +55,13 @@
     ],
     "positionHistory": [
     {
+      "position": 38,
+      "change": -1,
+      "causeName": "straight nonsense",
+      "causeAction": "was moved above",
+      "date": "2026-06-17"
+    },
+    {
       "position": 37,
       "change": -1,
       "causeName": "Zenith Of Despair",

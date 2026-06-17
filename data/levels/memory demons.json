@@ -11,6 +11,13 @@
     "tags": ["2.2", "Memory", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 37,
+      "change": -1,
+      "causeName": "straight nonsense",
+      "causeAction": "was moved above",
+      "date": "2026-06-17"
+    },
+    {
       "position": 36,
       "change": -1,
       "causeName": "Zenith Of Despair",

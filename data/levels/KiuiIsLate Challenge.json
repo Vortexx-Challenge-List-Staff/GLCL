@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Overall"],
     "positionHistory": [
     {
+      "position": 39,
+      "change": -1,
+      "causeName": "straight nonsense",
+      "causeAction": "was moved above",
+      "date": "2026-06-17"
+    },
+    {
       "position": 38,
       "change": -1,
       "causeName": "Zenith Of Despair",
