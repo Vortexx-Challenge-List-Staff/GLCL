@@ -40,7 +40,7 @@ export default {
        :src="'https://flagcdn.com/16x12/' + entry.countryCode.toLowerCase() + '.png'" 
        style="margin-right: 5px; vertical-align: middle;" 
        alt="flag">
-  {{ entry.user }}
+  {{ ientry.user }}
 </span>
                                 </button>
                             </td>
