@@ -35,7 +35,13 @@ export default {
                             </td>
                             <td class="user" :class="{ 'active': selected == i }">
                                 <button @click="selected = i">
-                                    <span class="type-label-lg">{{ ientry.user }}</span>
+                                    <span class="type-label-lg">
+  <img v-if="entry.countryCode" 
+       :src="'https://flagcdn.com/16x12/' + entry.countryCode.toLowerCase() + '.png'" 
+       style="margin-right: 5px; vertical-align: middle;" 
+       alt="flag">
+  {{ entry.user }}
+</span>
                                 </button>
                             </td>
                         </tr>
