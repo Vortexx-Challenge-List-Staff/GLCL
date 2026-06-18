@@ -7,7 +7,7 @@
     "description": "Inspired by the list demon Tunnel of Despair. The level name was funnily enough made by AI. Consists of mostly ship.",
     "verification": "https://youtu.be/MIWSqkw4AK4",
     "percentToQualify": "61",
-    "enjoyment": [78, 73],
+    "enjoyment": [78, 73, 20],
     "tags": ["2.2", "Cube", "Ship", "Wave"],
     "positionHistory": [
     {
@@ -24,6 +24,12 @@
             "link": "https://youtu.be/bVxoIJJQsDE",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "dai1228",
+            "link": "https://youtu.be/IzN-TaI3_vc",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
