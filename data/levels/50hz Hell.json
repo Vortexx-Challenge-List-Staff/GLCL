@@ -7,7 +7,7 @@
     "description": "A challenge that was verified on 50 fps, hence the name. Contains overall gameplay.",
     "verification": "https://youtu.be/6ab_8tfYFyM",
     "percentToQualify": "100",
-    "enjoyment": [76, 75, 100, 72, 79, 83, 80],
+    "enjoyment": [76, 75, 100, 72, 79, 83, 80, 93.3],
     "tags": ["2.2", "Overall"],
     "positionHistory": [
     {
@@ -103,6 +103,12 @@
             "link": "https://medal.tv/games/geometry-dash/clips/mVaOy5w7JD1a1yTKi?invite=cr-MSxsenYsNDg2MTYyMTI3",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "randomlyphxntom",
+            "link": "https://youtu.be/87Q09xX0Uss?si=SD18CKvKXaWnE2Ce",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
         
     ]
