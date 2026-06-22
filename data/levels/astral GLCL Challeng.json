@@ -20,6 +20,13 @@
     ],
     "positionHistory": [
     {
+      "position": 12,
+      "change": -1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was placed above",
+      "date": "2026-06-22"
+    },
+    {
       "position": 11,
       "change": 3,
       "causeName": "",

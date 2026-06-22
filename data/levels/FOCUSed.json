@@ -5,7 +5,7 @@
     "creators": [],
     "verifier": "DD",
     "verification": "https://youtu.be/ID7kldQuo6Q",
-    "percentToQualify": "59",
+    "percentToQualify": "100",
     "enjoyment": [65, 59, 46, 50, 75],
     "tags": ["2.2", "Timings", "Overall"],
     "description": "A challenge likely inspired by the upcoming Top 1 Heliopolis and the now removed challenge CONCENTRATION. Consists of mostly cube and ship.",
@@ -36,6 +36,13 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 26,
+      "change": -1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was placed above",
+      "date": "2026-06-22"
+    },
     {
       "position": 25,
       "change": -1,

@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Wave"],
     "positionHistory": [
     {
+      "position": 18,
+      "change": -1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was placed above",
+      "date": "2026-06-22"
+    },
+    {
       "position": 17,
       "change": -1,
       "causeName": "Zenith Of Despair",

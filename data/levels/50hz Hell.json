@@ -11,6 +11,13 @@
     "tags": ["2.2", "Overall"],
     "positionHistory": [
     {
+      "position": 49,
+      "change": -1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was placed above",
+      "date": "2026-06-22"
+    },
+    {
       "position": 48,
       "change": -1,
       "causeName": "Zenith Of Despair",

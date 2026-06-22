@@ -11,6 +11,13 @@
     "tags": ["2.2", "Cube", "Ship", "Wave"],
     "positionHistory": [
     {
+      "position": 8,
+      "change": -1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was placed above",
+      "date": "2026-06-22"
+    },
+    {
       "position": 7,
       "change": -2,
       "causeName": "",
