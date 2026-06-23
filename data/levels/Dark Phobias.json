@@ -6,7 +6,7 @@
     "verifier": "DD",
     "description": "An unofficial sequel to Plunged Moon. Consists of overall tricky timings with a fair balance in gameplay.",
     "verification": "https://youtu.be/4gbHzyvURPA",
-    "percentToQualify": "66",
+    "percentToQualify": "100",
     "enjoyment": [97, 60, 65],
     "tags": ["2.2", "Overall"],
     "records": [
@@ -30,6 +30,13 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 26,
+      "change": -1,
+      "causeName": "M I S E R Y",
+      "causeAction": "was placed above",
+      "date": "2026-06-23"
+    },
     {
       "position": 25,
       "change": -1,

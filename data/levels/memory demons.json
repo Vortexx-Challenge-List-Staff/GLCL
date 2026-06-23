@@ -11,6 +11,13 @@
     "tags": ["2.2", "Memory", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 39,
+      "change": -1,
+      "causeName": "M I S E R Y",
+      "causeAction": "was placed above",
+      "date": "2026-06-23"
+    },
+    {
       "position": 38,
       "change": -1,
       "causeName": "Jobwebs GLCL",

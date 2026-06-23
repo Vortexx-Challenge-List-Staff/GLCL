@@ -6,7 +6,7 @@
     "verifier": "Zodiac",
     "verification": "https://www.youtube.com/watch?v=CQeezCdF4mk",
     "percentToQualify": "100",
-    "enjoyment": [84, 58, 80, 50],
+    "enjoyment": [],
     "tags": ["2.2", "Overall"],
     "description": "One of the few challenges having actual decoration. Consists of overall fair gameplay.",
     "records": [
@@ -48,6 +48,13 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "M I S E R Y",
+      "causeAction": "was placed above",
+      "date": "2026-06-23"
+    },
     {
       "position": 50,
       "change": -1,
