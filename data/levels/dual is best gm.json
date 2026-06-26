@@ -31,6 +31,13 @@
     ],
     "positionHistory": [
     {
+      "position": 30,
+      "change": -1,
+      "causeName": "Eggoon",
+      "causeAction": "was placed above",
+      "date": "2026-06-26"
+    },
+    {
       "position": 29,
       "change": -1,
       "causeName": "M I S E R Y",
