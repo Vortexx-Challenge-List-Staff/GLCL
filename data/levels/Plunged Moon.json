@@ -10,6 +10,13 @@
     "tags": ["2.2", "Chokepoints", "Timings"],
     "positionHistory": [
     {
+      "position": 6,
+      "change": -1,
+      "causeName": "Unnerfed DS End",
+      "causeAction": "was moved above",
+      "date": "2026-07-02"
+    },
+    {
       "position": 5,
       "change": -1,
       "causeName": "Jobwebs GLCL",
