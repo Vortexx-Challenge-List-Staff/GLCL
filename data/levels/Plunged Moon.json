@@ -10,6 +10,13 @@
     "tags": ["2.2", "Chokepoints", "Timings"],
     "positionHistory": [
     {
+      "position": 5,
+      "change": 1,
+      "causeName": "Unnerfed DS End",
+      "causeAction": "was moved below",
+      "date": "2026-08-04"
+    },
+    {
       "position": 6,
       "change": -1,
       "causeName": "Unnerfed DS End",
