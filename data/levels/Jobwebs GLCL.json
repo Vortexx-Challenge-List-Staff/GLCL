@@ -11,6 +11,13 @@
     "tags": ["2.2", "High CPS", "Fast-Paced", "Overall", "Wave"],
     "positionHistory": [
     {
+      "position": 1,
+      "change": 1,
+      "causeName": "",
+      "causeAction": "moved up to #1",
+      "date": "2026-08-04"
+    },
+    {
       "position": 2,
       "change": 0,
       "causeName": "",

@@ -11,6 +11,13 @@
     "tags": ["2.2","Ship", "Wave", "Timings", "Overall", "Fast-Paced"],
     "positionHistory": [
     {
+      "position": 2,
+      "change": -1,
+      "causeName": "",
+      "causeAction": "moved down to #2",
+      "date": "2026-08-04"
+    },
+    {
       "position": 1,
       "change": 1,
       "causeName": "funny",
