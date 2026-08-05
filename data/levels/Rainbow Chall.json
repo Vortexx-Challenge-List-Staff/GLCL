@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Wave"],
     "positionHistory": [
     {
+      "position": 20,
+      "change": -1,
+      "causeName": "Eggoon",
+      "causeAction": "was moved above",
+      "date": "2026-08-05"
+    },
+    {
       "position": 19,
       "change": -1,
       "causeName": "M I S E R Y",

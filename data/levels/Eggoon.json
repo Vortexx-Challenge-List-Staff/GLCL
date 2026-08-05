@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Ship", "Ufo", "Timings"],
     "positionHistory": [
     {
+      "position": 19,
+      "change": 7,
+      "causeName": "",
+      "causeAction": "moved up to #19",
+      "date": "2026-08-05"
+    },
+    {
       "position": 26,
       "change": 0,
       "causeName": "",
