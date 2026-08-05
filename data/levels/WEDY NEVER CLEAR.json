@@ -10,6 +10,13 @@
     "tags": ["2.2", "Wave", "High CPS", "Chokepoints", "Fast-Paced"],
     "positionHistory": [
     {
+      "position": 5,
+      "change": -1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was moved above",
+      "date": "2026-08-05"
+    },
+    {
       "position": 4,
       "change": 1,
       "causeName": "Unnerfed DS End",

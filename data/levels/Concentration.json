@@ -24,6 +24,13 @@
     ],
     "positionHistory": [
     {
+      "position": 4,
+      "change": 2,
+      "causeName": "",
+      "causeAction": "moved up to #4",
+      "date": "2026-08-05"
+    },
+    {
       "position": 6,
       "change": 1,
       "causeName": "Unnerfed DS End",
