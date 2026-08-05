@@ -37,6 +37,13 @@
     ],
     "positionHistory": [
     {
+      "position": 47,
+      "change": -1,
+      "causeName": "Aq challenge",
+      "causeAction": "was placed above",
+      "date": "2026-08-05"
+    },
+    {
       "position": 46,
       "change": -1,
       "causeName": "Eggoon",
