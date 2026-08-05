@@ -7,7 +7,7 @@
     "description": "(No description is provided yet)",
     "verification": "https://youtu.be/ZQyjPFZCJmc",
     "percentToQualify": "100",
-    "enjoyment": [45],
+    "enjoyment": [45, 75],
     "tags": ["2.2", "Wave", "Ship", "Ufo", "Timings"],
     "positionHistory": [
     {
@@ -19,6 +19,11 @@
     }
   ],
     "records": [
-        
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/CeqXGHUEuzw",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
