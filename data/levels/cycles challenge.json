@@ -55,6 +55,13 @@
     ],
     "positionHistory": [
     {
+      "position": 50,
+      "change": -1,
+      "causeName": "Memory Level",
+      "causeAction": "was placed above",
+      "date": "2026-08-07"
+    },
+    {
       "position": 49,
       "change": -1,
       "causeName": "Aq challenge",
