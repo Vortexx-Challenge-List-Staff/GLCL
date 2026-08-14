@@ -25,6 +25,13 @@
     ],
     "positionHistory": [
     {
+      "position": 3,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was moved below",
+      "date": "2026-08-14"
+    },
+    {
       "position": 4,
       "change": 2,
       "causeName": "",

@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Cube"],
     "positionHistory": [
     {
+      "position": 7,
+      "change": -4,
+      "causeName": "",
+      "causeAction": "moved down to #7",
+      "date": "2026-08-14"
+    },
+    {
       "position": 3,
       "change": -1,
       "causeName": "Jobwebs GLCL",
