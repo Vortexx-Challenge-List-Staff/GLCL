@@ -20,6 +20,20 @@
     ],
     "positionHistory": [
     {
+      "position": 10,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 11,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
       "position": 12,
       "change": -1,
       "causeName": "Jobwebs GLCL",

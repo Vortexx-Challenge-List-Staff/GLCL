@@ -11,12 +11,6 @@
     "tags": ["2.2", "Overall", "Cube", "Wave"],
     "records": [
         {
-            "user": "MadBoy",
-            "link": "https://www.youtube.com/watch?v=y0qxrDjXrhw",
-            "percent": 100,
-            "hz": 480
-        },
-        {
             "user": "Zodiac",
             "link": "https://www.youtube.com/watch?v=zVC63rOp9FA",
             "percent": 100,
@@ -42,6 +36,20 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 49,
+      "change": 1,
+      "causeName": "dual frenzy",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 50,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
     {
       "position": "Legacy",
       "change": -1,

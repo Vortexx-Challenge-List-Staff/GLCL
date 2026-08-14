@@ -5,7 +5,7 @@
     "creators": [],
     "verifier": "Shialaxy",
     "verification": "https://youtu.be/YnmNmLjyo2w",
-    "percentToQualify": "100",
+    "percentToQualify": "74",
     "enjoyment": [35, 48, 32],
     "tags": ["2.2", "Slow-Paced", "Chokepoints"],
     "description": "A challenge which has consistently stood around the Top 10 spot. Features a 60hz frame perfect at the beginning of the level and a chokepointy ship at the ending. Consists mostly of cube and ship.",
@@ -24,6 +24,20 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 24,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 25,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
     {
       "position": 26,
       "change": -1,

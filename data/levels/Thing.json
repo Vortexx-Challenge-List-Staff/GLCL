@@ -11,12 +11,6 @@
     "description": "The first level in the upcoming Thing series. Consists of overall gameplay.",
     "records": [
         {
-            "user": "MadBoy",
-            "link": "https://www.youtube.com/watch?v=6gUcgZY4wa8",
-            "percent": 100,
-            "hz": 60
-        },
-        {
             "user": "Shialaxy",
             "link": "https://youtu.be/3svtLFcpkLw",
             "percent": 100,
@@ -48,6 +42,20 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 32,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 33,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
     {
       "position": 34,
       "change": -1,

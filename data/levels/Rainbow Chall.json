@@ -11,6 +11,20 @@
     "tags": ["2.2", "Ship", "Wave"],
     "positionHistory": [
     {
+      "position": 18,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 19,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
       "position": 20,
       "change": -1,
       "causeName": "Eggoon",

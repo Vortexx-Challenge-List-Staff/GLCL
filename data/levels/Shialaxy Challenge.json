@@ -33,15 +33,23 @@
             "link": "https://drive.google.com/file/d/1DOK7VsRrnTUQTQ2IFgj-SVbGwLIttUDV/view?usp=sharing",
             "percent": 100,
             "hz": "Unknown"
-        },
-        {
-            "user": "MadBoy",
-            "link": "https://www.youtube.com/watch?v=29EjaI1WH7Y",
-            "percent": 100,
-            "hz": 480
         }
     ],
     "positionHistory": [
+    {
+      "position": 34,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 35,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
     {
       "position": 36,
       "change": -1,

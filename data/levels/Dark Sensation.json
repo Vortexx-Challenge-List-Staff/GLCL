@@ -41,12 +41,6 @@
             "hz": 240
         },
         {
-            "user": "MadBoy",
-            "link": "https://www.youtube.com/watch?v=EzEAb8UQrFA",
-            "percent": 100,
-            "hz": 480
-        },
-        {
             "user": "randomlyphxntom",
             "link": "https://youtu.be/Itue_QbhtEA?si=LKMgDf8ZT2A5eH9P",
             "percent": 100,
@@ -54,6 +48,27 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 43,
+      "change": 1,
+      "causeName": "dual frenzy",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 44,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 45,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
     {
       "position": 46,
       "change": -1,

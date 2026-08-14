@@ -27,15 +27,23 @@
             "link": "https://youtu.be/9PZvVYmI4N4",
             "percent": 100,
             "hz": 240
-        },
-        {
-            "user": "MadBoy",
-            "link": "https://www.youtube.com/watch?v=u5kHkjhZoVg",
-            "percent": 100,
-            "hz": 480
         }
     ],
     "positionHistory": [
+    {
+      "position": 27,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 28,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
     {
       "position": 29,
       "change": -1,

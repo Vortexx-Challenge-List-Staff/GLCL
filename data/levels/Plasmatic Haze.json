@@ -11,12 +11,6 @@
     "tags": ["2.2", "Memory", "Chokepoints"],
     "records": [
         {
-            "user": "MadBoy",
-            "link": "https://www.youtube.com/watch?v=4ZiNibCFzCM",
-            "percent": 100,
-            "hz": 480
-        },
-        {
             "user": "Shialaxy",
             "link": "https://youtu.be/CpkdDSfWYRw",
             "percent": 100,
@@ -30,6 +24,20 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 22,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 23,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
     {
       "position": 24,
       "change": -1,

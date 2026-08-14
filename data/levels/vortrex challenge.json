@@ -45,15 +45,30 @@
             "link": "https://www.youtube.com/watch?v=T0UYRLWjmnQ",
             "percent": 100,
             "hz": 60
-        },
-        {
-            "user": "MadBoy",
-            "link": "https://www.youtube.com/watch?v=IvrDxBQ3rA8",
-            "percent": 100,
-            "hz": 480
         }
     ],
     "positionHistory": [
+    {
+      "position": 38,
+      "change": 1,
+      "causeName": "dual frenzy",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 39,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 40,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
     {
       "position": 41,
       "change": -1,

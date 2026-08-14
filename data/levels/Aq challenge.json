@@ -11,6 +11,27 @@
     "tags": ["2.2", "Cube", "Wave", "Ball", "Spider"],
     "positionHistory": [
     {
+      "position": 40,
+      "change": 1,
+      "causeName": "dual frenzy",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 41,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 42,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
       "position": 43,
       "change": 0,
       "causeName": "",

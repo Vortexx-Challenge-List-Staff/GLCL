@@ -11,6 +11,20 @@
     "tags": ["2.2", "Cube", "Ball", "Ufo", "Ship", "Timings", "Overall"],
     "positionHistory": [
     {
+      "position": 20,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 21,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
       "position": 22,
       "change": -1,
       "causeName": "Eggoon",
@@ -73,12 +87,6 @@
             "link": "https://youtu.be/qiy4x_Kx8D8",
             "percent": 100,
             "hz": 240
-        },
-        {
-            "user": "Madboy",
-            "link": "https://youtu.be/kKZVCHRR-oc",
-            "percent": 100,
-            "hz": 480
         },
         {
             "user": "DD",

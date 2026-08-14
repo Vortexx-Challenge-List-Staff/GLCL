@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Fast-Paced", "Overall"],
     "positionHistory": [
     {
+      "position": 9,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
       "position": 10,
       "change": -1,
       "causeName": "Jobwebs GLCL",

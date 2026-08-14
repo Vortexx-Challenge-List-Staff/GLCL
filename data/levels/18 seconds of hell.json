@@ -17,12 +17,6 @@
             "hz": 240
         },
         {
-            "user": "MadBoy",
-            "link": "https://youtu.be/-y5fmX1ZB0c?si=8UrDca2fAIf8HRFT",
-            "percent": 100,
-            "hz": "Mobile 120"
-        },
-        {
             "user": "EvenGD",
             "link": "https://youtu.be/LN_U3H92MuE?is=P_VtlD3lSCV1LePa",
             "percent": 100,
@@ -66,6 +60,20 @@
         }
     ],
     "positionHistory": [
+    {
+      "position": 33,
+      "change": 1,
+      "causeName": "High",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
+      "position": 34,
+      "change": 1,
+      "causeName": "Left You So Defeated",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
     {
       "position": 35,
       "change": -1,

@@ -11,6 +11,13 @@
     "tags": ["2.2", "Overall"],
     "positionHistory": [
     {
+      "position": 50,
+      "change": 1,
+      "causeName": "dual frenzy",
+      "causeAction": "was removed",
+      "date": "2026-08-14"
+    },
+    {
       "position": "Legacy",
       "change": -1,
       "causeName": "Eggoon",
@@ -94,12 +101,6 @@
             "link": "https://youtu.be/xa4Bll_po50",
             "percent": 100,
             "hz": 240
-        },
-        {
-            "user": "MadBoy",
-            "link": "https://youtu.be/Mg_p7B4_ETg",
-            "percent": 100,
-            "hz": 480
         },
         {
             "user": "Shialaxy",
