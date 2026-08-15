@@ -1,9 +1,9 @@
 {
     "id": 138142660,
-    "name": "High",
-    "author": "MadBoy",
+    "name": "(Removed) High",
+    "author": "",
     "creators": [],
-    "verifier": "MadBoy",
+    "verifier": "",
     "description": "A wave-only challenge. Due to bugged percentages in the level, note that to get the list requirement percentage, you need to have the mod Percentage Toggle installed on Geode and then click on 2.1 in the bottom left.",
     "verification": "https://youtu.be/j1fdIVTwElo",
     "percentToQualify": "56",
