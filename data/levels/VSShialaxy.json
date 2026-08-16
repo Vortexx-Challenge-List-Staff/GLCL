@@ -55,6 +55,13 @@
     ],
     "positionHistory": [
     {
+      "position": 22,
+      "change": -1,
+      "causeName": "Voicecrack Circles",
+      "causeAction": "was placed above",
+      "date": "2026-08-16"
+    },
+    {
       "position": 21,
       "change": 1,
       "causeName": "High",

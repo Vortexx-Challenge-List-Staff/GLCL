@@ -31,6 +31,13 @@
     ],
     "positionHistory": [
     {
+      "position": 45,
+      "change": -1,
+      "causeName": "Voicecrack Circles",
+      "causeAction": "was placed above",
+      "date": "2026-08-16"
+    },
+    {
       "position": 44,
       "change": 1,
       "causeName": "dual frenzy",

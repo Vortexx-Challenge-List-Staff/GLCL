@@ -11,6 +11,13 @@
     "tags": ["2.2", "Overall"],
     "positionHistory": [
     {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "Voicecrack Circles",
+      "causeAction": "was placed above",
+      "date": "2026-08-16"
+    },
+    {
       "position": 50,
       "change": 1,
       "causeName": "dual frenzy",

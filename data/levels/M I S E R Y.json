@@ -11,6 +11,13 @@
     "tags": ["2.2", "Timings", "Cube", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 17,
+      "change": -1,
+      "causeName": "Voicecrack Circles",
+      "causeAction": "was placed above",
+      "date": "2026-08-16"
+    },
+    {
       "position": 16,
       "change": 1,
       "causeName": "High",

@@ -11,6 +11,13 @@
     "tags": ["2.1", "Memory"],
     "positionHistory": [
     {
+      "position": 46,
+      "change": -1,
+      "causeName": "Voicecrack Circles",
+      "causeAction": "was placed above",
+      "date": "2026-08-16"
+    },
+    {
       "position": 45,
       "change": 1,
       "causeName": "dual frenzy",
