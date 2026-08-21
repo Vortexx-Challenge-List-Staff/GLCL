@@ -11,6 +11,13 @@
     "tags": ["2.2", "Cube", "Wave", "Ball", "Spider"],
     "positionHistory": [
     {
+      "position": 42,
+      "change": -1,
+      "causeName": "clanker gm challenge",
+      "causeAction": "was placed above",
+      "date": "2026-08-21"
+    },
+    {
       "position": 41,
       "change": -1,
       "causeName": "Voicecrack Circles",

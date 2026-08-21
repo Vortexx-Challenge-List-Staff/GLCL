@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Wave"],
     "positionHistory": [
     {
+      "position": 20,
+      "change": -1,
+      "causeName": "clanker gm challenge",
+      "causeAction": "was placed above",
+      "date": "2026-08-21"
+    },
+    {
       "position": 19,
       "change": -1,
       "causeName": "Voicecrack Circles",

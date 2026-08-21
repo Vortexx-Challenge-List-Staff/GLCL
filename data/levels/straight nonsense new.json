@@ -31,6 +31,13 @@
     ],
     "positionHistory": [
     {
+      "position": 38,
+      "change": -1,
+      "causeName": "clanker gm challenge",
+      "causeAction": "was placed above",
+      "date": "2026-08-21"
+    },
+    {
       "position": 37,
       "change": -1,
       "causeName": "Voicecrack Circles",
