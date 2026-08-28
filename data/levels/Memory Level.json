@@ -11,6 +11,13 @@
     "tags": ["2.1", "Memory"],
     "positionHistory": [
     {
+      "position": 46,
+      "change": 1,
+      "causeName": "Aq challenge",
+      "causeAction": "was moved below",
+      "date": "2026-08-28"
+    },
+    {
       "position": 47,
       "change": -1,
       "causeName": "clanker gm challenge",

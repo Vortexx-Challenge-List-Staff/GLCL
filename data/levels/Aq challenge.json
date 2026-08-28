@@ -11,6 +11,13 @@
     "tags": ["2.2", "Cube", "Wave", "Ball", "Spider"],
     "positionHistory": [
     {
+      "position": 47,
+      "change": -5,
+      "causeName": "",
+      "causeAction": "moved down to #47",
+      "date": "2026-08-28"
+    },
+    {
       "position": 42,
       "change": -1,
       "causeName": "clanker gm challenge",

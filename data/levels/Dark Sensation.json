@@ -49,6 +49,13 @@
     ],
     "positionHistory": [
     {
+      "position": 44,
+      "change": 1,
+      "causeName": "Aq challenge",
+      "causeAction": "was moved below",
+      "date": "2026-08-28"
+    },
+    {
       "position": 45,
       "change": -1,
       "causeName": "clanker gm challenge",
