@@ -55,6 +55,13 @@
     ],
     "positionHistory": [
     {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "spope",
+      "causeAction": "was placed above",
+      "date": "2026-08-30"
+    },
+    {
       "position": 50,
       "change": -1,
       "causeName": "clanker gm challenge",

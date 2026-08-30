@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Fast-Paced", "Overall"],
     "positionHistory": [
     {
+      "position": 12,
+      "change": -1,
+      "causeName": "spope",
+      "causeAction": "was placed above",
+      "date": "2026-08-30"
+    },
+    {
       "position": 11,
       "change": -1,
       "causeName": "clanker gm challenge",

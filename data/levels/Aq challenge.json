@@ -11,6 +11,13 @@
     "tags": ["2.2", "Cube", "Wave", "Ball", "Spider"],
     "positionHistory": [
     {
+      "position": 48,
+      "change": -1,
+      "causeName": "spope",
+      "causeAction": "was placed above",
+      "date": "2026-08-30"
+    },
+    {
       "position": 47,
       "change": -5,
       "causeName": "",

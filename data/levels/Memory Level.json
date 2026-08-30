@@ -11,6 +11,13 @@
     "tags": ["2.1", "Memory"],
     "positionHistory": [
     {
+      "position": 47,
+      "change": -1,
+      "causeName": "spope",
+      "causeAction": "was placed above",
+      "date": "2026-08-30"
+    },
+    {
       "position": 46,
       "change": 1,
       "causeName": "Aq challenge",
