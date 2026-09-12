@@ -61,6 +61,13 @@
     ],
     "positionHistory": [
     {
+      "position": 37,
+      "change": -1,
+      "causeName": "goonwave",
+      "causeAction": "was placed above",
+      "date": "2026-09-12"
+    },
+    {
       "position": 36,
       "change": -1,
       "causeName": "spope",

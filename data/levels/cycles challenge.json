@@ -49,6 +49,13 @@
     ],
     "positionHistory": [
     {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "goonwave",
+      "causeAction": "was placed above",
+      "date": "2026-09-12"
+    },
+    {
       "position": 50,
       "change": -1,
       "causeName": "spope",

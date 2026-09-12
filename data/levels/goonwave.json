@@ -10,7 +10,13 @@
     "enjoyment": [98],
     "tags": ["2.2", "High CPS", "Slow Paced", "Wave"],
     "positionHistory": [
-    
+    {
+      "position": 36,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #36",
+      "date": "2026-09-12"
+    }
   ],
     "records": [
         
