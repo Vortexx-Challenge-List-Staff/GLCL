@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Overall"],
     "positionHistory": [
     {
+      "position": 44,
+      "change": -1,
+      "causeName": "Nova Challenge",
+      "causeAction": "was placed above",
+      "date": "2026-09-13"
+    },
+    {
       "position": 43,
       "change": -1,
       "causeName": "goonwave",
