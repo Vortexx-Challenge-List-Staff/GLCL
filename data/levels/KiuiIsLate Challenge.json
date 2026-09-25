@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Overall"],
     "positionHistory": [
     {
+      "position": 45,
+      "change": -1,
+      "causeName": "Texx Challenge",
+      "causeAction": "was placed above",
+      "date": "2026-09-25"
+    },
+    {
       "position": 44,
       "change": -1,
       "causeName": "Nova Challenge",

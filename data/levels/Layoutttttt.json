@@ -61,6 +61,13 @@
     ],
     "positionHistory": [
     {
+      "position": 47,
+      "change": -1,
+      "causeName": "Texx Challenge",
+      "causeAction": "was placed above",
+      "date": "2026-09-25"
+    },
+    {
       "position": 46,
       "change": -1,
       "causeName": "Nova Challenge",
