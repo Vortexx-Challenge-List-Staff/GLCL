@@ -11,6 +11,13 @@
     "tags": ["2.2", "Memory", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 43,
+      "change": -1,
+      "causeName": "VorteXX Flare",
+      "causeAction": "was placed above",
+      "date": "2026-09-25"
+    },
+    {
       "position": 42,
       "change": -1,
       "causeName": "Texx Challenge",

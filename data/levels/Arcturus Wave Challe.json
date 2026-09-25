@@ -31,6 +31,13 @@
     ],
     "positionHistory": [
     {
+      "position": 40,
+      "change": -1,
+      "causeName": "VorteXX Flare",
+      "causeAction": "was placed above",
+      "date": "2026-09-25"
+    },
+    {
       "position": 39,
       "change": -1,
       "causeName": "goonwave",

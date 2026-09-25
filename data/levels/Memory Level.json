@@ -11,6 +11,13 @@
     "tags": ["2.1", "Memory"],
     "positionHistory": [
     {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "VorteXX Flare",
+      "causeAction": "was placed above",
+      "date": "2026-09-25"
+    },
+    {
       "position": 50,
       "change": -1,
       "causeName": "Texx Challenge",

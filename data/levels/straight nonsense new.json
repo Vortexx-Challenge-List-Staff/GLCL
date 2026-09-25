@@ -31,6 +31,13 @@
     ],
     "positionHistory": [
     {
+      "position": 42,
+      "change": -1,
+      "causeName": "VorteXX Flare",
+      "causeAction": "was placed above",
+      "date": "2026-09-25"
+    },
+    {
       "position": 41,
       "change": -1,
       "causeName": "Texx Challenge",

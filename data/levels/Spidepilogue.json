@@ -43,6 +43,13 @@
     ],
     "positionHistory": [
     {
+      "position": 35,
+      "change": -1,
+      "causeName": "VorteXX Flare",
+      "causeAction": "was placed above",
+      "date": "2026-09-25"
+    },
+    {
       "position": 34,
       "change": -1,
       "causeName": "spope",
