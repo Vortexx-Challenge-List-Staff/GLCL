@@ -49,6 +49,13 @@
     ],
     "positionHistory": [
     {
+      "position": 45,
+      "change": -1,
+      "causeName": "soethug",
+      "causeAction": "was placed above",
+      "date": "2026-10-04"
+    },
+    {
       "position": 44,
       "change": -1,
       "causeName": "VorteXX Flare",
