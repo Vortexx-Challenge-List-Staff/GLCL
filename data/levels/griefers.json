@@ -19,6 +19,13 @@
     ],
     "positionHistory": [
     {
+      "position": 33,
+      "change": 1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was removed",
+      "date": "2026-10-17"
+    },
+    {
       "position": 34,
       "change": -1,
       "causeName": "VorteXX Flare",

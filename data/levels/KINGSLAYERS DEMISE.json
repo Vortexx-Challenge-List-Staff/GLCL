@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Fast-Paced", "Overall"],
     "positionHistory": [
     {
+      "position": 11,
+      "change": 1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was removed",
+      "date": "2026-10-17"
+    },
+    {
       "position": 12,
       "change": -1,
       "causeName": "spope",

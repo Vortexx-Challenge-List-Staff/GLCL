@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Overall"],
     "positionHistory": [
     {
+      "position": 46,
+      "change": 1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was removed",
+      "date": "2026-10-17"
+    },
+    {
       "position": 47,
       "change": -1,
       "causeName": "soethug",

@@ -43,6 +43,13 @@
     ],
     "positionHistory": [
     {
+      "position": 7,
+      "change": 1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was removed",
+      "date": "2026-10-17"
+    },
+    {
       "position": 8,
       "change": -1,
       "causeName": "clanker gm challenge",

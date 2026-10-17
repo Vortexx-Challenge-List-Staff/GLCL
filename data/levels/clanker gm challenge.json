@@ -11,6 +11,13 @@
     "tags": ["2.2", "Robot"],
     "positionHistory": [
     {
+      "position": 6,
+      "change": 1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was removed",
+      "date": "2026-10-17"
+    },
+    {
       "position": 7,
       "change": 0,
       "causeName": "",

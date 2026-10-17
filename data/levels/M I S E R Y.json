@@ -11,6 +11,13 @@
     "tags": ["2.2", "Timings", "Cube", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 18,
+      "change": 1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was removed",
+      "date": "2026-10-17"
+    },
+    {
       "position": 19,
       "change": -1,
       "causeName": "spope",

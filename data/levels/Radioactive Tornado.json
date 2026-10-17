@@ -11,6 +11,13 @@
     "tags": ["2.2","Ship", "Wave", "Timings", "Overall", "Fast-Paced"],
     "positionHistory": [
     {
+      "position": 1,
+      "change": 1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was removed",
+      "date": "2026-10-17"
+    },
+    {
       "position": 2,
       "change": -1,
       "causeName": "Jobwebs GLCL",

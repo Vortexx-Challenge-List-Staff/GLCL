@@ -11,6 +11,13 @@
     "tags": ["2.2", "Timings", "Cube", "Ship", "Ufo", "Wave"],
     "positionHistory": [
     {
+      "position": 8,
+      "change": 1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was removed",
+      "date": "2026-10-17"
+    },
+    {
       "position": 9,
       "change": 0,
       "causeName": "",

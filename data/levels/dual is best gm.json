@@ -25,6 +25,13 @@
     ],
     "positionHistory": [
     {
+      "position": 30,
+      "change": 1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was removed",
+      "date": "2026-10-17"
+    },
+    {
       "position": 31,
       "change": -1,
       "causeName": "spope",

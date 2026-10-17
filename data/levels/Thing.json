@@ -43,6 +43,13 @@
     ],
     "positionHistory": [
     {
+      "position": 36,
+      "change": 1,
+      "causeName": "Jobwebs GLCL",
+      "causeAction": "was removed",
+      "date": "2026-10-17"
+    },
+    {
       "position": 37,
       "change": -1,
       "causeName": "soethug",
