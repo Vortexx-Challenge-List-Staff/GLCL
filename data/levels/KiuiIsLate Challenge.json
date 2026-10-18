@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Overall"],
     "positionHistory": [
     {
+      "position": 47,
+      "change": -1,
+      "causeName": "Flawless spam",
+      "causeAction": "was placed above",
+      "date": "2026-10-18"
+    },
+    {
       "position": 46,
       "change": 1,
       "causeName": "Jobwebs GLCL",
