@@ -11,6 +11,13 @@
     "tags": ["2.2", "Timings", "Cube", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 19,
+      "change": -1,
+      "causeName": "Orbiting Wave",
+      "causeAction": "was placed above",
+      "date": "2026-10-19"
+    },
+    {
       "position": 18,
       "change": 1,
       "causeName": "Jobwebs GLCL",

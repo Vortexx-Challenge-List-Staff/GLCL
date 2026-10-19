@@ -1,0 +1,29 @@
+{
+    "id": 150816433,
+    "name": "Orbiting Wave",
+    "author": "LaserStr",
+    "creators": [],
+    "verifier": "LaserStr",
+    "description": "(No description has been provided for this challenge yet)",
+    "verification": "https://youtu.be/bcGUXnnGR8c",
+    "percentToQualify": "70",
+    "enjoyment": [44, 0],
+    "tags": ["2.2", "Wave", "Gimmicky"],
+    "positionHistory": [
+    {
+      "position": 18,
+      "change": 0,
+      "causeName": "",
+      "causeAction": "placed at #18",
+      "date": "2026-10-19"
+    }
+  ],
+    "records": [
+        {
+            "user": "DD",
+            "link": "https://youtu.be/oIrZgTnyfEs",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

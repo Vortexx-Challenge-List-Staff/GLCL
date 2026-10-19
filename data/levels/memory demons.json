@@ -11,6 +11,13 @@
     "tags": ["2.2", "Memory", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 44,
+      "change": -1,
+      "causeName": "Orbiting Wave",
+      "causeAction": "was placed above",
+      "date": "2026-10-19"
+    },
+    {
       "position": 43,
       "change": 1,
       "causeName": "Jobwebs GLCL",
