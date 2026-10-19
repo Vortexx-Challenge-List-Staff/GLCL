@@ -10,6 +10,13 @@
     "tags": ["2.2", "Chokepoints", "Timings"],
     "positionHistory": [
     {
+      "position": 4,
+      "change": 1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was moved below",
+      "date": "2026-10-19"
+    },
+    {
       "position": 5,
       "change": 1,
       "causeName": "Jobwebs GLCL",

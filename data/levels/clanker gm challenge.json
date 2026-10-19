@@ -11,6 +11,13 @@
     "tags": ["2.2", "Robot"],
     "positionHistory": [
     {
+      "position": 5,
+      "change": 1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was moved below",
+      "date": "2026-10-19"
+    },
+    {
       "position": 6,
       "change": 1,
       "causeName": "Jobwebs GLCL",

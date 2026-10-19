@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "High CPS", "Chokepoints", "Nerve Control"],
     "positionHistory": [
     {
+      "position": 2,
+      "change": 1,
+      "causeName": "CONCENTRATION",
+      "causeAction": "was moved below",
+      "date": "2026-10-19"
+    },
+    {
       "position": 3,
       "change": 1,
       "causeName": "Jobwebs GLCL",
