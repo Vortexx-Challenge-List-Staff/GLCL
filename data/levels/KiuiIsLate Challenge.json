@@ -7,7 +7,7 @@
     "description": "A challenge made for KiuiIsLate. Consists of overall gameplay.",
     "verification": "https://youtu.be/sNga85f9T74",
     "percentToQualify": "100",
-    "enjoyment": [70, 80],
+    "enjoyment": [70, 80, 100],
     "tags": ["2.2", "Ship", "Overall"],
     "positionHistory": [
     {
@@ -162,6 +162,12 @@
             "link": "https://youtu.be/PpxD4zp2IEA?si=otqmHP8r0erXTELg",
             "percent": 100,
             "hz": "Mobile 60"
+        },
+        {
+            "user": "facjul",
+            "link": "https://medal.tv/games/geometry-dash/clips/nKM7z5rNe2JpTUbX0?invite=cr-MSw4T1EsNDg2MTYyMTI3",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
