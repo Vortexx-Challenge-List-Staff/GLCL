@@ -130,6 +130,12 @@
             "link": "https://youtube.com/shorts/Fr-OTxneeIk?si=1jbQpvEWDasEEUaf",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "DD",
+            "link": "https://youtu.be/8k-ibUPLrpQ",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
