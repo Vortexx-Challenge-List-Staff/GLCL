@@ -10,6 +10,13 @@
     "tags": ["2.2", "Wave", "High CPS", "Chokepoints", "Fast-Paced"],
     "positionHistory": [
     {
+      "position": 4,
+      "change": -1,
+      "causeName": "clanker gm challenge",
+      "causeAction": "was moved above",
+      "date": "2026-10-21"
+    },
+    {
       "position": 3,
       "change": 1,
       "causeName": "CONCENTRATION",
