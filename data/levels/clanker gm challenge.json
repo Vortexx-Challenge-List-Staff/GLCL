@@ -33,6 +33,11 @@
     }
   ],
     "records": [
-        
+        {
+            "user": "Shialaxy",
+            "link": "https://youtu.be/wMIC1r3ygus",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
