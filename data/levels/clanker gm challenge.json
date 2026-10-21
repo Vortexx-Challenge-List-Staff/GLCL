@@ -11,6 +11,13 @@
     "tags": ["2.2", "Robot"],
     "positionHistory": [
     {
+      "position": 3,
+      "change": 2,
+      "causeName": "",
+      "causeAction": "moved to #3",
+      "date": "2026-10-21"
+    },
+    {
       "position": 5,
       "change": 1,
       "causeName": "CONCENTRATION",
