@@ -11,6 +11,13 @@
     "tags": ["2.2", "Slow-Paced", "Timings", "Wave", "Ship", "Robot", "Cube"],
     "positionHistory": [
     {
+      "position": 47,
+      "change": -1,
+      "causeName": "Szaszas Demise",
+      "causeAction": "was placed above",
+      "date": "2026-10-21"
+    },
+    {
       "position": 46,
       "change": -1,
       "causeName": "Orbiting Wave",

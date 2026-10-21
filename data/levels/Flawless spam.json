@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "High CPS"],
     "positionHistory": [
     {
+      "position": 48,
+      "change": -1,
+      "causeName": "Szaszas Demise",
+      "causeAction": "was placed above",
+      "date": "2026-10-21"
+    },
+    {
       "position": 47,
       "change": -1,
       "causeName": "Orbiting Wave",
