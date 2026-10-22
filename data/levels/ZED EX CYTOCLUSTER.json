@@ -10,7 +10,12 @@
     "enjoyment": [58, 0],
     "tags": ["2.2", "Timings", "Overall"],
     "records": [
-        
+        {
+            "user": "DD",
+            "link": "https://youtu.be/pfuqQYg9q34",
+            "percent": 100,
+            "hz": 240
+        }
     ],
     "positionHistory": [
     {
