@@ -7,7 +7,7 @@
     "description": "(No description has been provided for this challenge yet)",
     "verification": "https://youtu.be/bcGUXnnGR8c",
     "percentToQualify": "70",
-    "enjoyment": [44, 0, 30],
+    "enjoyment": [44, 0, 30, 5],
     "tags": ["2.2", "Wave", "Gimmicky"],
     "positionHistory": [
     {
@@ -30,6 +30,12 @@
             "link": "https://www.youtube.com/watch?v=yJKK-CeA-Mw",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "EvenGD",
+            "link": "https://youtu.be/eEcZNkjuYaQ",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
     ]
 }
