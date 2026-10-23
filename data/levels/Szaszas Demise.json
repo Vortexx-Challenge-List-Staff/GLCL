@@ -7,7 +7,7 @@
     "description": "A challenge made for Szasza's birthday. Consists of overall timings.",
     "verification": "https://youtu.be/OW_O3GFlyuY",
     "percentToQualify": "100",
-    "enjoyment": [90, 89, 83],
+    "enjoyment": [90, 89, 83, 70],
     "tags": ["2.2", "Timings", "Overall"],
     "positionHistory": [
     {
@@ -30,6 +30,12 @@
             "link": "https://www.youtube.com/watch?v=yJKK-CeA-Mw",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "EvenGD",
+            "link": "https://youtu.be/4qkkszCDd6E",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
     ]
 }

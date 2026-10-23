@@ -7,7 +7,7 @@
     "description": "Has a very long spam with a very funny little ending.",
     "verification": "https://youtu.be/xwfSkjUZjYg",
     "percentToQualify": "60",
-    "enjoyment": [50, 3, 50],
+    "enjoyment": [50, 3, 50, 40],
     "tags": ["2.2", "Wave", "High CPS"],
     "positionHistory": [
     {
@@ -44,6 +44,12 @@
             "link": "https://youtu.be/aUqDXSCDHoo",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "EvenGD",
+            "link": "https://youtu.be/8OHY0uUV0-A",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
     ]
 }

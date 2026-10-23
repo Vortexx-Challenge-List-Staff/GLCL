@@ -6,7 +6,7 @@
     "verifier": "Shialaxy",
     "verification": "https://youtu.be/BAdB9NBARgU",
     "percentToQualify": "100",
-    "enjoyment": [65, 72, 58, 80],
+    "enjoyment": [65, 72, 58, 80, 60],
     "tags": ["2.2", "Wave", "Clicksync"],
     "description": "Inspired by the infamous dual wave in arcturus.",
     "records": [
@@ -27,6 +27,12 @@
             "link": "https://www.youtube.com/watch?v=lgXA_weUYVY",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "EvenGD",
+            "link": "https://youtu.be/5v-usVQ-7qU",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
     ],
     "positionHistory": [

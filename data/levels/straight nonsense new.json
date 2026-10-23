@@ -7,7 +7,7 @@
     "description": "After being removed off the list for being too short, this level is now back. Contains overall gameplay.",
     "verification": "https://youtu.be/KMo_6hJvQLo",
     "percentToQualify": "100",
-    "enjoyment": [63, 87, 80, 85, 80],
+    "enjoyment": [63, 87, 80, 85, 80, 71],
     "tags": ["2.2", "Chokepoints", "Overall"],
     "records": [
         {
@@ -27,6 +27,12 @@
             "link": "https://youtu.be/BngCsNDud_0",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "EvenGD",
+            "link": "https://youtu.be/LbwPdgVxvNc",
+            "percent": 100,
+            "hz": "Mobile 60"
         }
     ],
     "positionHistory": [
