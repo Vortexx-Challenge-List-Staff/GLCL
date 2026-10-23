@@ -11,6 +11,13 @@
     "tags": ["2.2", "Slow-Paced", "Timings", "Wave", "Ship", "Robot", "Cube"],
     "positionHistory": [
     {
+      "position": 48,
+      "change": -1,
+      "causeName": "Flawless spam",
+      "causeAction": "was moved above",
+      "date": "2026-10-23"
+    },
+    {
       "position": 47,
       "change": -1,
       "causeName": "Szaszas Demise",

@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "High CPS"],
     "positionHistory": [
     {
+      "position": 42,
+      "change": 6,
+      "causeName": "",
+      "causeAction": "moved up top ",
+      "date": "2026-10-23"
+    },
+    {
       "position": 48,
       "change": -1,
       "causeName": "Szaszas Demise",
