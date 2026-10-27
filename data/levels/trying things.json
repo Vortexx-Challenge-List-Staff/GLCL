@@ -31,6 +31,13 @@
     ],
     "positionHistory": [
     {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "Hyperspace 1",
+      "causeAction": "was placed above",
+      "date": "2026-10-27"
+    },
+    {
       "position": 50,
       "change": -1,
       "causeName": "Szaszas Demise",

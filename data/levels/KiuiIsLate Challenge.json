@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Overall"],
     "positionHistory": [
     {
+      "position": 50,
+      "change": -1,
+      "causeName": "Hyperspace 1",
+      "causeAction": "was placed above",
+      "date": "2026-10-27"
+    },
+    {
       "position": 49,
       "change": -1,
       "causeName": "Szaszas Demise",

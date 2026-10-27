@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Ship", "Ufo", "Timings"],
     "positionHistory": [
     {
+      "position": 21,
+      "change": -1,
+      "causeName": "Hyperspace 1",
+      "causeAction": "was placed above",
+      "date": "2026-10-27"
+    },
+    {
       "position": 20,
       "change": -1,
       "causeName": "Orbiting Wave",

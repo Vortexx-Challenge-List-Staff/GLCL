@@ -11,6 +11,13 @@
     "tags": ["2.2", "Robot", "High CPS", "Timings"],
     "positionHistory": [
     {
+      "position": 4,
+      "change": -1,
+      "causeName": "Hyperspace 1",
+      "causeAction": "was placed above",
+      "date": "2026-10-27"
+    },
+    {
       "position": 3,
       "change": 2,
       "causeName": "",

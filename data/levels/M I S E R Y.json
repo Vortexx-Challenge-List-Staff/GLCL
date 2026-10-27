@@ -11,6 +11,13 @@
     "tags": ["2.2", "Timings", "Cube", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 20,
+      "change": -1,
+      "causeName": "Hyperspace 1",
+      "causeAction": "was placed above",
+      "date": "2026-10-27"
+    },
+    {
       "position": 19,
       "change": -1,
       "causeName": "Orbiting Wave",
