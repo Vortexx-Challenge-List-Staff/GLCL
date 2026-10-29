@@ -11,6 +11,13 @@
     "tags": ["2.2", "High CPS", "Slow-Paced", "Wave"],
     "positionHistory": [
     {
+      "position": 40,
+      "change": -1,
+      "causeName": "Modernization",
+      "causeAction": "was placed above",
+      "date": "2026-10-29"
+    },
+    {
       "position": 39,
       "change": -1,
       "causeName": "Hyperspace 1",

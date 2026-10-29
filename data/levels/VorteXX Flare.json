@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Fast-Paced"],
     "positionHistory": [
     {
+      "position": 34,
+      "change": -1,
+      "causeName": "Modernization",
+      "causeAction": "was placed above",
+      "date": "2026-10-29"
+    },
+    {
       "position": 33,
       "change": -1,
       "causeName": "Hyperspace 1",

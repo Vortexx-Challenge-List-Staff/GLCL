@@ -11,6 +11,13 @@
     "tags": ["2.2", "Memory", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 47,
+      "change": -1,
+      "causeName": "Modernization",
+      "causeAction": "was placed above",
+      "date": "2026-10-29"
+    },
+    {
       "position": 46,
       "change": -1,
       "causeName": "Hyperspace 1",
