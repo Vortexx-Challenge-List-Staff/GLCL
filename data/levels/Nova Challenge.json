@@ -7,9 +7,16 @@
     "description": "A challenge made for one of Vortexx's viewers. Consists of slow gameplay. Most likely inspired by Through The Decay.",
     "verification": "https://www.youtube.com/watch?v=ya6OIityEFM",
     "percentToQualify": "100",
-    "enjoyment": [87, 63, 79],
+    "enjoyment": [],
     "tags": ["2.2", "Slow-Paced", "Timings", "Wave", "Ship", "Robot", "Cube"],
     "positionHistory": [
+    {
+      "position": "Legacy",
+      "change": -1,
+      "causeName": "Shit Galaxy",
+      "causeAction": "was placed above",
+      "date": "2026-10-31"
+    },
     {
       "position": 50,
       "change": -1,

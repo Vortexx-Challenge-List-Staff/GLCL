@@ -10,6 +10,13 @@
     "tags": ["2.2", "Chokepoints", "Timings"],
     "positionHistory": [
     {
+      "position": 7,
+      "change": -1,
+      "causeName": "Shit Galaxy",
+      "causeAction": "was placed above",
+      "date": "2026-10-31"
+    },
+    {
       "position": 6,
       "change": -1,
       "causeName": "Hyperspace 1",

@@ -11,6 +11,13 @@
     "tags": ["2.2", "Ship", "Wave"],
     "positionHistory": [
     {
+      "position": 23,
+      "change": -1,
+      "causeName": "Shit Galaxy",
+      "causeAction": "was placed above",
+      "date": "2026-10-31"
+    },
+    {
       "position": 22,
       "change": -1,
       "causeName": "Hyperspace 1",

@@ -11,6 +11,13 @@
     "tags": ["2.2", "Memory", "Chokepoints"],
     "positionHistory": [
     {
+      "position": 48,
+      "change": -1,
+      "causeName": "Shit Galaxy",
+      "causeAction": "was placed above",
+      "date": "2026-10-31"
+    },
+    {
       "position": 47,
       "change": -1,
       "causeName": "Modernization",

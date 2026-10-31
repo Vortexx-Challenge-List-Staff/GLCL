@@ -19,6 +19,13 @@
     ],
     "positionHistory": [
     {
+      "position": 12,
+      "change": -1,
+      "causeName": "Shit Galaxy",
+      "causeAction": "was placed above",
+      "date": "2026-10-31"
+    },
+    {
       "position": 11,
       "change": -1,
       "causeName": "Hyperspace 1",
