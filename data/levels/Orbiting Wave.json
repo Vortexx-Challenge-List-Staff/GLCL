@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Gimmicky"],
     "positionHistory": [
     {
+      "position": 19,
+      "change": 1,
+      "causeName": "Maomaolei",
+      "causeAction": "was moved below",
+      "date": "2026-11-02"
+    },
+    {
       "position": 20,
       "change": -1,
       "causeName": "Shit Galaxy",
