@@ -11,6 +11,13 @@
     "tags": ["2.2", "Chokepoints", "Timings", "Ship", "Ufo", "Cube"],
     "positionHistory": [
     {
+      "position": 4,
+      "change": -1,
+      "causeName": "Shit Galaxy",
+      "causeAction": "was placed above",
+      "date": "2026-10-31"
+    },
+    {
       "position": 3,
       "change": 0,
       "causeName": "",
