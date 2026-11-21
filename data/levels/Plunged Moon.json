@@ -10,6 +10,13 @@
     "tags": ["2.2", "Chokepoints", "Timings"],
     "positionHistory": [
     {
+      "position": 8,
+      "change": -1,
+      "causeName": "Speedbreaker",
+      "causeAction": "was placed above",
+      "date": "2026-11-21"
+    },
+    {
       "position": 7,
       "change": -1,
       "causeName": "Shit Galaxy",

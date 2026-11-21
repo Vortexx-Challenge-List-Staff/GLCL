@@ -11,6 +11,13 @@
     "tags": ["2.2", "Wave", "Fast-Paced"],
     "positionHistory": [
     {
+      "position": 36,
+      "change": -1,
+      "causeName": "Speedbreaker",
+      "causeAction": "was placed above",
+      "date": "2026-11-21"
+    },
+    {
       "position": 35,
       "change": -1,
       "causeName": "Shit Galaxy",
