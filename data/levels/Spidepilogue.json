@@ -43,6 +43,20 @@
     ],
     "positionHistory": [
     {
+      "position": 40,
+      "change": -1,
+      "causeName": "18 Seconds Of Hell",
+      "causeAction": "was moved above",
+      "date": "2026-11-25"
+    },
+    {
+      "position": 39,
+      "change": -1,
+      "causeName": "Speedbreaker",
+      "causeAction": "was placed above",
+      "date": "2026-11-21"
+    },
+    {
       "position": 38,
       "change": -1,
       "causeName": "Shit Galaxy",

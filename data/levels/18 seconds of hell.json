@@ -67,6 +67,13 @@
     ],
     "positionHistory": [
     {
+      "position": 39,
+      "change": 4,
+      "causeName": "",
+      "causeAction": "moved up to #39",
+      "date": "2026-11-25"
+    },
+    {
       "position": 43,
       "change": -1,
       "causeName": "Speedbreaker",
