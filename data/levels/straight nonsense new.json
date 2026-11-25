@@ -7,7 +7,7 @@
     "description": "A challenge inspired by the Insane Demon nonsense world. Contains overall gameplay.",
     "verification": "https://youtu.be/KMo_6hJvQLo",
     "percentToQualify": "100",
-    "enjoyment": [63, 87, 80, 85, 80, 71],
+    "enjoyment": [63, 87, 80, 85, 80, 71, 69],
     "tags": ["2.2", "Chokepoints", "Overall"],
     "records": [
         {
@@ -33,6 +33,12 @@
             "link": "https://youtu.be/LbwPdgVxvNc",
             "percent": 100,
             "hz": "Mobile 60"
+        },
+        {
+            "user": "MadBoy",
+            "link": "https://youtu.be/d7t4a71_AWs",
+            "percent": 100,
+            "hz": 480
         }
     ],
     "positionHistory": [

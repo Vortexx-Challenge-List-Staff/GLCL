@@ -7,7 +7,7 @@
     "description": "The third and last level of the Memory Trilogy. Joeycd owns the comment section of it's completion video.",
     "verification": "https://youtu.be/6ZVqcmoenFY",
     "percentToQualify": "53",
-    "enjoyment": [73, 70, 58, 30],
+    "enjoyment": [73, 70, 58, 30, 70],
     "tags": ["2.2", "Memory", "Chokepoints"],
     "records": [
         {
@@ -21,6 +21,12 @@
             "link": "https://youtu.be/hegPNvpBLIg?si=XY3RpbpyJ_Hl7rgg",
             "percent": 100,
             "hz": "Mobile 60"
+        },
+        {
+            "user": "MadBoy",
+            "link": "https://youtu.be/z4EMRHFGflQ",
+            "percent": 100,
+            "hz": 480
         }
     ],
     "positionHistory": [

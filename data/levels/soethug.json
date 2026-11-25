@@ -7,7 +7,7 @@
     "description": "A challenge consisting of overall gameplay. Is considered one of DD's most enjoyable challenges.",
     "verification": "https://youtu.be/aGsdHqKRvgo",
     "percentToQualify": "100",
-    "enjoyment": [90, 82],
+    "enjoyment": [90, 82, 80],
     "tags": ["2.2", "Overall", "Fast-Paced"],
     "positionHistory": [
     {
@@ -72,6 +72,12 @@
             "link": "https://youtu.be/qYtMUN_ycBM?is=QczR_b4R2Jtz68pW",
             "percent": 100,
             "hz": "Mobile 60"
+        },
+        {
+            "user": "MadBoy",
+            "link": "https://www.youtube.com/watch?v=qetZ880-31g",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }

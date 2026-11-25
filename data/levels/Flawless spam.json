@@ -7,7 +7,7 @@
     "description": "Has a very long spam with a very funny little ending.",
     "verification": "https://youtu.be/xwfSkjUZjYg",
     "percentToQualify": "60",
-    "enjoyment": [50, 3, 50, 40],
+    "enjoyment": [50, 3, 50, 40, 80],
     "tags": ["2.2", "Wave", "High CPS"],
     "positionHistory": [
     {
@@ -85,6 +85,12 @@
             "link": "https://youtu.be/8OHY0uUV0-A",
             "percent": 100,
             "hz": "Mobile 60"
+        },
+        {
+            "user": "MadBoy",
+            "link": "https://youtu.be/2WMRagowrz0",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }

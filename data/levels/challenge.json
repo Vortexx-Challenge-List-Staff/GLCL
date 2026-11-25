@@ -6,7 +6,7 @@
     "verifier": "Zodiac",
     "verification": "https://www.youtube.com/watch?v=CQeezCdF4mk",
     "percentToQualify": "100",
-    "enjoyment": [45, 62, 53, 85, 45],
+    "enjoyment": [45, 62, 53, 85, 45, 100],
     "tags": ["2.2", "Timings", "Overall"],
     "description": "One of the few challenges having actual decoration. Consists of tricky cube clicks at the beginning but overall gameplay throughout the level.",
     "records": [
@@ -27,6 +27,12 @@
             "link": "https://youtu.be/9PZvVYmI4N4",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "MadBoy",
+            "link": "https://youtu.be/yjJhB2KPuRY",
+            "percent": 100,
+            "hz": 480
         }
     ],
     "positionHistory": [

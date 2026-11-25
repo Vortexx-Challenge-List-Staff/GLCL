@@ -6,7 +6,7 @@
     "verifier": "Shialaxy",
     "verification": "https://youtu.be/9Pc8OFlr468",
     "percentToQualify": "100",
-    "enjoyment": [60, 57, 60, 80, 70, 70, 85, 40, 80],
+    "enjoyment": [60, 57, 60, 80, 70, 70, 85, 40, 80, 70],
     "tags": ["2.2", "Wave", "Learny"],
     "description": "A challenge that mainly consists of overall tight wave gameplay. Inspired by VSC.",
     "records": [
@@ -57,6 +57,12 @@
             "link": "https://youtu.be/H4xpVNVVqq4",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "MadBoy",
+            "link": "https://youtu.be/GgWtfSXASUY",
+            "percent": 100,
+            "hz": 480
         }
     ],
     "positionHistory": [

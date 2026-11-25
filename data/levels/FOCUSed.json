@@ -6,7 +6,7 @@
     "verifier": "DD",
     "verification": "https://youtu.be/ID7kldQuo6Q",
     "percentToQualify": "100",
-    "enjoyment": [65, 59, 46, 50, 75],
+    "enjoyment": [65, 59, 46, 50, 75, 30],
     "tags": ["2.2", "Timings", "Overall"],
     "description": "A challenge likely inspired by the upcoming Top 1 Heliopolis and the challenge CONCENTRATION. Consists of mostly cube and ship.",
     "records": [
@@ -27,6 +27,12 @@
             "link": "https://youtu.be/9x68hpXybSo?is=na1pYInX6TlVuJ9Z",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "MadBoy",
+            "link": "https://youtu.be/8Gk4KhtLDyU",
+            "percent": 100,
+            "hz": 480
         }
     ],
     "positionHistory": [
